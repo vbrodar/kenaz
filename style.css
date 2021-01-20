@@ -250,7 +250,7 @@ a {
   font-family: "Varela Round", sans-serif;
   font-weight: 400;
   bottom: -170px;
-  right: 950px;
+  right: 940px;
 }
 
 .comment-icon-container {
@@ -263,5 +263,19 @@ a {
   font-weight: 400;
   bottom: -170px;
   right: 775px;
+}
+
+.carousel-headline-text {
+  position: absolute;
+  margin: auto;
+  color: white;
+  font-family: "Varela Round", sans-serif;
+  font-weight: 400;
+  bottom: -225px;
+  left: 1px;
+  font-family: "Bitter", serif;
+  font-weight: 700;
+  font-size: 34px;
+  width: 100%;
 }
 /*# sourceMappingURL=style.css.map */
