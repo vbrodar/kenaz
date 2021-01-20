@@ -1,0 +1,72 @@
+$textColor: white;
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  display: inline;
+  font-size: 24px;
+  font-family: "Bitter", serif;
+  color: $textColor;
+  position: relative;
+  padding-left: 10px;
+  color: $textColor;
+  text-align: center;
+}
+.main-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: #252525;
+  height: 53px;
+  width: 100%;
+  text-decoration: none;
+}
+.sub-nav {
+  background: #4d4382;
+  height: 53px;
+}
+a {
+  text-decoration: none;
+  color: $textColor;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  overflow: auto;
+  float: left;
+  width: 165px;
+  align-items: center;
+  vertical-align: middle;
+}
+.logo {
+  float: left;
+  align-items: center;
+  padding: 15px;
+  background: $textColor;
+  mix-blend-mode: normal;
+  opacity: 0.05;
+}
+.search-logo {
+  background: $textColor;
+  mix-blend-mode: normal;
+  opacity: 0.05;
+  align-items: center;
+  padding-left: 5px;
+}
+
+ul {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  list-style-type: none;
+  word-spacing: 10px;
+  align-items: center;
+  li {
+    margin: 10px;
+    font-family: "Varela Round", sans-serif;
+  }
+}
