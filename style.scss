@@ -42,6 +42,7 @@ a {
   width: 165px;
   align-items: center;
   vertical-align: middle;
+  padding-left: 35px;
 }
 .logo {
   float: left;
@@ -71,6 +72,7 @@ a {
   list-style-type: none;
   word-spacing: 10px;
   align-items: center;
+  padding-left: 140px;
   li {
     margin: 10px;
     font-family: "Varela Round", sans-serif;
@@ -85,6 +87,7 @@ a {
   word-spacing: 10px;
   align-items: center;
   margin-left: -360px;
+  margin-right: 40px;
 
   li {
     text-decoration: underline;
@@ -135,4 +138,18 @@ a {
   width: 86px;
   height: 53px;
   margin-bottom: 70px;
+}
+
+.top-banner {
+  width: 942px;
+  height: 124px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 124px;
+  margin: auto;
+  margin-top: 50px;
+  background: #ffffff;
+  border: 1px solid #d7d7d7;
+  box-sizing: border-box;
+  color: #999999;
 }
