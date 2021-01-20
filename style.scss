@@ -47,16 +47,21 @@ a {
   float: left;
   align-items: center;
   padding: 15px;
-  background: $textColor;
-  mix-blend-mode: normal;
-  opacity: 0.05;
+  &:before {
+    opacity: 0.05;
+    background-color: $textColor;
+    mix-blend-mode: normal;
+    fill: white;
+  }
 }
 .search-logo {
-  background: $textColor;
-  mix-blend-mode: normal;
-  opacity: 0.05;
   align-items: center;
   padding-left: 5px;
+  &:before {
+    opacity: 0.05;
+    background-color: $textColor;
+    mix-blend-mode: normal;
+  }
 }
 
 .main-nav-ul {
@@ -90,7 +95,29 @@ a {
     font-size: 18px;
     font-weight: 700;
     color: $textColor;
+    padding-bottom: 50px;
+    top: -50px;
   }
+}
+.sub-nav-links {
+  padding-top: 6px;
+  display: inline-block;
+}
+#business {
+  border-bottom: solid 5px#EE6151;
+}
+#sport {
+  border-bottom: solid 5px#84C14F;
+}
+
+#life {
+  border-bottom: solid 5px#5DCFF3;
+}
+#tech {
+  border-bottom: solid 5px#FCC44D;
+}
+#travel {
+  border-bottom: solid 5px#A99765;
 }
 .news-sub-span {
   display: inline-block;
@@ -107,5 +134,5 @@ a {
   background: #299ec3;
   width: 86px;
   height: 53px;
-  margin-bottom: 10px;
+  margin-bottom: 70px;
 }
