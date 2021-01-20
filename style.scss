@@ -153,3 +153,60 @@ a {
   box-sizing: border-box;
   color: #999999;
 }
+
+.top-image-carousel {
+  width: 940px;
+  height: 425px;
+  margin: auto;
+  line-height: 425px;
+  text-align: center;
+  vertical-align: middle;
+  margin-top: 50px;
+  background-image: url("./assets/pic1.png");
+  background-repeat: no-repeat;
+  background-size: 940px 425px;
+}
+
+.carousel-scrolls {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.scroll-left-icon {
+  margin: auto;
+  padding-right: 350px;
+  line-height: 425px;
+  vertical-align: middle;
+}
+.scroll-right-icon {
+  padding-left: 350px;
+  margin: auto;
+  right: 50px;
+  line-height: 425px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.date-comments-image {
+  position: absolute;
+  text-align: center;
+  vertical-align: middle;
+  color: $textColor;
+  font-family: "Varela Round", sans-serif;
+  font-weight: 400;
+  bottom: -170px;
+  right: 950px;
+}
+
+.comment-icon-container {
+  position: absolute;
+  margin: auto;
+  text-align: center;
+  vertical-align: middle;
+  color: $textColor;
+  font-family: "Varela Round", sans-serif;
+  font-weight: 400;
+  bottom: -170px;
+  right: 775px;
+}
