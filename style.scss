@@ -1,5 +1,7 @@
 $textColor: white;
-
+$Varela: "Varela Round", sans-serif;
+$Bitter: "Bitter", serif;
+$websiteWidth: 940px;
 * {
   margin: 0;
   padding: 0;
@@ -8,7 +10,7 @@ $textColor: white;
 h1 {
   display: inline;
   font-size: 24px;
-  font-family: "Bitter", serif;
+  font-family: $Bitter;
   color: $textColor;
   position: relative;
   padding-left: 10px;
@@ -75,7 +77,7 @@ a {
   padding-left: 140px;
   li {
     margin: 10px;
-    font-family: "Varela Round", sans-serif;
+    font-family: $Varela;
   }
 }
 
@@ -94,7 +96,7 @@ a {
     text-underline-offset: 14px;
     align-items: center;
     margin: 20px;
-    font-family: "Bitter", serif;
+    font-family: $Bitter;
     font-size: 18px;
     font-weight: 700;
     color: $textColor;
@@ -103,30 +105,39 @@ a {
   }
 }
 .sub-nav-links {
+  position: relative;
+  text-align: center;
   padding-top: 6px;
   display: inline-block;
+  right: 20px;
+  align-items: center;
 }
 #business {
   border-bottom: solid 5px#EE6151;
+  width: 160%;
 }
 #sport {
   border-bottom: solid 5px#84C14F;
+  width: 200%;
 }
 
 #life {
   border-bottom: solid 5px#5DCFF3;
+  width: 230%;
 }
 #tech {
   border-bottom: solid 5px#FCC44D;
+  width: 200%;
 }
 #travel {
   border-bottom: solid 5px#A99765;
+  width: 120%;
 }
 .news-sub-span {
   display: inline-block;
   width: 100%;
   text-align: center;
-  font-family: "Bitter", serif;
+  font-family: $Bitter;
   margin-top: 15px;
   font-size: 18px;
   color: $textColor;
@@ -147,15 +158,16 @@ a {
   vertical-align: middle;
   line-height: 124px;
   margin: auto;
-  margin-top: 50px;
+  margin-top: 40px;
   background: #ffffff;
   border: 1px solid #d7d7d7;
   box-sizing: border-box;
   color: #999999;
 }
 
+/*
 .top-image-carousel {
-  width: 940px;
+  width: $websiteWidth;
   height: 425px;
   margin: auto;
   line-height: 425px;
@@ -193,7 +205,7 @@ a {
   text-align: center;
   vertical-align: middle;
   color: $textColor;
-  font-family: "Varela Round", sans-serif;
+  font-family: $Varela;
   font-weight: 400;
   bottom: -170px;
   right: 940px;
@@ -205,22 +217,39 @@ a {
   text-align: center;
   vertical-align: middle;
   color: $textColor;
-  font-family: "Varela Round", sans-serif;
+  font-family: $Varela;
   font-weight: 400;
   bottom: -170px;
   right: 775px;
 }
 
 .carousel-headline-text {
+  display: inline-block;
   position: absolute;
   margin: auto;
   color: $textColor;
-  font-family: "Varela Round", sans-serif;
-  font-weight: 400;
   bottom: -225px;
   left: 1px;
-  font-family: "Bitter", serif;
+  font-family: $Bitter;
   font-weight: 700;
   font-size: 34px;
   width: 100%;
+}
+*/
+.carousel-images {
+  margin-top: 40px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 940px;
+}
+.carousel-container {
+  margin-top: 40px;
+  width: $websiteWidth;
+  margin: auto;
+  overflow: hidden;
+}
+
+.carousel-slide {
+  display: flex;
 }
