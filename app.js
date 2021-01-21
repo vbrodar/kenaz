@@ -1,3 +1,4 @@
+const carouselImageText = document.querySelector(".carousel-image-text div");
 const carouselSlide = document.querySelector(".carousel-slide");
 const carouselImages = document.querySelectorAll(".carousel-slide img");
 
@@ -30,12 +31,12 @@ prevBtn.addEventListener("click", () => {
 carouselSlide.addEventListener("transitionend", () => {
   if (carouselImages[counter].id === "lastClone") {
     carouselSlide.style.transition = "none";
-    counter = carouselImages.length - 2;
+    counter = carouselImageText.length - 2;
     carouselSlide.style.transform = "translateX(" + -size * counter + "px)";
   }
   if (carouselImages[counter].id === "firstClone") {
     carouselSlide.style.transition = "none";
-    counter = carouselImages.length - counter;
+    counter = carouselImageText.length - counter;
     carouselSlide.style.transform = "translateX(" + -size * counter + "px)";
   }
 });
