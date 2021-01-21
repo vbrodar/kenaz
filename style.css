@@ -297,11 +297,30 @@ a {
   width: 940px;
   margin: auto;
   overflow: hidden;
+  position: relative;
 }
 
 .carousel-slide {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+#prevBtn {
+  position: absolute;
+  top: 50%;
+  z-index: 10;
+  left: 5%;
+  color: white;
+  cursor: pointer;
+}
+
+#nextBtn {
+  position: absolute;
+  top: 50%;
+  z-index: 10;
+  right: 5%;
+  color: white;
+  cursor: pointer;
 }
 /*# sourceMappingURL=style.css.map */
