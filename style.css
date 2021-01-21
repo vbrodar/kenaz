@@ -206,7 +206,7 @@ a {
   line-height: 124px;
   margin: auto;
   margin-top: 40px;
-  background: #ffffff;
+  background: white;
   border: 1px solid #d7d7d7;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -347,5 +347,37 @@ a {
   bottom: 160px;
   font-family: "Varela Round", sans-serif;
   font-weight: 400;
+}
+
+.carousel-headline-text {
+  display: block;
+  z-index: 10;
+  position: absolute;
+  font-size: 34px;
+  left: 50px;
+  right: 0;
+  bottom: 75px;
+  font-family: "Bitter", serif;
+  font-weight: 700;
+  color: white;
+}
+
+.read-article {
+  z-index: 10;
+  position: absolute;
+  width: 150px;
+  height: 33px;
+  left: 50px;
+  bottom: 40px;
+  text-align: center;
+  vertical-align: middle;
+  background: none;
+  border: 1px solid white;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: white;
+  font-family: "Varela Round", sans-serif;
+  font-size: 400;
+  padding-top: 5px;
 }
 /*# sourceMappingURL=style.css.map */

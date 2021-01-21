@@ -159,7 +159,7 @@ a {
   line-height: 124px;
   margin: auto;
   margin-top: 40px;
-  background: #ffffff;
+  background: $textColor;
   border: 1px solid #d7d7d7;
   box-sizing: border-box;
   color: #999999;
@@ -287,11 +287,41 @@ a {
 .carousel-text-2 {
   z-index: 10;
   position: absolute;
-  color: white;
+  color: $textColor;
   font-size: 14px;
   left: 50px;
   right: 0;
   bottom: 160px;
   font-family: $Varela;
   font-weight: 400;
+}
+
+.carousel-headline-text {
+  display: block;
+  z-index: 10;
+  position: absolute;
+  font-size: 34px;
+  left: 50px;
+  right: 0;
+  bottom: 75px;
+  font-family: $Bitter;
+  font-weight: 700;
+  color: $textColor;
+}
+.read-article {
+  z-index: 10;
+  position: absolute;
+  width: 150px;
+  height: 33px;
+  left: 50px;
+  bottom: 40px;
+  text-align: center;
+  vertical-align: middle;
+  background: none;
+  border: 1px solid $textColor;
+  box-sizing: border-box;
+  color: $textColor;
+  font-family: $Varela;
+  font-size: 400;
+  padding-top: 5px;
 }
