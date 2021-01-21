@@ -63,13 +63,14 @@ a {
       -ms-flex-align: center;
           align-items: center;
   padding: 15px;
+  background: white;
+  opacity: 0.05;
 }
 
 .logo:before {
   opacity: 0.05;
   background-color: white;
   mix-blend-mode: normal;
-  fill: white;
 }
 
 .search-logo {
@@ -176,7 +177,7 @@ a {
 
 #travel {
   border-bottom: solid 5px #A99765;
-  width: 120%;
+  width: 150%;
 }
 
 .news-sub-span {
