@@ -352,7 +352,7 @@ a {
       -ms-grid-row-align: center;
       align-self: center;
   text-decoration: underline;
-  right: 150px;
+  right: 125px;
 }
 
 .news-container {
@@ -371,7 +371,7 @@ a {
   background: white;
   margin-left: 172px;
   border-left: solid 13px #3677B5;
-  padding: 30px;
+  padding: 50px 10px 0px 40px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   -webkit-box-orient: horizontal;
