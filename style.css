@@ -197,7 +197,7 @@ a {
   margin-bottom: 70px;
 }
 
-.top-banner {
+.banner {
   width: 942px;
   height: 124px;
   text-align: center;
@@ -325,7 +325,7 @@ a {
   top: 50px;
 }
 
-.news-title {
+.general-container-title, .business-container-title {
   color: #363f48;
   font-family: "Bitter", serif;
   font-size: 24px;
@@ -338,7 +338,11 @@ a {
       align-self: center;
 }
 
-.news-see-all {
+.business-container-title {
+  left: 10px;
+}
+
+.general-see-all, .business-see-all {
   position: relative;
   font-family: Varela Round;
   font-size: 14px;
@@ -355,7 +359,11 @@ a {
   right: 125px;
 }
 
-.news-container {
+.business-see-all {
+  right: 135px;
+}
+
+.general-container, .news-container, .sport-container, .business-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -370,7 +378,6 @@ a {
   display: flex;
   background: white;
   margin-left: 172px;
-  border-left: solid 13px #3677B5;
   padding: 50px 10px 0px 40px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -378,6 +385,18 @@ a {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+}
+
+.news-container {
+  border-left: solid 13px #3677B5;
+}
+
+.sport-container {
+  border-left: solid 13px #84C14F;
+}
+
+.business-container {
+  border-left: solid 13px #ee6151;
 }
 
 .news-internal-container {
