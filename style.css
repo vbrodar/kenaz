@@ -308,4 +308,121 @@ a {
   font-size: 400;
   padding-top: 5px;
 }
+
+.news-flex-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 100%;
+  text-decoration: none;
+  position: relative;
+  right: 70px;
+  top: 50px;
+}
+
+.news-title {
+  color: #363f48;
+  font-family: "Bitter", serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 29px;
+  letter-spacing: 0px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.news-see-all {
+  position: relative;
+  font-family: Varela Round;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0px;
+  text-align: right;
+  color: #3677b5;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  text-decoration: underline;
+  right: 150px;
+}
+
+.news-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 630px;
+  height: 325px;
+  display: flex;
+  background: white;
+  margin-left: 172px;
+  border-left: solid 13px #3677B5;
+  padding: 30px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.news-internal-container {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  background: white;
+  width: 411px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.news-internal-container .news-internal-container-left {
+  position: absolute;
+  width: 128px;
+}
+
+.news-internal-container .news-internal-container-middle {
+  width: 128px;
+}
+
+.news-internal-container .news-internal-container-right {
+  width: 128px;
+}
+
+.news-date-left,
+.news-date-middle,
+.news-date-right {
+  font-family: "Varela Round", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  color: #999999;
+  line-height: 14.45px;
+}
+
+.news-content-left,
+.news-content-middle,
+.news-content-right {
+  font-family: "Bitter", serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16.8px;
+}
 /*# sourceMappingURL=style.css.map */
