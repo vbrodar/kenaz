@@ -29,7 +29,7 @@ h1 {
 }
 
 .sub-nav {
-  background: #4d4382;
+  background: #4D4382;
   height: 53px;
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
@@ -212,6 +212,21 @@ a {
   color: #999999;
 }
 
+.smaller-banner {
+  width: 620px;
+  height: 120px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 124px;
+  margin-left: 170px;
+  margin-top: 40px;
+  background: white;
+  border: 1px solid #d7d7d7;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #999999;
+}
+
 .carousel-container {
   margin-top: 40px;
   width: 940px;
@@ -241,7 +256,7 @@ a {
   position: relative;
 }
 
-#prevBtn {
+.prevBtn {
   position: absolute;
   top: 50%;
   z-index: 10;
@@ -250,7 +265,7 @@ a {
   cursor: pointer;
 }
 
-#nextBtn {
+.nextBtn {
   position: absolute;
   top: 50%;
   z-index: 10;
@@ -527,7 +542,7 @@ a {
 }
 
 .sidebar-date {
-  top: 20px;
+  top: 25px;
   left: 25px;
   font-family: Varela Round;
   font-style: normal;
@@ -549,7 +564,7 @@ a {
 }
 
 .sidebar-headline {
-  top: 20px;
+  top: 25px;
   position: relative;
   font-family: "Bitter", serif;
   font-weight: 700;
@@ -558,5 +573,76 @@ a {
   line-height: 16.8px;
   color: white;
   right: 60px;
+}
+
+.social-links {
+  max-width: 301px;
+  float: right;
+  position: relative;
+  z-index: 10;
+  right: 175px;
+  top: 90px;
+}
+
+.social-title {
+  width: 301px;
+  position: relative;
+  font-family: "Bitter", serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 28.8px;
+  color: #363F48;
+  left: 5px;
+  bottom: 20px;
+}
+
+.facebook-like, .twitter-follow, .youtube-subscribe {
+  padding-left: 10px;
+  min-width: 123px;
+  width: 123px;
+  line-height: 38px;
+  position: relative;
+  background: #DDDDDD;
+  color: #363F48;
+  font-family: "Bitter", serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 18px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.facebook-link, .twitter-link, .youtube-link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 5px;
+}
+
+.facebook-fans, .twitter-followers, .youtube-subscribers {
+  position: absolute;
+  max-height: 40px;
+  min-width: 125px;
+  display: inline;
+  padding-left: 10px;
+  line-height: 38px;
+  position: relative;
+  background: #4D4382;
+  color: white;
+  font-family: "Varela Round", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
 }
 /*# sourceMappingURL=style.css.map */
