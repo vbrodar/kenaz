@@ -7,6 +7,7 @@
     <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
   <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
 
+
     
     
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -47,13 +48,13 @@
     <div class="banner">banner 940x120</div>
 
     <div class="carousel-container">
-        <input type="image" class="prevBtn" width="36" height="53" src="assets/scroll-left.svg" alt="scroll left"></input>
-        <input type="image" class="nextBtn" width="36" height="53" src="assets/scroll-right.svg" alt="scroll right"></input>
+        <input type="image" id="prevBtn" width="36" height="53" src="assets/scroll-left.svg" alt="scroll left"></input>
+        <input type="image" id="nextBtn" width="36" height="53" src="assets/scroll-right.svg" alt="scroll right"></input>
         <div class="carousel-slide">
 
             <div class="carousel-image-text">
             <img class="carousel-images" id="lastClone" src="./assets/pic4.jpg" width="940" height="425" alt="">
-            <span class="carousel-text-1">August 26, 2013 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;22 comments</span>
+            <span class="carousel-text-1">August 26, 2013 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<img src="./assets/comment-icon.svg" alt="" width="17" height="17" > 22 comments</span>
             <h1 class="carousel-headline">'Margot' breathlessly reimagines Anne Frank's sister</h1>
             <h2 class="carousel-headline-text"> 'Margot' breathlessly reimagines </br> Anne Frank's sister </h2>
             <a href="">
@@ -63,14 +64,14 @@
 
             <div class="carousel-image-text">
             <img class="carousel-images" src="./assets/pic1.jpg" width="940" height="425" alt="" />
-            <span class="carousel-text-2">February 15, 2003 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;22 comments</span>
+            <span class="carousel-text-2">February 15, 2003 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<img src="./assets/comment-icon.svg" alt="" width="17" height="17" > 22 comments</span>
             <h2 class="carousel-headline-text"> 'Margot' breathlessly reimagines </br> Anne Frank's sister </h2>
             <a href=""><h3 class="read-article">Read article</h3></a>
             </div>
 
             <div class="carousel-image-text">
             <img class="carousel-images" src="./assets/pic2.jpg" width="940" height="425" alt="" />
-            <span class="carousel-text-1">August 26, 2013 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;22 comments</span>
+            <span class="carousel-text-1">August 26, 2013 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<img src="./assets/comment-icon.svg" alt="" width="17" height="17" > 22 comments</span>
             <h2 class="carousel-headline-text"> 'Margot' breathlessly reimagines </br> Anne Frank's sister </h2>
             <a href="">
                 <h3 class="read-article">Read article</h3>
@@ -79,7 +80,7 @@
 
             <div class="carousel-image-text">
             <img class="carousel-images" src="./assets/pic3.jpg" width="940" height="425" alt="" />
-            <span class="carousel-text-2">August 26, 2013 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;22 comments </span>
+            <span class="carousel-text-2">August 26, 2013 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<img src="./assets/comment-icon.svg" alt="" width="17" height="17" > 22 comments </span>
             <h2 class="carousel-headline-text"> 'Margot' breathlessly reimagines </br> Anne Frank's sister </h2>
             <a href="">
                 <h3 class="read-article">Read article</h3>
@@ -88,7 +89,7 @@
 
             <div class="carousel-image-text">
             <img class="carousel-images" src="./assets/pic4.jpg" width="940" height="425"  alt="" />
-            <span class="carousel-text-1">March 15, 2006&nbsp; &nbsp;&nbsp; &nbsp;  &nbsp;22 comments</span>
+            <span class="carousel-text-1">March 15, 2006&nbsp; &nbsp;&nbsp; &nbsp;  &nbsp;<img src="./assets/comment-icon.svg" alt="" width="17" height="17" > 22 comments</span>
             <h2 class="carousel-headline-text"> 'Margot' breathlessly reimagines </br> Anne Frank's sister </h2>
             <a href="">
                 <h3 class="read-article">Read article</h3>
@@ -97,7 +98,7 @@
 
             <div class="carousel-image-text">
             <img class="carousel-images" id="firstClone" src="./assets/pic1.jpg" width="940" height="425" alt="" />
-            <span class="carousel-text-2">July 14, 2020 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;22 comments </span>
+            <span class="carousel-text-2">July 14, 2020 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<img src="./assets/comment-icon.svg" alt="" width="17" height="17" > 22 comments </span>
             <h2 class="carousel-headline-text"> 'Margot' breathlessly reimagines </br> Anne Frank's sister </h2>
             <a href="">
                 <h3 class="read-article">Read article</h3>
@@ -115,7 +116,17 @@
          <li class="sidebar-popular">Popular</li>
          <li>Top Rated</li>
          <li>Comments</li>
-     </ul></aside>
+     </ul>
+    <div class="grid-wrapper">
+
+  <div class="grid-item"><span class="sidebar-date">August 3, 2003 &nbsp;&nbsp;&nbsp;<img src="./assets/comment-icon.svg" alt="" width="17" height="17" >&nbsp;&nbsp;&nbsp;<span> 5 </span></span><h4 class="sidebar-headline">Palestinians call off </br> peace talks after clash</h4><img class="sidebar-pic" src="./assets/pic5.jpg" width="70" height="70" alt=""></div>
+   <div class="grid-item"><span class="sidebar-date">August 3, 2003 &nbsp;&nbsp;&nbsp;<img src="./assets/comment-icon.svg" alt="" width="17" height="17" >&nbsp;&nbsp;&nbsp;<span> 5 </span></span><h4 class="sidebar-headline">Palestinians call off </br> peace talks after clash</h4><img class="sidebar-pic" src="./assets/pic5.jpg" width="70" height="70" alt=""></div>
+  <div class="grid-item"><span class="sidebar-date">August 3, 2003 &nbsp;&nbsp;&nbsp;<img src="./assets/comment-icon.svg" alt="" width="17" height="17" >&nbsp;&nbsp;&nbsp;<span> 5 </span></span><h4 class="sidebar-headline">Palestinians call off </br> peace talks after clash</h4><img class="sidebar-pic" src="./assets/pic5.jpg" width="70" height="70" alt=""></div>
+  <div class="grid-item"><span class="sidebar-date">August 3, 2003 &nbsp;&nbsp;&nbsp;<img src="./assets/comment-icon.svg" alt="" width="17" height="17" >&nbsp;&nbsp;&nbsp;<span> 5  </span></span><h4 class="sidebar-headline">Palestinians call off </br> peace talks after clash</h4><img class="sidebar-pic" src="./assets/pic5.jpg" width="70" height="70" alt=""></div>
+   <div class="grid-item"><span class="sidebar-date">August 3, 2003 &nbsp;&nbsp;&nbsp;<img src="./assets/comment-icon.svg" alt="" width="17" height="17" >&nbsp;&nbsp;&nbsp;<span> 5 </span></span><h4 class="sidebar-headline">Palestinians call off </br> peace talks after clash</h4><img class="sidebar-pic" src="./assets/pic5.jpg" width="70" height="70" alt=""></div>
+</div>
+    </aside>
+     
     <div class="news-container">
 
     <div class="news-internal-container-left">  
