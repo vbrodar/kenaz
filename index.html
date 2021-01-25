@@ -3,11 +3,18 @@
 <header>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+
+    
+    
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@400;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Varela+Round:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+
     <title>Kenaz Website</title>
     <nav class="main-nav"><div class="logo-container">
     <img class="logo" src="./assets/logo.svg" alt="logo">
@@ -38,9 +45,10 @@
 </header>
 <body>
     <div class="banner">banner 940x120</div>
+
     <div class="carousel-container">
-        <input type="image" id="prevBtn" width="36" height="53" src="assets/scroll-left.svg" alt="scroll left"></input>
-        <input type="image" id="nextBtn" width="36" height="53" src="assets/scroll-right.svg" alt="scroll right"></input>
+        <input type="image" class="prevBtn" width="36" height="53" src="assets/scroll-left.svg" alt="scroll left"></input>
+        <input type="image" class="nextBtn" width="36" height="53" src="assets/scroll-right.svg" alt="scroll right"></input>
         <div class="carousel-slide">
 
             <div class="carousel-image-text">
@@ -98,10 +106,16 @@
         </div>
     </div>
 
+
     <div class="news-flex-title">
     <h1 class="general-container-title">News</h1>
     <a href=""><span class="general-see-all">See all</span></a>
     </div>
+     <aside class="sidebar"><ul class="sidebar-list">
+         <li class="sidebar-popular">Popular</li>
+         <li>Top Rated</li>
+         <li>Comments</li>
+     </ul></aside>
     <div class="news-container">
 
     <div class="news-internal-container-left">  
@@ -198,5 +212,8 @@
 
 </div>
 <div class="banner">banner 940x120</div>
+
 <script src="app.js"></script> 
+
+
 </body>

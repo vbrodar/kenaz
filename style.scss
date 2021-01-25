@@ -51,7 +51,7 @@ a {
   position: relative;
   width: 15px;
   padding: 15px;
-  right: 14px;
+  right: 15px;
   background: $textColor;
   opacity: 0.05;
   &:before {
@@ -194,7 +194,7 @@ a {
   position: relative;
 }
 
-#prevBtn {
+.prevBtn {
   position: absolute;
   top: 50%;
   z-index: 10;
@@ -202,17 +202,19 @@ a {
   color: #e9e9e9;
   cursor: pointer;
 }
-#nextBtn {
+.nextBtn {
   position: absolute;
   top: 50%;
   z-index: 10;
   right: 5%;
   color: #e9e9e9;
   cursor: pointer;
-}
+} 
 .carousel-image-text {
   position: relative;
   width: 100%;
+  width:940px;
+  height:425px;
 }
 .carousel-text-1,
 .carousel-text-2 {
@@ -222,7 +224,7 @@ a {
   font-size: 14px;
   left: 50px;
   right: 0;
-  bottom: 160px;
+  bottom: 135px;
   font-family: $Varela;
   font-weight: 400;
 }
@@ -234,7 +236,7 @@ a {
   font-size: 34px;
   left: 50px;
   right: 0;
-  bottom: 75px;
+  bottom: 55px;
   font-family: $Bitter;
   font-weight: 700;
   color: $carouselTextColor;
@@ -245,7 +247,7 @@ a {
   width: 150px;
   height: 33px;
   left: 50px;
-  bottom: 40px;
+  bottom: 20px;
   text-align: center;
   vertical-align: middle;
   background: none;
@@ -362,4 +364,45 @@ a {
   font-weight: 700;
   font-size: 14px;
   line-height: 16.8px;
+}
+
+.sidebar{
+  float:right;
+  height: 100%;
+  width: 303px;
+  height: 667px;
+  position: absolute;
+  z-index: 10;
+  right:13%;
+  background-color: #4D4382;  
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+.sidebar-list{
+  position: relative;
+  height: 53px;
+  bottom: 20px;
+  align-items:center;
+  &:before {
+    opacity: 0.2;
+    background-color: $textColor;
+    mix-blend-mode: normal;
+  }
+  text-underline-offset:3px;
+  color:$textColor;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  list-style-type: none;
+  text-decoration:underline;
+  font-family: Varela Round;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  
+}
+.sidebar-popular {
+  color: #FCC44D;
+
 }
