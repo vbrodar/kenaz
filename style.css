@@ -443,6 +443,36 @@ a {
   width: 128px;
 }
 
+.business-internal-container {
+  position: relative;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  background: white;
+  width: 411px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  bottom: 60px;
+}
+
+.business-internal-container .business-internal-container-left {
+  position: absolute;
+  width: 120px;
+}
+
+.business-internal-container .business-internal-container-right {
+  width: 120px;
+}
+
 .news-date-left,
 .news-date-middle,
 .news-date-right {
@@ -460,6 +490,97 @@ a {
   font-weight: 700;
   font-size: 14px;
   line-height: 16.8px;
+}
+
+.business-date-left {
+  position: relative;
+  left: 135px;
+  bottom: 110px;
+  font-family: "Varela Round", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  color: #999999;
+  line-height: 14.45px;
+}
+
+.business-date-right {
+  position: relative;
+  bottom: 110px;
+  right: 5px;
+  font-family: "Varela Round", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  color: #999999;
+  line-height: 14.45px;
+}
+
+.business-content-left {
+  position: relative;
+  left: 135px;
+  bottom: 110px;
+  font-family: "Bitter", serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16.8px;
+}
+
+.business-content-right {
+  position: relative;
+  bottom: 110px;
+  right: 5px;
+  font-family: "Bitter", serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16.8px;
+}
+
+.business-image {
+  position: relative;
+  bottom: 20px;
+}
+
+.business-image-right {
+  position: relative;
+  bottom: 20px;
+  right: 140px;
+}
+
+.business-internal-container-left-bottom {
+  position: relative;
+  right: 145px;
+  top: 100px;
+}
+
+.business-date-left-bottom, .business-date-right-bottom {
+  position: relative;
+  bottom: 90px;
+  left: 135px;
+  font-family: "Varela Round", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  color: #999999;
+  line-height: 14.45px;
+}
+
+.business-content-left-bottom, .business-content-right-bottom {
+  position: relative;
+  left: 135px;
+  bottom: 90px;
+  font-family: "Bitter", serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16.8px;
+}
+
+.business-internal-container-right-bottom {
+  position: relative;
+  top: 100px;
+  left: 5px;
+}
+
+.business-image-bottom-right {
+  position: relative;
+  top: 200px;
 }
 
 .sidebar {
@@ -644,5 +765,24 @@ a {
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
+}
+
+.kenaz-tv {
+  position: absolute;
+  width: 303px;
+  height: 324px;
+  left: 5px;
+}
+
+.kenaztv-title {
+  position: relative;
+  font-family: "Bitter", serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28.8px;
+  color: #363F48;
+  width: 141px;
+  height: 33px;
+  left: 30px;
 }
 /*# sourceMappingURL=style.css.map */
