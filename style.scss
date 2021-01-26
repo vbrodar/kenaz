@@ -282,6 +282,7 @@ a {
 }
 
 .news-flex-title {
+  position:relative;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -304,6 +305,10 @@ a {
 .business-container-title {
   @extend .general-container-title;
   left: 10px;
+}
+.news-carousel-container-title{
+  @extend .general-container-title;
+  right:260px;
 }
 .general-see-all {
   position: relative;
@@ -349,6 +354,25 @@ a {
   @extend .general-container;
   border-left: solid 13px #ee6151;
   
+}
+.news-carousel-container{
+    @extend .general-container;
+    border-left: solid 13px  #FCC44D;
+
+}
+.news-left-button{
+  position:absolute;
+  left:730px;
+  top:2140px;
+}
+#news-internal-container-right .news-image{
+  margin:10px;
+}
+
+.news-right-button {
+  position: absolute;
+  left: 770px;
+  top: 2140px;
 }
 
 .news-internal-container {
@@ -697,7 +721,7 @@ a {
   justify-content:space-around;
   align-items:center;
   position:absolute;
-  top:2100px;
+  top:2040px;
   right:13%;
   width:303px;
   height:167px;

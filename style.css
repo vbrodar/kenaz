@@ -334,6 +334,7 @@ a {
 }
 
 .news-flex-title {
+  position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -349,7 +350,7 @@ a {
   top: 50px;
 }
 
-.general-container-title, .business-container-title {
+.general-container-title, .business-container-title, .news-carousel-container-title {
   color: #363f48;
   font-family: "Bitter", serif;
   font-size: 24px;
@@ -364,6 +365,10 @@ a {
 
 .business-container-title {
   left: 10px;
+}
+
+.news-carousel-container-title {
+  right: 260px;
 }
 
 .general-see-all, .business-see-all {
@@ -387,7 +392,7 @@ a {
   right: 135px;
 }
 
-.general-container, .news-container, .sport-container, .business-container {
+.general-container, .news-container, .sport-container, .business-container, .news-carousel-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -421,6 +426,26 @@ a {
 
 .business-container {
   border-left: solid 13px #ee6151;
+}
+
+.news-carousel-container {
+  border-left: solid 13px  #FCC44D;
+}
+
+.news-left-button {
+  position: absolute;
+  left: 730px;
+  top: 2140px;
+}
+
+#news-internal-container-right .news-image {
+  margin: 10px;
+}
+
+.news-right-button {
+  position: absolute;
+  left: 770px;
+  top: 2140px;
 }
 
 .news-internal-container {
@@ -825,7 +850,7 @@ a {
       -ms-flex-align: center;
           align-items: center;
   position: absolute;
-  top: 2100px;
+  top: 2040px;
   right: 13%;
   width: 303px;
   height: 167px;
