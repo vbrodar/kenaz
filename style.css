@@ -475,6 +475,7 @@ a {
 
 .news-date-left,
 .news-date-middle,
+.kenaztv-date,
 .news-date-right {
   font-family: "Varela Round", sans-serif;
   font-weight: 400;
@@ -485,6 +486,7 @@ a {
 
 .news-content-left,
 .news-content-middle,
+.kenaztv-content,
 .news-content-right {
   font-family: "Bitter", serif;
   font-weight: 700;
@@ -771,7 +773,8 @@ a {
   position: absolute;
   width: 303px;
   height: 324px;
-  left: 5px;
+  top: 1730px;
+  right: 12.5%;
 }
 
 .kenaztv-title {
@@ -783,6 +786,25 @@ a {
   color: #363F48;
   width: 141px;
   height: 33px;
-  left: 30px;
+  left: 20px;
+  bottom: 40px;
+}
+
+.kenaztv-date {
+  position: relative;
+  left: 20px;
+  bottom: 30px;
+}
+
+.kenaztv-content {
+  position: relative;
+  left: 20px;
+  bottom: 30px;
+}
+
+.kenaztv-play {
+  position: relative;
+  left: 40%;
+  bottom: 100px;
 }
 /*# sourceMappingURL=style.css.map */

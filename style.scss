@@ -395,12 +395,13 @@ a {
 
 .news-content-left,
 .news-content-middle,
-.news-content-right {
+.news-content-right{
   font-family: $Bitter;
   font-weight: 700;
   font-size: 14px;
   line-height: 16.8px;
 }
+
 
 .business-date-left{
   position:relative;
@@ -648,8 +649,9 @@ a {
   position:absolute;
   width:303px;
   height:324px;
-  left:5px;
-
+  top:1730px;
+  //left:814px; umjesto right 12.5%
+  right:12.5%;
 }
 .kenaztv-title{
   position:relative;
@@ -660,7 +662,25 @@ a {
   color:#363F48;
   width:141px;
   height:33px;
-  left:30px;
+  left:20px;
+  bottom:40px;
+}
 
+.kenaztv-date {
+  position:relative;
+  @extend .news-date-middle;
+  left: 20px;
+  bottom:30px;
+}
 
+.kenaztv-content {
+  position: relative;
+  @extend .news-content-middle;
+  left: 20px;
+  bottom:30px;
+}
+.kenaztv-play{
+  position:relative;
+  left:40%; 
+  bottom:100px;
 }
