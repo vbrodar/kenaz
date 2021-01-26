@@ -210,6 +210,9 @@ a {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   color: #999999;
+  font-family: "Varela Round", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
 }
 
 .smaller-banner {
@@ -225,6 +228,10 @@ a {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   color: #999999;
+  font-family: "Varela Round", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  min-height: 35px;
 }
 
 .carousel-container {
@@ -773,7 +780,7 @@ a {
   position: absolute;
   width: 303px;
   height: 324px;
-  top: 1730px;
+  top: 1740px;
   right: 12.5%;
 }
 
@@ -806,5 +813,63 @@ a {
   position: relative;
   left: 40%;
   bottom: 100px;
+}
+
+.dual-banner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  top: 2100px;
+  right: 13%;
+  width: 303px;
+  height: 167px;
+  background: #DDDDDD;
+}
+
+.dual-banner-first {
+  left: 5px;
+  position: relative;
+  width: 128px;
+  height: 128px;
+  text-align: center;
+  vertical-align: middle;
+  background: white;
+  color: #999999;
+  font-family: "Varela Round", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16.86px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.dual-banner-second {
+  right: 5px;
+  position: relative;
+  width: 128px;
+  height: 128px;
+  text-align: center;
+  vertical-align: middle;
+  background: white;
+  color: #999999;
+  font-family: "Varela Round", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16.86px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.dual-banner-text {
+  position: relative;
+  top: 50px;
 }
 /*# sourceMappingURL=style.css.map */
