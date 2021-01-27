@@ -197,7 +197,7 @@ a {
   margin-bottom: 70px;
 }
 
-.banner {
+.banner, .bottom-banner {
   width: 942px;
   height: 124px;
   text-align: center;
@@ -213,6 +213,11 @@ a {
   font-family: "Varela Round", sans-serif;
   font-size: 14px;
   font-weight: 400;
+}
+
+.bottom-banner {
+  position: relative;
+  bottom: 370px;
 }
 
 .smaller-banner {

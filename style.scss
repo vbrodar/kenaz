@@ -173,6 +173,11 @@ a {
   font-size:14px;
   font-weight:400;
 }
+.bottom-banner{
+  @extend .banner;
+  position:relative;
+  bottom:370px;
+}
 .smaller-banner{
   width:620px;
   height:120px;
