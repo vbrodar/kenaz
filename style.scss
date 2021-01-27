@@ -315,6 +315,13 @@ a {
   right:260px;
   z-index:10;
 }
+
+.localnews-carousel-container-title{
+  @extend .general-container-title;
+  z-index:10;
+  bottom:355px;
+  left: 45px;
+}
 .editorials-carousel-container-title {
   @extend .general-container-title;
   right:290px;
@@ -376,7 +383,13 @@ a {
   width:293px;
   border-left: solid 13px $editorialsColor;
 
+}
 
+.localnews-carousel-container{
+  @extend .editorials-carousel-container;
+  position:relative;
+  left:330px;
+  bottom:355px;
 
 }
 .news-left-button{
@@ -406,6 +419,8 @@ a {
   left:255px;
   bottom:280px;
 }
+
+
 
 
 

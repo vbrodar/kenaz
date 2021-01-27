@@ -355,7 +355,7 @@ a {
   top: 50px;
 }
 
-.general-container-title, .business-container-title, .news-carousel-container-title, .editorials-carousel-container-title {
+.general-container-title, .business-container-title, .news-carousel-container-title, .editorials-carousel-container-title, .localnews-carousel-container-title {
   color: #363f48;
   font-family: "Bitter", serif;
   font-size: 24px;
@@ -375,6 +375,12 @@ a {
 .news-carousel-container-title, .editorials-carousel-container-title {
   right: 260px;
   z-index: 10;
+}
+
+.localnews-carousel-container-title {
+  z-index: 10;
+  bottom: 355px;
+  left: 45px;
 }
 
 .editorials-carousel-container-title {
@@ -403,7 +409,7 @@ a {
   right: 135px;
 }
 
-.general-container, .news-container, .sport-container, .business-container, .news-carousel-container, .editorials-carousel-container {
+.general-container, .news-container, .sport-container, .business-container, .news-carousel-container, .editorials-carousel-container, .localnews-carousel-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -443,9 +449,15 @@ a {
   border-left: solid 13px  #FCC44D;
 }
 
-.editorials-carousel-container {
+.editorials-carousel-container, .localnews-carousel-container {
   width: 293px;
   border-left: solid 13px #A99765;
+}
+
+.localnews-carousel-container {
+  position: relative;
+  left: 330px;
+  bottom: 355px;
 }
 
 .news-left-button {

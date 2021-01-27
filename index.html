@@ -291,11 +291,39 @@
 
 </div>
 
+
 <div class="news-flex-title">
     <h1 class="editorials-carousel-container-title">Editorials</h1>
     </div>
 
     <div class="editorials-carousel-container">
+        <input type="image" class="editorials-left-button" width="16" height="22" src="assets/brown-left.svg" alt="scroll left"></input>
+        <input type="image" class="editorials-right-button" width="16" height="22" src="assets/brown-right.svg" alt="scroll right"></input>
+
+    <div class="news-internal-container-left">
+        <img class="news-image" src="assets/pic1.jpg" alt="Picture 1" width="230" height="150" />
+        <span class="news-date-left"></br>26 August,2013 </span>
+        <h3 class="news-content-left">
+            For Obama, MLK's  shadow looms </br> large  ahead of speech
+        </h3>
+    </div>
+
+     <div id="news-internal-container-right">
+        <img class="news-image" src="assets/pic1.jpg" alt="Picture 1" width="260" height="150" />
+        <span class="news-date-right"> </br>26 August,2013 </span>
+        <h3 class="news-content-right">
+            NASA releases a portrait of planet </br> waving at Saturn
+        </h3>
+    </div>
+
+
+</div>
+
+<div class="news-flex-title">
+    <h1 class="localnews-carousel-container-title">Local News</h1>
+    </div>
+
+    <div class="localnews-carousel-container">
         <input type="image" class="editorials-left-button" width="16" height="22" src="assets/brown-left.svg" alt="scroll left"></input>
         <input type="image" class="editorials-right-button" width="16" height="22" src="assets/brown-right.svg" alt="scroll right"></input>
 
@@ -360,6 +388,17 @@
   <script type="text/javascript">
     $(document).ready(function(){
       $('.editorials-carousel-container').slick({
+        arrows:true,
+        infinite: true,
+        slidesToShow: 1,
+        nextArrow: '<input type="image" class="editorials-right-button" width="16" height="22" src="assets/brown-right.svg" alt="scroll right"></input>',
+        prevArrow: '<input type="image" class="editorials-left-button" width="16" height="22" src="assets/brown-left.svg" alt="scroll left"></input>',
+      });
+    });
+  </script>
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $('.localnews-carousel-container').slick({
         arrows:true,
         infinite: true,
         slidesToShow: 1,
