@@ -358,6 +358,7 @@ a {
 .news-carousel-container{
     @extend .general-container;
     border-left: solid 13px  #FCC44D;
+   
 
 }
 .news-left-button{
@@ -365,9 +366,7 @@ a {
   left:730px;
   top:2140px;
 }
-#news-internal-container-right .news-image{
-  margin:10px;
-}
+
 
 .news-right-button {
   position: absolute;
