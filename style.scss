@@ -240,9 +240,11 @@ a {
 }
 .carousel-text-1,
 .carousel-text-2 {
+  display:flex;
   z-index: 10;
   position: absolute;
   color: $carouselTextColor;
+  line-height:20px;
   font-size: 14px;
   left: 50px;
   right: 0;

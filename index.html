@@ -49,31 +49,26 @@
 <body>
     <div class="banner">banner 940x120</div>
 
+    
+
     <div class="carousel-container">
+
         <input type="image" class="prevBtn" width="36" height="53" src="assets/scroll-left.svg" alt="scroll left"></input>
         <input type="image" class="nextBtn" width="36" height="53" src="assets/scroll-right.svg" alt="scroll right"></input>
+
         <div class="carousel-slide">
 
-            <div class="carousel-image-text">
-            <img class="carousel-images" id="lastClone" src="./assets/pic4.jpg" width="940" height="425" alt="">
-            <span class="carousel-text-1">August 26, 2013 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<img src="./assets/comment-icon.svg" alt="" width="17" height="17" > 22 comments</span>
-            <h1 class="carousel-headline">'Margot' breathlessly reimagines Anne Frank's sister</h1>
-            <h2 class="carousel-headline-text"> 'Margot' breathlessly reimagines </br> Anne Frank's sister </h2>
-            <a href="">
-                <h3 class="read-article">Read article</h3>
-            </a>
-            </div>
 
             <div class="carousel-image-text">
             <img class="carousel-images" src="./assets/pic1.jpg" width="940" height="425" alt="" />
-            <span class="carousel-text-2">February 15, 2003 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<img src="./assets/comment-icon.svg" alt="" width="17" height="17" > 22 comments</span>
+            <span class="carousel-text-2">February 15, 2003 &nbsp; &nbsp; &nbsp; &nbsp;<img src="./assets/comment-icon.svg" alt="" width="17" height="17" > 22 comments</span>
             <h2 class="carousel-headline-text"> 'Margot' breathlessly reimagines </br> Anne Frank's sister </h2>
             <a href=""><h3 class="read-article">Read article</h3></a>
             </div>
 
             <div class="carousel-image-text">
             <img class="carousel-images" src="./assets/pic2.jpg" width="940" height="425" alt="" />
-            <span class="carousel-text-1">August 26, 2013 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<img src="./assets/comment-icon.svg" alt="" width="17" height="17" > 22 comments</span>
+            <span class="carousel-text-1">August 26, 2013 &nbsp; &nbsp; &nbsp; &nbsp; <img src="./assets/comment-icon.svg" alt="" width="17" height="17" > 22 comments</span>
             <h2 class="carousel-headline-text"> 'Margot' breathlessly reimagines </br> Anne Frank's sister </h2>
             <a href="">
                 <h3 class="read-article">Read article</h3>
@@ -82,7 +77,7 @@
 
             <div class="carousel-image-text">
             <img class="carousel-images" src="./assets/pic3.jpg" width="940" height="425" alt="" />
-            <span class="carousel-text-2">August 26, 2013 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<img src="./assets/comment-icon.svg" alt="" width="17" height="17" > 22 comments </span>
+            <span class="carousel-text-2">August 26, 2013 &nbsp; &nbsp; &nbsp; &nbsp; <img src="./assets/comment-icon.svg" alt="" width="17" height="17" > 22 comments </span>
             <h2 class="carousel-headline-text"> 'Margot' breathlessly reimagines </br> Anne Frank's sister </h2>
             <a href="">
                 <h3 class="read-article">Read article</h3>
@@ -91,21 +86,13 @@
 
             <div class="carousel-image-text">
             <img class="carousel-images" src="./assets/pic4.jpg" width="940" height="425"  alt="" />
-            <span class="carousel-text-1">March 15, 2006&nbsp; &nbsp;&nbsp; &nbsp;  &nbsp;<img src="./assets/comment-icon.svg" alt="" width="17" height="17" > 22 comments</span>
+            <span class="carousel-text-1">March 15, 2006&nbsp; &nbsp; &nbsp; &nbsp; <img src="./assets/comment-icon.svg" alt="" width="17" height="17" > 22 comments</span>
             <h2 class="carousel-headline-text"> 'Margot' breathlessly reimagines </br> Anne Frank's sister </h2>
             <a href="">
                 <h3 class="read-article">Read article</h3>
             </a>
             </div>
 
-            <div class="carousel-image-text">
-            <img class="carousel-images" id="firstClone" src="./assets/pic1.jpg" width="940" height="425" alt="" />
-            <span class="carousel-text-2">July 14, 2020 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<img src="./assets/comment-icon.svg" alt="" width="17" height="17" > 22 comments </span>
-            <h2 class="carousel-headline-text"> 'Margot' breathlessly reimagines </br> Anne Frank's sister </h2>
-            <a href="">
-                <h3 class="read-article">Read article</h3>
-            </a>
-            </div>
         </div>
     </div>
 
@@ -314,6 +301,19 @@
 <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
 <script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 <script type="text/javascript" src="slick/slick.min.js"></script>
+
+<script type="text/javascript">
+    $(document).ready(function(){
+      $('.carousel-slide').slick({
+        arrows:true,
+        infinite: true,
+        slidesToShow: 1,
+        slidesToScroll: 4,
+        nextArrow: '<input type="image" class="nextBtn" width="36" height="53" src="assets/scroll-right.svg" alt="scroll right"></input>',
+        prevArrow: '<input type="image" class="prevBtn" width="36" height="53" src="assets/scroll-left.svg" alt="scroll left"></input>',
+      });
+    });
+  </script>
 
  <script type="text/javascript">
     $(document).ready(function(){
