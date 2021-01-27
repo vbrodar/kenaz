@@ -60,7 +60,7 @@ a {
   position: relative;
   width: 15px;
   padding: 15px;
-  right: 15px;
+  right: 14px;
   background: white;
   opacity: 0.05;
 }
@@ -355,7 +355,7 @@ a {
   top: 50px;
 }
 
-.general-container-title, .business-container-title, .news-carousel-container-title {
+.general-container-title, .business-container-title, .news-carousel-container-title, .editorials-carousel-container-title {
   color: #363f48;
   font-family: "Bitter", serif;
   font-size: 24px;
@@ -372,8 +372,13 @@ a {
   left: 10px;
 }
 
-.news-carousel-container-title {
+.news-carousel-container-title, .editorials-carousel-container-title {
   right: 260px;
+  z-index: 10;
+}
+
+.editorials-carousel-container-title {
+  right: 290px;
   z-index: 10;
 }
 
@@ -398,7 +403,7 @@ a {
   right: 135px;
 }
 
-.general-container, .news-container, .sport-container, .business-container, .news-carousel-container {
+.general-container, .news-container, .sport-container, .business-container, .news-carousel-container, .editorials-carousel-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -438,17 +443,36 @@ a {
   border-left: solid 13px  #FCC44D;
 }
 
+.editorials-carousel-container {
+  width: 293px;
+  border-left: solid 13px #A99765;
+}
+
 .news-left-button {
   position: absolute;
   color: #FCC44D;
   left: 530px;
-  bottom: 280px;
+  bottom: 285px;
 }
 
 .news-right-button {
   position: absolute;
   color: #FCC44D;
   left: 570px;
+  bottom: 285px;
+}
+
+.editorials-left-button {
+  position: absolute;
+  color: #A99765;
+  left: 225px;
+  bottom: 280px;
+}
+
+.editorials-right-button {
+  position: absolute;
+  color: #A99765;
+  left: 255px;
   bottom: 280px;
 }
 

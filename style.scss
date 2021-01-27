@@ -5,6 +5,7 @@ $websiteWidth: 940px;
 $carouselTextColor: #eef6fa;
 $sidebarFontColor:#ACB3BA;
 $purpleBackground: #4D4382;
+$editorialsColor:#A99765;
 
 * {
   margin: 0;
@@ -53,7 +54,7 @@ a {
   position: relative;
   width: 15px;
   padding: 15px;
-  right: 15px;
+  right: 14px;
   background: $textColor;
   opacity: 0.05;
   &:before {
@@ -309,9 +310,14 @@ a {
   @extend .general-container-title;
   left: 10px;
 }
-.news-carousel-container-title{
+.news-carousel-container-title, .editorials-carousel-container-title{
   @extend .general-container-title;
   right:260px;
+  z-index:10;
+}
+.editorials-carousel-container-title {
+  @extend .general-container-title;
+  right:290px;
   z-index:10;
 }
 .general-see-all {
@@ -365,20 +371,44 @@ a {
    
 
 }
+.editorials-carousel-container {
+  @extend .general-container;
+  width:293px;
+  border-left: solid 13px $editorialsColor;
+
+
+
+}
 .news-left-button{
   position:absolute;
   color:#FCC44D;
   left:530px;
-  bottom:280px;
+  bottom:285px;
 }
-
-
 .news-right-button {
   position: absolute;
-  color:#FCC44D;
-  left:570px;
+  color: #FCC44D;
+  left: 570px;
+  bottom: 285px;
+}
+
+
+.editorials-left-button{
+  position:absolute;
+  color:$editorialsColor;
+  left:225px;
   bottom:280px;
 }
+
+.editorials-right-button{
+  position:absolute;
+  color:$editorialsColor;
+  left:255px;
+  bottom:280px;
+}
+
+
+
 
 .news-internal-container {
   flex: 1;
