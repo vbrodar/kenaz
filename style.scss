@@ -847,3 +847,35 @@ align-items:center;
   color: $mainButtonsColor;
   cursor: pointer;
 }
+
+.slider-nav{
+  position:relative;
+  width:890px;
+  z-index: 1;
+  bottom:490px;
+  border: 1px black;
+  left:15%;
+  
+
+}
+
+.slider-nav-img{
+  width:100%;
+  margin:auto;
+}
+
+.slick-slide {
+  margin: 0 5px;
+}                       //! Causing Editorials small bug!
+
+/* the parent */
+.slick-list {
+  margin: 0 -5px;
+}
+
+.magnifier{
+  z-index:10;
+  position:relative;
+  left:47%;
+  bottom:160px;
+}

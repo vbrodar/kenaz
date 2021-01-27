@@ -350,8 +350,9 @@
  <div class="bottom-banner">banner 940x120</div>
 
 
-  
+  <img class="magnifier" src="./assets/magnifier.svg" width="80" height="80"/>
     <div class="carousel-container-bottom">
+        
 
         <input type="image" class="prevBtn-bottom" width="36" height="53" src="assets/scroll-left.svg" alt="scroll left"></input>
         <input type="image" class="nextBtn-bottom" width="36" height="53" src="assets/scroll-right.svg" alt="scroll right"></input>
@@ -400,6 +401,37 @@
             </div>
 
         </div>
+    </div>
+
+    <div class="slider-nav">
+         
+            <img class="slider-nav-img" src="./assets/pic8.jpg" width="120" height="120" alt="" />
+            
+            
+            <img  class="slider-nav-img" src="./assets/pic7.jpg" width="120" height="120" alt="" />
+            
+            
+            <img  class="slider-nav-img" src="./assets/pic6.jpg" width="120" height="120" alt="" />
+            
+       
+            <img  class="slider-nav-img" src="./assets/pic9.jpg" width="120" height="120"  alt="" />
+            
+            
+            <img  class="slider-nav-img" src="./assets/pic4.jpg" width="120" height="120"  alt="" />
+            
+           
+            
+            <img  class="slider-nav-img" src="./assets/pic3.jpg" width="120" height="120"  alt="" />
+            
+
+            
+            <img class="slider-nav-img"  src="./assets/pic2.jpg" width="120" height="120"  alt="" />
+            
+            
+            <img  class="slider-nav-img" src="./assets/pic1.jpg" width="120" height="120"  alt="" />
+            
+            
+
     </div>
 
 
@@ -465,12 +497,23 @@
     $(document).ready(function(){
       $('.carousel-slide-bottom').slick({
         arrows:true,
-        infinite: true,
         slidesToShow: 1,
         speed:300,
+        asNavFor: '.slider-nav',
         nextArrow: '<input type="image" class="nextBtn-bottom" width="36" height="53" src="assets/scroll-right.svg" alt="scroll right"></input>',
         prevArrow: '<input type="image" class="prevBtn-bottom" width="36" height="53" src="assets/scroll-left.svg" alt="scroll left"></input>',
       });
     });
+
+    $('.slider-nav').slick({
+        arrows:false,
+        slidesToShow: 6,
+        asNavFor: '.carousel-slide-bottom',
+        dots: false,
+        centerMode: true,
+        focusOnSelect: true,
+        centerPadding: '0',
+
+});
   </script>
 </body>
