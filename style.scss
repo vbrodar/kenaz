@@ -222,7 +222,7 @@ a {
   color: $textColor;
 }
 
-.carousel-slide {
+.carousel-slide, .carousel-slide-bottom {
   display: flex;
   position: relative;
 }
@@ -592,14 +592,7 @@ a {
   overflow-x: hidden;
   padding-top: 20px;
 }
-.envato-sidebar{
-  @extend .sidebar;
-  height:556px;
-  width:303px;
-  top:2220px;
-  background:$textColor;
 
-}
 .sidebar-list{
   // &:before {
     opacity: 0.2;
@@ -829,4 +822,28 @@ align-items:center;
   position:relative;
   top:50px;
 
+}
+
+.carousel-container-bottom{
+  @extend .carousel-container;
+  position:relative;
+  bottom:385px;
+}
+
+.prevBtn-bottom{
+  position: absolute;
+  top: 35%;
+  z-index: 10;
+  left: 5%;
+  color: $mainButtonsColor;
+  cursor: pointer;
+}
+
+.nextBtn-bottom{
+  position: absolute;
+  top: 35%;
+  z-index: 10;
+  right: 5%;
+  color: $mainButtonsColor;
+  cursor: pointer;
 }

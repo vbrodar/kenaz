@@ -264,14 +264,6 @@
 </div>
 <div class="smaller-banner">banner 620x120</div>
 
-<aside class="envato-sidebar">
-    <div class="grid-wrapper">
-
-  <div class="grid-item"><span class="sidebar-date">August 3, 2003 &nbsp;&nbsp;&nbsp;<img src="./assets/comment-icon.svg" alt="" width="17" height="17" >&nbsp;&nbsp;&nbsp;<span> 5 </span></span><h4 class="sidebar-headline">Palestinians call off </br> peace talks after clash</h4><img class="sidebar-pic" src="./assets/pic5.jpg" width="70" height="70" alt=""></div>
-   <div class="grid-item"><span class="sidebar-date">August 3, 2003 &nbsp;&nbsp;&nbsp;<img src="./assets/comment-icon.svg" alt="" width="17" height="17" >&nbsp;&nbsp;&nbsp;<span> 5 </span></span><h4 class="sidebar-headline">Palestinians call off </br> peace talks after clash</h4><img class="sidebar-pic" src="./assets/pic5.jpg" width="70" height="70" alt=""></div>
-  <div class="grid-item"><span class="sidebar-date">August 3, 2003 &nbsp;&nbsp;&nbsp;<img src="./assets/comment-icon.svg" alt="" width="17" height="17" >&nbsp;&nbsp;&nbsp;<span> 5 </span></span><h4 class="sidebar-headline">Palestinians call off </br> peace talks after clash</h4><img class="sidebar-pic" src="./assets/pic5.jpg" width="70" height="70" alt=""></div>
-</div>
-    </aside>
 
 <div class="news-flex-title">
     <h1 class="news-carousel-container-title">News Carousel</h1>
@@ -359,6 +351,56 @@
 
 
   
+    <div class="carousel-container-bottom">
+
+        <input type="image" class="prevBtn-bottom" width="36" height="53" src="assets/scroll-left.svg" alt="scroll left"></input>
+        <input type="image" class="nextBtn-bottom" width="36" height="53" src="assets/scroll-right.svg" alt="scroll right"></input>
+
+        <div class="carousel-slide-bottom">
+
+
+            <div class="carousel-image-text">
+            <img class="carousel-images" src="./assets/pic8.jpg" width="940" height="425" alt="" />
+            
+            </div>
+
+            <div class="carousel-image-text">
+            <img class="carousel-images" src="./assets/pic7.jpg" width="940" height="425" alt="" />
+            
+            </div>
+
+            <div class="carousel-image-text">
+            <img class="carousel-images" src="./assets/pic6.jpg" width="940" height="425" alt="" />
+            
+            </div>
+
+            <div class="carousel-image-text">
+            <img class="carousel-images" src="./assets/pic9.jpg" width="940" height="425"  alt="" />
+            
+            </div>
+
+            <div class="carousel-image-text">
+            <img class="carousel-images" src="./assets/pic4.jpg" width="940" height="425"  alt="" />
+            
+            </div>
+
+            <div class="carousel-image-text">
+            <img class="carousel-images" src="./assets/pic3.jpg" width="940" height="425"  alt="" />
+            
+            </div>
+
+            <div class="carousel-image-text">
+            <img class="carousel-images" src="./assets/pic2.jpg" width="940" height="425"  alt="" />
+            
+            </div>
+
+            <div class="carousel-image-text">
+            <img class="carousel-images" src="./assets/pic1.jpg" width="940" height="425"  alt="" />
+            
+            </div>
+
+        </div>
+    </div>
 
 
 <script src="app.js"></script> 
@@ -419,4 +461,16 @@
     });
   </script>
 
+<script type="text/javascript">
+    $(document).ready(function(){
+      $('.carousel-slide-bottom').slick({
+        arrows:true,
+        infinite: true,
+        slidesToShow: 1,
+        speed:300,
+        nextArrow: '<input type="image" class="nextBtn-bottom" width="36" height="53" src="assets/scroll-right.svg" alt="scroll right"></input>',
+        prevArrow: '<input type="image" class="prevBtn-bottom" width="36" height="53" src="assets/scroll-left.svg" alt="scroll left"></input>',
+      });
+    });
+  </script>
 </body>
