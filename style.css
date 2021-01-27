@@ -439,7 +439,7 @@ a {
 }
 
 .news-container {
-  border-left: solid 13px #3677B5;
+  border-left: solid 13px #3677b5;
 }
 
 .sport-container {
@@ -451,7 +451,7 @@ a {
 }
 
 .news-carousel-container {
-  border-left: solid 13px  #FCC44D;
+  border-left: solid 13px #FCC44D;
 }
 
 .editorials-carousel-container, .localnews-carousel-container {
@@ -662,7 +662,7 @@ a {
   top: 200px;
 }
 
-.sidebar {
+.sidebar, .envato-sidebar {
   float: right;
   height: 100%;
   width: 303px;
@@ -673,6 +673,13 @@ a {
   background-color: #4D4382;
   overflow-x: hidden;
   padding-top: 20px;
+}
+
+.envato-sidebar {
+  height: 556px;
+  width: 303px;
+  top: 2220px;
+  background: white;
 }
 
 .sidebar-list {

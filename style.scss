@@ -6,6 +6,10 @@ $carouselTextColor: #eef6fa;
 $sidebarFontColor:#ACB3BA;
 $purpleBackground: #4D4382;
 $editorialsColor:#A99765;
+$bannerColor: #999999;
+$mainButtonsColor:#e9e9e9;
+$seeAllColor:#3677b5;
+$newsCarouselColor:#FCC44D;
 
 * {
   margin: 0;
@@ -132,7 +136,7 @@ a {
   width: 230%;
 }
 #tech {
-  border-bottom: solid 5px#FCC44D;
+  border-bottom: solid 5px$newsCarouselColor;
   width: 200%;
 }
 #travel {
@@ -168,7 +172,7 @@ a {
   background: $textColor;
   border: 1px solid #d7d7d7;
   box-sizing: border-box;
-  color: #999999;
+  color: $bannerColor;
   font-family:$Varela;
   font-size:14px;
   font-weight:400;
@@ -189,7 +193,7 @@ a {
   background: $textColor;
   border: 1px solid #d7d7d7;
   box-sizing: border-box;
-  color: #999999;
+  color: $bannerColor;
   font-family:$Varela;
   font-size:14px;
   font-weight:400;
@@ -228,7 +232,7 @@ a {
   top: 50%;
   z-index: 10;
   left: 5%;
-  color: #e9e9e9;
+  color: $mainButtonsColor;
   cursor: pointer;
 }
 .nextBtn {
@@ -236,7 +240,7 @@ a {
   top: 50%;
   z-index: 10;
   right: 5%;
-  color: #e9e9e9;
+  color: $mainButtonsColor;
   cursor: pointer;
 } 
 .carousel-image-text {
@@ -341,7 +345,7 @@ a {
   line-height: 17px;
   letter-spacing: 0px;
   text-align: right;
-  color: #3677b5;
+  color: $seeAllColor;
   align-self: center;
   text-decoration: underline;
   right: 125px;
@@ -366,7 +370,7 @@ a {
 }
 .news-container {
   @extend .general-container;
-  border-left: solid 13px#3677B5;
+  border-left: solid 13px $seeAllColor;
 }
 .sport-container {
   @extend .general-container;
@@ -379,7 +383,7 @@ a {
 }
 .news-carousel-container{
     @extend .general-container;
-    border-left: solid 13px  #FCC44D;
+    border-left: solid 13px  $newsCarouselColor;
    
 
 }
@@ -399,13 +403,13 @@ a {
 }
 .news-left-button{
   position:absolute;
-  color:#FCC44D;
+  color:$newsCarouselColor;
   left:530px;
   bottom:285px;
 }
 .news-right-button {
   position: absolute;
-  color: #FCC44D;
+  color: $newsCarouselColor;
   left: 570px;
   bottom: 285px;
 }
@@ -475,7 +479,7 @@ a {
   font-family: $Varela;
   font-weight: 400;
   font-size: 12px;
-  color: #999999;
+  color: $bannerColor;
   line-height: 14.45px;
 }
 
@@ -496,7 +500,7 @@ a {
   font-family: $Varela;
   font-weight: 400;
   font-size: 12px;
-  color: #999999;
+  color: $bannerColor;
   line-height: 14.45px;
   
 
@@ -508,7 +512,7 @@ a {
   font-family: $Varela;
   font-weight: 400;
   font-size: 12px;
-  color: #999999;
+  color: $bannerColor;
   line-height: 14.45px;
 }
 
@@ -552,7 +556,7 @@ a {
   font-family: $Varela;
   font-weight: 400;
   font-size: 12px;
-  color: #999999;
+  color: $bannerColor;
   line-height: 14.45px;
 
 }
@@ -588,6 +592,14 @@ a {
   overflow-x: hidden;
   padding-top: 20px;
 }
+.envato-sidebar{
+  @extend .sidebar;
+  height:556px;
+  width:303px;
+  top:2220px;
+  background:$textColor;
+
+}
 .sidebar-list{
   // &:before {
     opacity: 0.2;
@@ -613,7 +625,7 @@ a {
   
 }
 .sidebar-popular {
-  color: #FCC44D;
+  color: $newsCarouselColor;
 
 }
 
@@ -791,7 +803,7 @@ a {
   text-align: center;
   vertical-align: middle;
   background:$textColor;
-  color:#999999;
+  color:$bannerColor;
   font-family: $Varela;
   font-weight:400;
   font-size:14px;
@@ -806,7 +818,7 @@ height:128px;
 text-align: center;
 vertical-align: middle;
 background:$textColor;
-color:#999999;
+color:$bannerColor;
 font-family: $Varela;
 font-weight:400;
 font-size:14px;
