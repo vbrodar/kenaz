@@ -945,7 +945,7 @@ a {
 
 .carousel-container-bottom {
   position: relative;
-  bottom: 385px;
+  bottom: 460px;
 }
 
 .prevBtn-bottom {
@@ -970,7 +970,7 @@ a {
   position: relative;
   width: 890px;
   z-index: 1;
-  bottom: 490px;
+  bottom: 575px;
   border: 1px black;
   left: 15%;
 }
@@ -993,6 +993,6 @@ a {
   z-index: 10;
   position: relative;
   left: 47%;
-  bottom: 160px;
+  bottom: 235px;
 }
 /*# sourceMappingURL=style.css.map */
