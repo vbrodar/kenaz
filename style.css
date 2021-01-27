@@ -369,6 +369,7 @@ a {
 
 .news-carousel-container-title {
   right: 260px;
+  z-index: 10;
 }
 
 .general-see-all, .business-see-all {
@@ -434,14 +435,16 @@ a {
 
 .news-left-button {
   position: absolute;
-  left: 730px;
-  top: 2140px;
+  color: #FCC44D;
+  left: 530px;
+  bottom: 280px;
 }
 
 .news-right-button {
   position: absolute;
-  left: 770px;
-  top: 2140px;
+  color: #FCC44D;
+  left: 570px;
+  bottom: 280px;
 }
 
 .news-internal-container {
