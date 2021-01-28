@@ -137,11 +137,11 @@ footer {
   width: 302px;
 }
 
-.flex-tag {
+.flex-tag, .flex-tag-selected {
   -ms-flex-pack: distribute;
       justify-content: space-around;
   height: 28px;
-  margin: 0px 3px;
+  margin: 3px 3px;
   padding: 0px 5px;
   font-family: "Varela Round", sans-serif;
   font-weight: 400;
@@ -149,5 +149,10 @@ footer {
   line-height: 28px;
   color: #666666;
   background: #333333;
+}
+
+.flex-tag-selected {
+  color: white;
+  background: #4D4382;
 }
 /*# sourceMappingURL=footer.css.map */

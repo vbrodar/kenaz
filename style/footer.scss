@@ -152,7 +152,7 @@ margin: 5px;
 .flex-tag{
     justify-content:space-around;
     height:28px;
-    margin: 0px 3px;
+    margin: 3px 3px;
     padding: 0px 5px;
     font-family:$Varela;
     font-weight:400;
@@ -160,4 +160,11 @@ margin: 5px;
     line-height:28px;
     color:$footerTextColor;
     background:$newsletterNameBackground;
+}
+
+.flex-tag-selected{
+    @extend .flex-tag;
+    color: $textColor;
+    background: $purpleBackground;
+    
 }
