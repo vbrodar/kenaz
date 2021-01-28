@@ -14,6 +14,8 @@ $seeAllColor:#3677b5;
 $newsCarouselColor:#FCC44D;
 $darkGrey:#252525;
 $footerTextColor: #666666;
+$newsletterTitleColor: #CCCCCC;
+$newsletterNameBackground:#333333;
 
 footer {
     position: relative;
@@ -33,7 +35,9 @@ footer {
     width: 100%;
     height: 923px;
     background: $darkGrey;
+    
 }
+
 
 .kenaz-bottom-container{
     position:relative;
@@ -41,6 +45,14 @@ footer {
     height:167px;
     top:5%;
     left:14%;
+      
+}
+.newsletter-bottom-container{
+    position:relative;
+    width:302px;
+    height:167px;
+    left:40%;
+    bottom:10.6%;
 }
 
 .kenaz-blue{
@@ -67,12 +79,57 @@ footer {
     height:40px;
     size:14px;
     line-height:20px;
-    margin:20px 0px;
+    margin:30px 0px;
 }
 
 .kenaz-social{
     position:relative;
-    display:flex;
-    justify-content:space-around;
     width:100%;
+}
+
+.newsletter-bottom-title{
+    position: relative;
+    font-family:$Bitter;
+    font-weight:700;
+    font-size:24px;
+    line-height:29px;
+    color:$newsletterTitleColor;
+    bottom:5px;
+}
+
+.newsletter-subscription{
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin: 5px;
+}
+.newsletter-name{
+    padding-left: 15px;
+    width: 193px;
+    height:53px;
+    position: relative;
+    background: $newsletterNameBackground;
+    color: $bannerColor;
+    font-family: $Varela;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 53px;
+}
+
+.newsletter-subscribe{
+    position: absolute;
+    width:112px;
+    height:53px;
+    display: inline;
+    padding-left: 10px;
+    line-height: 53px;
+    position: relative;
+    background: $purpleBackground;
+    color: $textColor;
+    font-family: $Varela;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    text-align:center;
 }

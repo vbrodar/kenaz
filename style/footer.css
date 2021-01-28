@@ -25,6 +25,14 @@ footer {
   left: 14%;
 }
 
+.newsletter-bottom-container {
+  position: relative;
+  width: 302px;
+  height: 167px;
+  left: 40%;
+  bottom: 10.6%;
+}
+
 .kenaz-blue {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -53,16 +61,65 @@ footer {
   height: 40px;
   size: 14px;
   line-height: 20px;
-  margin: 20px 0px;
+  margin: 30px 0px;
 }
 
 .kenaz-social {
   position: relative;
+  width: 100%;
+}
+
+.newsletter-bottom-title {
+  position: relative;
+  font-family: "Bitter", serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  color: #CCCCCC;
+  bottom: 5px;
+}
+
+.newsletter-subscription {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 5px;
+}
+
+.newsletter-name {
+  padding-left: 15px;
+  width: 193px;
+  height: 53px;
+  position: relative;
+  background: #333333;
+  color: #999999;
+  font-family: "Varela Round", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 53px;
+}
+
+.newsletter-subscribe {
+  position: absolute;
+  width: 112px;
+  height: 53px;
+  display: inline;
+  padding-left: 10px;
+  line-height: 53px;
+  position: relative;
+  background: #4D4382;
+  color: white;
+  font-family: "Varela Round", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  text-align: center;
 }
 /*# sourceMappingURL=footer.css.map */
