@@ -1,0 +1,194 @@
+h1 {
+  display: inline;
+  font-size: 24px;
+  font-family: "Bitter", serif;
+  color: white;
+  position: relative;
+  color: white;
+  text-align: center;
+}
+
+.main-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background: #252525;
+  height: 53px;
+  width: 100%;
+  text-decoration: none;
+}
+
+.sub-nav {
+  background: #4D4382;
+  height: 53px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.logo-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  overflow: auto;
+  float: left;
+  width: 165px;
+  align-items: center;
+  vertical-align: middle;
+  padding-left: 35px;
+}
+
+.logo {
+  position: relative;
+  width: 15px;
+  padding: 15px;
+  right: 14px;
+  background: white;
+  opacity: 0.05;
+}
+
+.logo:before {
+  opacity: 0.05;
+  background-color: white;
+  mix-blend-mode: normal;
+}
+
+.search-logo {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 5px;
+}
+
+.search-logo:before {
+  opacity: 0.05;
+  background-color: white;
+  mix-blend-mode: normal;
+}
+
+.main-nav-ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  list-style-type: none;
+  word-spacing: 10px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 140px;
+}
+
+.main-nav-ul li {
+  margin: 10px;
+  font-family: "Varela Round", sans-serif;
+}
+
+.sub-nav-ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  list-style-type: none;
+  word-spacing: 10px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: -360px;
+  margin-right: 40px;
+}
+
+.sub-nav-ul li {
+  text-decoration: underline;
+  text-underline-offset: 14px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 20px;
+  font-family: "Bitter", serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: white;
+  padding-bottom: 50px;
+  top: -50px;
+}
+
+.sub-nav-links {
+  position: relative;
+  text-align: center;
+  padding-top: 6px;
+  display: inline-block;
+  right: 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#business {
+  border-bottom: solid 5px #EE6151;
+  width: 160%;
+}
+
+#sport {
+  border-bottom: solid 5px #84C14F;
+  width: 200%;
+}
+
+#life {
+  border-bottom: solid 5px #5DCFF3;
+  width: 230%;
+}
+
+#tech {
+  border-bottom: solid 5px #FCC44D;
+  width: 200%;
+}
+
+#travel {
+  border-bottom: solid 5px #A99765;
+  width: 150%;
+}
+
+.news-sub-span {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  font-family: "Bitter", serif;
+  margin-top: 15px;
+  font-size: 18px;
+  color: white;
+  vertical-align: middle;
+  font-weight: 700;
+}
+
+.news-colored-div {
+  background: #299ec3;
+  width: 86px;
+  height: 53px;
+  margin-bottom: 70px;
+}
+/*# sourceMappingURL=header.css.map */

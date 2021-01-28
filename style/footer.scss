@@ -1,0 +1,35 @@
+$textColor: white;
+$Varela: "Varela Round",
+sans-serif;
+$Bitter: "Bitter",
+serif;
+$websiteWidth: 940px;
+$carouselTextColor: #eef6fa;
+$sidebarFontColor:#ACB3BA;
+$purpleBackground: #4D4382;
+$editorialsColor:#A99765;
+$bannerColor: #999999;
+$mainButtonsColor:#e9e9e9;
+$seeAllColor:#3677b5;
+$newsCarouselColor:#FCC44D;
+$darkGrey:#252525;
+
+footer {
+    position: relative;
+    bottom: 530px;
+    margin-bottom: -1000px;
+    overflow: hidden;
+}
+
+
+.purple-footer {
+    width: 100%;
+    height: 23px;
+    background: $purpleBackground;
+}
+
+.black-footer {
+    width: 100%;
+    height: 923px;
+    background: $darkGrey;
+}
