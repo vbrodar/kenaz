@@ -17,13 +17,13 @@ footer {
   background: #252525;
 }
 
-.general-container, .kenaz-bottom-container, .newsletter-bottom-container, .tags-bottom-container {
+.general-container, .kenaz-bottom-container, .featured-bottom-container, .random-bottom-container, .twitter-feed-bottom-container, .newsletter-bottom-container, .tags-bottom-container {
   position: relative;
   width: 302px;
   height: 167px;
 }
 
-.kenaz-bottom-container {
+.kenaz-bottom-container, .featured-bottom-container, .random-bottom-container, .twitter-feed-bottom-container {
   top: 5%;
   left: 14%;
 }
@@ -36,6 +36,47 @@ footer {
 .tags-bottom-container {
   left: 66%;
   bottom: 28.5%;
+}
+
+.featured-bottom-container, .random-bottom-container, .twitter-feed-bottom-container {
+  position: absolute;
+  top: 350px;
+}
+
+.random-bottom-container, .twitter-feed-bottom-container {
+  position: absolute;
+  left: 41%;
+}
+
+.twitter-feed-bottom-container {
+  position: absolute;
+  left: 65%;
+}
+
+.grid-item {
+  width: 302px;
+  height: 98px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  border-bottom: 1px solid black;
+}
+
+.featured-grid-item, .featured-grid-item-borderless {
+  position: relative;
+  width: 303px;
+  bottom: 30px;
+  border-bottom: 1px solid #666666;
+}
+
+.featured-grid-item-borderless {
+  border-bottom: none;
+}
+
+.tweet-title {
+  position: relative;
+  right: 60px;
+  top: 10px;
 }
 
 .kenaz-blue {
@@ -74,7 +115,7 @@ footer {
   width: 100%;
 }
 
-.newsletter-bottom-title {
+.newsletter-bottom-title, .featured-bottom-title, .random-bottom-title {
   position: relative;
   font-family: "Bitter", serif;
   font-weight: 700;
@@ -82,6 +123,16 @@ footer {
   line-height: 29px;
   color: #CCCCCC;
   bottom: 5px;
+}
+
+.featured-bottom-title, .random-bottom-title {
+  color: white;
+  left: 20px;
+}
+
+.random-bottom-title {
+  position: relative;
+  right: 100px;
 }
 
 .newsletter-subscription {
@@ -154,5 +205,79 @@ footer {
 .flex-tag-selected {
   color: white;
   background: #4D4382;
+}
+
+.sidebar-date, .featured-sidebar-date {
+  top: 25px;
+  left: 25px;
+  font-family: Varela Round;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  color: #ACB3BA;
+  position: relative;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.sidebar-headline, .featured-sidebar-headline, .twitter-content {
+  top: 25px;
+  position: relative;
+  font-family: "Bitter", serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 16.8px;
+  color: white;
+  right: 60px;
+}
+
+.featured-sidebar-date {
+  color: #666666;
+}
+
+.featured-sidebar-headline, .twitter-content {
+  color: #CCCCCC;
+}
+
+.twitter-content {
+  position: relative;
+  width: 326px;
+  font-family: "Varela Round", sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 18px;
+  color: #CCCCCC;
+  -ms-flex-item-align: none;
+      -ms-grid-row-align: none;
+      align-self: none;
+  left: 30px;
+  bottom: 5px;
+  padding-bottom: 10px;
+}
+
+.envato-bitter {
+  font-family: "Bitter", serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #666666;
+}
+
+.envato-varela {
+  font-family: "Varela Round", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #666666;
 }
 /*# sourceMappingURL=footer.css.map */

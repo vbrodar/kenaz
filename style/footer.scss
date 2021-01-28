@@ -17,6 +17,7 @@ $footerTextColor: #666666;
 $newsletterTitleColor: #CCCCCC;
 $newsletterNameBackground:#333333;
 
+
 footer {
     position: relative;
     bottom: 530px;
@@ -63,6 +64,51 @@ bottom:28.5%;
 
 }
 
+.featured-bottom-container{
+    @extend .kenaz-bottom-container;
+    position:absolute;
+    top:350px;
+
+}
+
+.random-bottom-container{
+    @extend .featured-bottom-container;
+    position:absolute;
+    left:41%;
+}
+
+.twitter-feed-bottom-container{
+    @extend .random-bottom-container;
+    position:absolute;
+    left:65%;
+}
+
+.grid-item {
+    width: 302px;
+    height: 98px;
+    align-self: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 1);
+}
+.featured-grid-item{
+    position:relative;
+    width:303px;
+    bottom:30px;
+    border-bottom: 1px solid rgb(102, 102, 102);
+}
+
+.featured-grid-item-borderless{
+    @extend .featured-grid-item;
+    border-bottom:none;
+}
+
+
+.tweet-title{
+    position:relative;
+    right: 60px;
+    top:10px;
+}
+
+
 .kenaz-blue{
     display:flex;
     text-align:center;
@@ -104,6 +150,19 @@ bottom:28.5%;
     color:$newsletterTitleColor;
     bottom:5px;
 }
+
+.featured-bottom-title{
+    @extend .newsletter-bottom-title;
+    color:$textColor;
+    left:20px;
+}
+
+.random-bottom-title{
+    @extend .featured-bottom-title;
+    position:relative;
+    right:100px;
+}
+
 
 .newsletter-subscription{
 display: flex;
@@ -167,4 +226,74 @@ margin: 5px;
     color: $textColor;
     background: $purpleBackground;
     
+}
+
+.sidebar-date {
+    top: 25px;
+    left: 25px;
+    font-family: Varela Round;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    display: flex;
+    align-items: flex-end;
+    color: $sidebarFontColor;
+    position: relative;
+    text-align: center;
+    align-items: center;
+}
+
+.sidebar-headline {
+    top: 25px;
+    position: relative;
+    font-family: $Bitter;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 16.8px;
+    color: $textColor;
+    right: 60px;
+}
+
+.featured-sidebar-date{
+    @extend .sidebar-date;
+    color: $footerTextColor;
+}
+
+.featured-sidebar-headline{
+    @extend .sidebar-headline;
+    color: $newsletterTitleColor;
+}
+
+.twitter-content{
+    @extend .featured-sidebar-headline;
+    position:relative;
+    width:326px;
+    font-family:$Varela;
+    font-weight:400;
+    font-size:13px;
+    line-height: 18px;
+    color:$newsletterTitleColor;
+    align-self:none;
+    left:30px;
+    bottom:5px;
+    padding-bottom:10px;
+
+}
+
+.envato-bitter{
+font-family:$Bitter;
+font-weight:400;
+font-size:14px;
+line-height: 16px;
+color:$footerTextColor;
+}
+
+.envato-varela{
+    font-family:$Varela;
+    font-weight:400;
+    font-size:14px;
+    line-height: 16px;
+    color:$footerTextColor;
 }
