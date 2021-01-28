@@ -3,6 +3,20 @@
   padding: 0;
 }
 
+body {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  height: 3385px;
+}
+
+footer {
+  position: relative;
+  bottom: 530px;
+  margin-bottom: -1000px;
+  overflow: hidden;
+}
+
 h1 {
   display: inline;
   font-size: 24px;
@@ -994,5 +1008,17 @@ a {
   position: relative;
   left: 47%;
   bottom: 235px;
+}
+
+.purple-footer {
+  width: 100%;
+  height: 23px;
+  background: #4D4382;
+}
+
+.black-footer {
+  width: 100%;
+  height: 923px;
+  background: #252525;
 }
 /*# sourceMappingURL=style.css.map */
