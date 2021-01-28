@@ -17,20 +17,25 @@ footer {
   background: #252525;
 }
 
-.kenaz-bottom-container {
+.general-container, .kenaz-bottom-container, .newsletter-bottom-container, .tags-bottom-container {
   position: relative;
   width: 302px;
   height: 167px;
+}
+
+.kenaz-bottom-container {
   top: 5%;
   left: 14%;
 }
 
 .newsletter-bottom-container {
-  position: relative;
-  width: 302px;
-  height: 167px;
   left: 40%;
   bottom: 10.6%;
+}
+
+.tags-bottom-container {
+  left: 66%;
+  bottom: 28.5%;
 }
 
 .kenaz-blue {
@@ -121,5 +126,28 @@ footer {
   font-style: normal;
   font-size: 16px;
   text-align: center;
+}
+
+.tags-flex-container {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  top: 30px;
+  width: 302px;
+}
+
+.flex-tag {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  height: 28px;
+  margin: 0px 3px;
+  padding: 0px 5px;
+  font-family: "Varela Round", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 28px;
+  color: #666666;
+  background: #333333;
 }
 /*# sourceMappingURL=footer.css.map */
