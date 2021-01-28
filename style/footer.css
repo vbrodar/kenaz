@@ -16,4 +16,53 @@ footer {
   height: 923px;
   background: #252525;
 }
+
+.kenaz-bottom-container {
+  position: relative;
+  width: 302px;
+  height: 167px;
+  top: 5%;
+  left: 14%;
+}
+
+.kenaz-blue {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.kenaz-bottom-title {
+  margin-left: 20px;
+  font-family: "Bitter", serif;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 52px;
+  color: #45B0E3;
+}
+
+.dummy-text {
+  position: relative;
+  color: #666666;
+  font-family: "Bitter", serif;
+  font-weight: 400;
+  width: 303px;
+  height: 40px;
+  size: 14px;
+  line-height: 20px;
+  margin: 20px 0px;
+}
+
+.kenaz-social {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 100%;
+}
 /*# sourceMappingURL=footer.css.map */
