@@ -297,3 +297,29 @@ color:$footerTextColor;
     line-height: 16px;
     color:$footerTextColor;
 }
+
+hr {
+    position:relative;
+    width:100;
+    height:3px;
+    color: $newsletterNameBackground;
+    top:230px;
+}
+
+.flex-footer{
+    position:relative;
+    top:275px;
+    display:flex;
+    width:100%;
+}
+
+.tvornica-text{
+    position:relative;
+    font-family:$Varela;
+    margin: 0 auto;
+    font-weight:400;
+    font-size:12px;
+    line-height:14.5px;
+    justify-content:space-around;
+    color: $bannerColor;
+}
