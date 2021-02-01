@@ -22,6 +22,7 @@ $paragraphColor:#444444;
 
 @import "sidebar";
 @import "style";
+@import "category";
 
 .single-carousel-image-text{
     @extend .carousel-image-text;
@@ -110,6 +111,54 @@ $paragraphColor:#444444;
     position: relative;
     width:622px;
     height:222px;
+    left:18%;
+    bottom:1%;
+}
+
+.author-title{
+    position:relative;
+    font-family:$Bitter;
+    font-weight:700;
+    font-size:24px;
+    line-height:29px;
+    left:18%;
+    bottom:2%;
+
+}
+
+.author-paragraph{
+    position:relative;
+    width:435px;
+    height:100px;
+    font-family:$Varela;
+    font-weight:400;
+    font-size:13px;
+    line-height: 20px;
+    color:$paragraphColor;
+    left:20%;
+    bottom:40%;
+}
+
+.single-sidebar{
+    @extend .sidebar;
+    bottom:54.4%;
+    right:13.3%;
+}
+
+.single-social-links{
+    @extend .category-social-links;
+    top:47%;
+}
+
+.single-kenaz-tv{
+    @extend .kenaz-tv;
+    top:54%;
+
+}
+.single-dual-banner{
+    @extend .dual-banner;
+    top:62%;
+    left:64%
 }
 footer {
     margin-bottom: -1000px !important;
