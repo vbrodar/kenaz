@@ -19,6 +19,7 @@ $newsletterNameBackground:#333333;
 $contentHeadlineColor: #363F48;
 
 @import "sidebar";
+@import "style";
 
 
 .main-content{
@@ -63,7 +64,7 @@ $contentHeadlineColor: #363F48;
 
 .category-sidebar{
     @extend .sidebar;
-    left:99%;
+    bottom:58%;
 }
 
 .category-social-links{
@@ -136,4 +137,55 @@ $contentHeadlineColor: #363F48;
     left:35%;
     bottom:5%;
     text-align:center;
+}
+
+.page-numbers{
+    position:relative;
+    display:flex;
+    width:350px;
+    height:32px;
+    line-height:32px;
+    left:18%;
+    bottom:2%;
+}
+
+.number{
+    margin: 0 auto;
+    width:32px;
+    height:32px;
+    line-height:32px;
+    position:relative;
+    justify-content: space-between;
+    display: inline-block;
+    text-align: center;
+    color:$purpleBackground;
+    background: #DDDDDD;
+}
+
+.selected-number{
+    @extend .number;
+    color: $textColor;
+    background: $purpleBackground;
+}
+
+.category-purple-footer{
+    position:relative;
+    top:10%;
+}
+
+.category-black-footer {
+    position:relative;
+    top: 10%;
+}
+
+.category-smaller-banner{
+    @extend .smaller-banner;
+    position:relative;
+    left:3%;
+    bottom:1%;
+}
+
+footer{
+    margin-bottom: -600px !important;
+    top:1% !important;
 }
