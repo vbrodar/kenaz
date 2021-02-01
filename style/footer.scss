@@ -301,9 +301,10 @@ color:$footerTextColor;
 hr {
     position:relative;
     width:100;
-    height:3px;
+    height:0.5px;
     color: $newsletterNameBackground;
     top:230px;
+    background:$newsletterNameBackground;
 }
 
 .flex-footer{

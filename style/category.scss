@@ -1,0 +1,71 @@
+$textColor: white;
+$Varela: "Varela Round",
+sans-serif;
+$Bitter: "Bitter",
+serif;
+$websiteWidth: 940px;
+$carouselTextColor: #eef6fa;
+$sidebarFontColor:#ACB3BA;
+$purpleBackground: #4D4382;
+$editorialsColor:#A99765;
+$bannerColor: #999999;
+$mainButtonsColor:#e9e9e9;
+$seeAllColor:#3677b5;
+$newsCarouselColor:#FCC44D;
+$darkGrey:#252525;
+$footerTextColor: #666666;
+$newsletterTitleColor: #CCCCCC;
+$newsletterNameBackground:#333333;
+$contentHeadlineColor: #363F48;
+
+@import "sidebar";
+
+
+.main-content{
+    position:relative;
+    width:622px;
+    height:2603px;
+    left:15%;
+    display: grid;
+    grid-template-columns: 622px;
+    grid-template-rows: 404px 404px 404px 404px 404px 404px;
+    top: 30px;
+}
+
+.main-content-title{
+    position:relative;
+    left:17.5%;
+    top:1%;
+    font-family:$Bitter;
+    font-weight:700;
+    font-size:24px;
+    line-height: 29px;
+    color: $contentHeadlineColor;
+}
+
+.headline-title{
+    position:relative;
+    left:5%;
+    top:24px;
+    font-family:$Bitter;
+    font-weight:700;
+    font-size:24px;
+    line-height: 29px;
+    color: $contentHeadlineColor;
+}
+
+.content-item{
+    position:relative;
+    top:5%;
+}
+
+.category-sidebar{
+    @extend .sidebar;
+    left:99%;
+}
+
+.category-social-links{
+    @extend .social-links;
+    position:absolute;
+    top:44%;
+}
