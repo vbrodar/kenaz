@@ -2952,7 +2952,7 @@ footer {
   bottom: 1%;
 }
 
-.author-title, .comments-title {
+.author-title, .comments-title, .add-comment-title {
   position: relative;
   font-family: "Bitter", serif;
   font-weight: 700;
@@ -2983,7 +2983,7 @@ footer {
   top: 20px;
 }
 
-.comments-title {
+.comments-title, .add-comment-title {
   position: relative;
   height: 33px;
 }
@@ -3048,6 +3048,45 @@ footer {
   color: #444444;
   left: 4%;
   bottom: 40px;
+}
+
+.add-comment-title {
+  position: relative;
+  bottom: 16%;
+}
+
+.comment-content {
+  position: relative;
+  bottom: 15%;
+  width: 569px;
+  height: 60px;
+  font-family: "Varela Round", sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  color: #444444;
+  left: 15%;
+}
+
+.input-field, .comment-field {
+  display: inline-block;
+  position: relative;
+  width: 303px;
+  height: 43px;
+  line-height: 43px;
+  background: #DDDDDD;
+  color: #666666;
+  font-family: "Varela Round", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  left: 15%;
+  bottom: 14%;
+  padding-left: 15px;
+}
+
+.comment-field {
+  width: 562px;
+  height: 187px;
 }
 
 .single-sidebar {

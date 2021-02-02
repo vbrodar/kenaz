@@ -19,6 +19,7 @@ $newsletterNameBackground:#333333;
 $contentHeadlineColor: #363F48;
 $headlineColor:#222222;
 $paragraphColor:#444444;
+$inputBackground: #DDDDDD;
 
 @import "sidebar";
 @import "style";
@@ -215,6 +216,47 @@ $paragraphColor:#444444;
     color:$paragraphColor;
     left:4%;
     bottom:40px;
+}
+
+.add-comment-title{
+    @extend .comments-title;
+    position:relative;
+    bottom:16%;
+}
+
+.comment-content{
+    position:relative;
+    bottom:15%;
+    width:569px;
+    height:60px;
+    font-family:$Varela;
+    font-weight:400;
+    font-size:13px;
+    line-height:20px;
+    color:$paragraphColor;
+    left:15%;
+}
+
+.input-field{
+    display:inline-block;
+    position:relative;
+    width:303px;
+    height:43px;
+    line-height:43px;
+    background:$inputBackground;
+    color:$footerTextColor;
+    font-family:$Varela;
+    font-weight:400;
+    font-size:14px;
+    left:15%;
+    bottom:14%;
+    padding-left:15px;
+}
+
+.comment-field{
+    @extend .input-field;
+    width:562px;
+    height:187px;
 }
 .single-sidebar{
     @extend .sidebar;
