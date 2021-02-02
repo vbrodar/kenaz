@@ -151,26 +151,36 @@ a {
 #business {
   border-bottom: solid 5px #EE6151;
   width: 160%;
+  padding-bottom: 10px;
+  bottom: 10px;
 }
 
 #sport {
   border-bottom: solid 5px #84C14F;
   width: 200%;
+  padding-bottom: 10px;
+  bottom: 10px;
 }
 
 #life {
   border-bottom: solid 5px #5DCFF3;
   width: 230%;
+  padding-bottom: 10px;
+  bottom: 10px;
 }
 
 #tech {
   border-bottom: solid 5px #FCC44D;
   width: 200%;
+  padding-bottom: 10px;
+  bottom: 10px;
 }
 
 #travel {
   border-bottom: solid 5px #A99765;
   width: 150%;
+  padding-bottom: 10px;
+  bottom: 10px;
 }
 
 .news-sub-span {
@@ -189,6 +199,6 @@ a {
   background: #299ec3;
   width: 86px;
   height: 53px;
-  margin-bottom: 70px;
+  margin-bottom: 80px;
 }
 /*# sourceMappingURL=header.css.map */
