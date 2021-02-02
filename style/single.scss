@@ -221,12 +221,15 @@ $inputBackground: #DDDDDD;
 .add-comment-title{
     @extend .comments-title;
     position:relative;
-    bottom:16%;
+    left:0%;
+}
+.comment-section{
+    position:relative;
+    right:5%;
 }
 
 .comment-content{
     position:relative;
-    bottom:15%;
     width:569px;
     height:60px;
     font-family:$Varela;
@@ -234,7 +237,7 @@ $inputBackground: #DDDDDD;
     font-size:13px;
     line-height:20px;
     color:$paragraphColor;
-    left:15%;
+    top:20px;
 }
 
 .input-field{
@@ -248,9 +251,21 @@ $inputBackground: #DDDDDD;
     font-family:$Varela;
     font-weight:400;
     font-size:14px;
-    left:15%;
-    bottom:14%;
     padding-left:15px;
+    top:40px;
+}
+.submit-button{
+    position:relative;
+    width:153px;
+    height:53px;
+    line-height:53px;
+    text-align:center;
+    font-family:$Varela;
+    font-weight:400;
+    font-size:14px;
+    color:$textColor;
+    background:$purpleBackground;
+    top:80px;
 }
 
 .comment-field{
@@ -279,7 +294,9 @@ $inputBackground: #DDDDDD;
     top:62%;
     left:64%
 }
-footer {
-    margin-bottom: -1000px !important;
-    top: 15% !important;
-}
+
+
+// footer {
+//     margin-bottom: -1000px !important;
+    
+// }
