@@ -111,7 +111,7 @@ $paragraphColor:#444444;
     position: relative;
     width:622px;
     height:222px;
-    left:18%;
+    left:15%;
     bottom:1%;
 }
 
@@ -121,7 +121,7 @@ $paragraphColor:#444444;
     font-weight:700;
     font-size:24px;
     line-height:29px;
-    left:18%;
+    left:15%;
     bottom:2%;
 
 }
@@ -136,9 +136,86 @@ $paragraphColor:#444444;
     line-height: 20px;
     color:$paragraphColor;
     left:20%;
-    bottom:40%;
+    bottom:47%;
 }
 
+.single-comments{
+    position:relative;
+    width:622px;
+    height:1015px;
+    left:18.5%;
+    top:20px;
+}
+
+.comments-title{
+    @extend .author-title;
+    position:relative;
+    height:33px;
+}
+
+.single-item{
+    position:relative;
+}
+
+.single-image{
+    position:relative;
+    right:6%;
+}
+
+.single-commentator{
+    position:relative;
+    width:134px;
+    height:20px;
+    font-family:$Bitter;
+    font-weight:400;
+    font-size:18px;
+    color:$purpleBackground;
+    line-height:58px;
+    bottom:30px;
+    right:6%;
+}
+
+.single-date{
+    position:relative;
+    width:151px;
+    height:20px;
+    font-family:$Varela;
+    font-weight:400;
+    font-size:11px;
+    line-height:20px;
+    color:$footerTextColor;
+    bottom:30px;
+    right:4%;
+
+}
+
+.single-reply{
+    position:relative;
+    width:67px;
+    height:17px;
+    line-height:17px;
+    font-family:$Varela;
+    font-weight:400;
+    font-size:14px;
+    text-align:right;
+    color:$purpleBackground;
+    bottom:30px;
+    left:190px;
+
+}
+
+.single-text{
+    position:relative;
+    width:502px;
+    height:60px;
+    font-family:$Varela;
+    font-weight:400;
+    font-size:13px;
+    line-height:20px;
+    color:$paragraphColor;
+    left:4%;
+    bottom:40px;
+}
 .single-sidebar{
     @extend .sidebar;
     bottom:54.4%;
