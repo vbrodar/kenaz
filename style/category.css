@@ -542,8 +542,7 @@ body {
 }
 
 .sidebar-list {
-  opacity: 0.2;
-  background-color: black;
+  background: rgba(0, 0, 0, 0.2);
   mix-blend-mode: normal;
   position: relative;
   height: 53px;
