@@ -75,7 +75,8 @@ body {
   color: white;
 }
 
-.carousel-slide, .carousel-slide-bottom {
+.carousel-slide,
+.carousel-slide-bottom {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -173,7 +174,8 @@ body {
   top: 50px;
 }
 
-.general-container-title, .business-container-title, .news-carousel-container-title, .editorials-carousel-container-title, .localnews-carousel-container-title {
+.general-container-title, .business-container-title, .news-carousel-container-title,
+.editorials-carousel-container-title, .localnews-carousel-container-title {
   color: #363f48;
   font-family: "Bitter", serif;
   font-size: 24px;
@@ -190,7 +192,8 @@ body {
   left: 10px;
 }
 
-.news-carousel-container-title, .editorials-carousel-container-title {
+.news-carousel-container-title,
+.editorials-carousel-container-title {
   right: 260px;
   z-index: 10;
 }
@@ -264,12 +267,12 @@ body {
 }
 
 .news-carousel-container {
-  border-left: solid 13px #FCC44D;
+  border-left: solid 13px #fcc44d;
 }
 
 .editorials-carousel-container, .localnews-carousel-container {
   width: 293px;
-  border-left: solid 13px #A99765;
+  border-left: solid 13px #a99765;
 }
 
 .localnews-carousel-container {
@@ -280,28 +283,28 @@ body {
 
 .news-left-button {
   position: absolute;
-  color: #FCC44D;
+  color: #fcc44d;
   left: 530px;
   bottom: 285px;
 }
 
 .news-right-button {
   position: absolute;
-  color: #FCC44D;
+  color: #fcc44d;
   left: 570px;
   bottom: 285px;
 }
 
 .editorials-left-button {
   position: absolute;
-  color: #A99765;
+  color: #a99765;
   left: 225px;
   bottom: 280px;
 }
 
 .editorials-right-button {
   position: absolute;
-  color: #A99765;
+  color: #a99765;
   left: 255px;
   bottom: 280px;
 }
@@ -443,7 +446,8 @@ body {
   top: 100px;
 }
 
-.business-date-left-bottom, .business-date-right-bottom {
+.business-date-left-bottom,
+.business-date-right-bottom {
   position: relative;
   bottom: 90px;
   left: 135px;
@@ -454,7 +458,8 @@ body {
   line-height: 14.45px;
 }
 
-.business-content-left-bottom, .business-content-right-bottom {
+.business-content-left-bottom,
+.business-content-right-bottom {
   position: relative;
   left: 135px;
   bottom: 90px;
@@ -536,7 +541,7 @@ body {
   position: absolute;
   z-index: 10;
   right: 13%;
-  background-color: #4D4382;
+  background-color: #4d4382;
   overflow-x: hidden;
   padding-top: 20px;
 }
@@ -571,7 +576,7 @@ body {
 }
 
 .sidebar-popular {
-  color: #FCC44D;
+  color: #fcc44d;
 }
 
 .grid-wrapper {
@@ -621,7 +626,7 @@ body {
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
-  color: #ACB3BA;
+  color: #acb3ba;
   position: relative;
   text-align: center;
   -webkit-box-align: center;
@@ -658,7 +663,7 @@ body {
   font-style: normal;
   font-size: 24px;
   line-height: 28.8px;
-  color: #363F48;
+  color: #363f48;
   left: 5px;
   bottom: 20px;
 }
@@ -671,8 +676,8 @@ body {
   width: 123px;
   line-height: 38px;
   position: relative;
-  background: #DDDDDD;
-  color: #363F48;
+  background: #dddddd;
+  color: #363f48;
   font-family: "Bitter", serif;
   font-weight: 700;
   font-style: normal;
@@ -707,7 +712,7 @@ body {
   padding-left: 10px;
   line-height: 38px;
   position: relative;
-  background: #4D4382;
+  background: #4d4382;
   color: white;
   font-family: "Varela Round", sans-serif;
   font-weight: 400;
@@ -732,7 +737,7 @@ body {
   font-weight: 700;
   font-size: 24px;
   line-height: 28.8px;
-  color: #363F48;
+  color: #363f48;
   width: 141px;
   height: 33px;
   left: 20px;
@@ -771,7 +776,7 @@ body {
   right: 13%;
   width: 303px;
   height: 167px;
-  background: #DDDDDD;
+  background: #dddddd;
 }
 
 .dual-banner-first {

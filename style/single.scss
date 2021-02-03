@@ -1,302 +1,291 @@
 $textColor: white;
-$Varela: "Varela Round",
-sans-serif;
-$Bitter: "Bitter",
-serif;
+$Varela: "Varela Round", sans-serif;
+$Bitter: "Bitter", serif;
 $websiteWidth: 940px;
 $carouselTextColor: #eef6fa;
-$sidebarFontColor:#ACB3BA;
-$purpleBackground: #4D4382;
-$editorialsColor:#A99765;
+$sidebarFontColor: #acb3ba;
+$purpleBackground: #4d4382;
+$editorialsColor: #a99765;
 $bannerColor: #999999;
-$mainButtonsColor:#e9e9e9;
-$seeAllColor:#3677b5;
-$newsCarouselColor:#FCC44D;
-$darkGrey:#252525;
+$mainButtonsColor: #e9e9e9;
+$seeAllColor: #3677b5;
+$newsCarouselColor: #fcc44d;
+$darkGrey: #252525;
 $footerTextColor: #666666;
-$newsletterTitleColor: #CCCCCC;
-$newsletterNameBackground:#333333;
-$contentHeadlineColor: #363F48;
-$headlineColor:#222222;
-$paragraphColor:#444444;
-$inputBackground: #DDDDDD;
+$newsletterTitleColor: #cccccc;
+$newsletterNameBackground: #333333;
+$contentHeadlineColor: #363f48;
+$headlineColor: #222222;
+$paragraphColor: #444444;
+$inputBackground: #dddddd;
 
 @import "sidebar";
 @import "style";
 @import "category";
 
-.single-carousel-image-text{
-    @extend .carousel-image-text;
-    height:588px;
+.single-carousel-image-text {
+  @extend .carousel-image-text;
+  height: 588px;
 }
 
-.single-carousel-text-2{
-    @extend .carousel-text-2;
-    color:$headlineColor;
+.single-carousel-text-2 {
+  @extend .carousel-text-2;
+  color: $headlineColor;
 }
 
-.single-carousel-headline-text{
-    @extend .carousel-headline-text;
-    color:$headlineColor;
+.single-carousel-headline-text {
+  @extend .carousel-headline-text;
+  color: $headlineColor;
 }
 .category-purple-footer {
-    position: relative;
-    top: 10%;
+  position: relative;
+  top: 10%;
 }
 
 .category-black-footer {
-    position: relative;
-    top: 10%;
+  position: relative;
+  top: 10%;
 }
 
 .category-smaller-banner {
-    @extend .smaller-banner;
-    position: relative;
-    left: 3%;
-    bottom: 1%;
+  @extend .smaller-banner;
+  position: relative;
+  left: 3%;
+  bottom: 1%;
 }
 
-.article-container{
-    position:relative;
-    top:40px;
-    width: 620px;
-
+.article-container {
+  position: relative;
+  top: 40px;
+  width: 620px;
 }
 
-.article-paragraph{
-    width:572px;
-    height:200px;
-    vertical-align: center;
-    font-weight:$Bitter;
-    font-weight: 400;
-    font-size:14px;
-    line-height:22px;
-    color: $paragraphColor;
-
+.article-paragraph {
+  width: 572px;
+  height: 200px;
+  vertical-align: center;
+  font-weight: $Bitter;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: $paragraphColor;
 }
 
-.page-content{
-    position:relative;
-    height:993px;
-    width:622px;
-
+.page-content {
+  position: relative;
+  height: 993px;
+  width: 622px;
 }
 
-.paragraph-content{
-    position:relative;
-    font-family:$Bitter;
-    font-weight:400;
-    font-size:14px;
-    line-height:22px;
-    width:572px;
-    height:199px;
-    color: $paragraphColor;
-    left:34%;
-    top:30px;
+.paragraph-content {
+  position: relative;
+  font-family: $Bitter;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  width: 572px;
+  height: 199px;
+  color: $paragraphColor;
+  left: 34%;
+  top: 30px;
 }
 
-.page-picture{
-    position:relative;
-    left:28%;
-    top:20px;
+.page-picture {
+  position: relative;
+  left: 28%;
+  top: 20px;
 }
 
-.single-banner{
-    @extend .smaller-banner;
-    position: relative;
-    bottom:5%;
-
+.single-banner {
+  @extend .smaller-banner;
+  position: relative;
+  bottom: 5%;
 }
 
-.about-author{
-    position: relative;
-    width:622px;
-    height:222px;
-    left:15%;
-    bottom:1%;
+.about-author {
+  position: relative;
+  width: 622px;
+  height: 222px;
+  left: 15%;
+  bottom: 1%;
 }
 
-.author-title{
-    position:relative;
-    font-family:$Bitter;
-    font-weight:700;
-    font-size:24px;
-    line-height:29px;
-    left:15%;
-    bottom:2%;
-
+.author-title {
+  position: relative;
+  font-family: $Bitter;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  left: 15%;
+  bottom: 2%;
 }
 
-.author-paragraph{
-    position:relative;
-    width:435px;
-    height:100px;
-    font-family:$Varela;
-    font-weight:400;
-    font-size:13px;
-    line-height: 20px;
-    color:$paragraphColor;
-    left:20%;
-    bottom:47%;
+.author-paragraph {
+  position: relative;
+  width: 435px;
+  height: 100px;
+  font-family: $Varela;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  color: $paragraphColor;
+  left: 20%;
+  bottom: 47%;
 }
 
-.single-comments{
-    position:relative;
-    width:622px;
-    height:1015px;
-    left:18.5%;
-    top:20px;
+.single-comments {
+  position: relative;
+  width: 622px;
+  height: 1015px;
+  left: 18.5%;
+  top: 20px;
 }
 
-.comments-title{
-    @extend .author-title;
-    position:relative;
-    height:33px;
+.comments-title {
+  @extend .author-title;
+  position: relative;
+  height: 33px;
 }
 
-.single-item{
-    position:relative;
+.single-item {
+  position: relative;
 }
 
-.single-image{
-    position:relative;
-    right:6%;
+.single-image {
+  position: relative;
+  right: 6%;
 }
 
-.single-commentator{
-    position:relative;
-    width:134px;
-    height:20px;
-    font-family:$Bitter;
-    font-weight:400;
-    font-size:18px;
-    color:$purpleBackground;
-    line-height:58px;
-    bottom:30px;
-    right:6%;
+.single-commentator {
+  position: relative;
+  width: 134px;
+  height: 20px;
+  font-family: $Bitter;
+  font-weight: 400;
+  font-size: 18px;
+  color: $purpleBackground;
+  line-height: 58px;
+  bottom: 30px;
+  right: 6%;
 }
 
-.single-date{
-    position:relative;
-    width:151px;
-    height:20px;
-    font-family:$Varela;
-    font-weight:400;
-    font-size:11px;
-    line-height:20px;
-    color:$footerTextColor;
-    bottom:30px;
-    right:4%;
-
+.single-date {
+  position: relative;
+  width: 151px;
+  height: 20px;
+  font-family: $Varela;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 20px;
+  color: $footerTextColor;
+  bottom: 30px;
+  right: 4%;
 }
 
-.single-reply{
-    position:relative;
-    width:67px;
-    height:17px;
-    line-height:17px;
-    font-family:$Varela;
-    font-weight:400;
-    font-size:14px;
-    text-align:right;
-    color:$purpleBackground;
-    bottom:30px;
-    left:190px;
-
+.single-reply {
+  position: relative;
+  width: 67px;
+  height: 17px;
+  line-height: 17px;
+  font-family: $Varela;
+  font-weight: 400;
+  font-size: 14px;
+  text-align: right;
+  color: $purpleBackground;
+  bottom: 30px;
+  left: 190px;
 }
 
-.single-text{
-    position:relative;
-    width:502px;
-    height:60px;
-    font-family:$Varela;
-    font-weight:400;
-    font-size:13px;
-    line-height:20px;
-    color:$paragraphColor;
-    left:4%;
-    bottom:40px;
+.single-text {
+  position: relative;
+  width: 502px;
+  height: 60px;
+  font-family: $Varela;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  color: $paragraphColor;
+  left: 4%;
+  bottom: 40px;
 }
 
-.add-comment-title{
-    @extend .comments-title;
-    position:relative;
-    left:0%;
+.add-comment-title {
+  @extend .comments-title;
+  position: relative;
+  left: 0%;
 }
-.comment-section{
-    position:relative;
-    right:5%;
-}
-
-.comment-content{
-    position:relative;
-    width:569px;
-    height:60px;
-    font-family:$Varela;
-    font-weight:400;
-    font-size:13px;
-    line-height:20px;
-    color:$paragraphColor;
-    top:20px;
+.comment-section {
+  position: relative;
+  right: 5%;
 }
 
-.input-field{
-    display:inline-block;
-    position:relative;
-    width:303px;
-    height:43px;
-    line-height:43px;
-    background:$inputBackground;
-    color:$footerTextColor;
-    font-family:$Varela;
-    font-weight:400;
-    font-size:14px;
-    padding-left:15px;
-    top:40px;
-}
-.submit-button{
-    position:relative;
-    width:153px;
-    height:53px;
-    line-height:53px;
-    text-align:center;
-    font-family:$Varela;
-    font-weight:400;
-    font-size:14px;
-    color:$textColor;
-    background:$purpleBackground;
-    top:80px;
+.comment-content {
+  position: relative;
+  width: 569px;
+  height: 60px;
+  font-family: $Varela;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  color: $paragraphColor;
+  top: 20px;
 }
 
-.comment-field{
-    @extend .input-field;
-    width:562px;
-    height:187px;
+.input-field {
+  display: inline-block;
+  position: relative;
+  width: 303px;
+  height: 43px;
+  line-height: 43px;
+  background: $inputBackground;
+  color: $footerTextColor;
+  font-family: $Varela;
+  font-weight: 400;
+  font-size: 14px;
+  padding-left: 15px;
+  top: 40px;
 }
-.single-sidebar{
-    @extend .sidebar;
-    bottom:54.4%;
-    right:13.3%;
+.submit-button {
+  position: relative;
+  width: 153px;
+  height: 53px;
+  line-height: 53px;
+  text-align: center;
+  font-family: $Varela;
+  font-weight: 400;
+  font-size: 14px;
+  color: $textColor;
+  background: $purpleBackground;
+  top: 80px;
 }
 
-.single-social-links{
-    @extend .category-social-links;
-    top:47%;
+.comment-field {
+  @extend .input-field;
+  width: 562px;
+  height: 187px;
+}
+.single-sidebar {
+  @extend .sidebar;
+  bottom: 54.4%;
+  right: 13.3%;
 }
 
-.single-kenaz-tv{
-    @extend .kenaz-tv;
-    top:54%;
-
-}
-.single-dual-banner{
-    @extend .dual-banner;
-    top:62%;
-    left:64%
+.single-social-links {
+  @extend .category-social-links;
+  top: 47%;
 }
 
+.single-kenaz-tv {
+  @extend .kenaz-tv;
+  top: 54%;
+}
+.single-dual-banner {
+  @extend .dual-banner;
+  top: 62%;
+  left: 64%;
+}
 
 // footer {
 //     margin-bottom: -1000px !important;
-    
+
 // }

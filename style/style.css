@@ -75,7 +75,8 @@ body {
   color: white;
 }
 
-.carousel-slide, .carousel-slide-bottom {
+.carousel-slide,
+.carousel-slide-bottom {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -173,7 +174,8 @@ body {
   top: 50px;
 }
 
-.general-container-title, .business-container-title, .news-carousel-container-title, .editorials-carousel-container-title, .localnews-carousel-container-title {
+.general-container-title, .business-container-title, .news-carousel-container-title,
+.editorials-carousel-container-title, .localnews-carousel-container-title {
   color: #363f48;
   font-family: "Bitter", serif;
   font-size: 24px;
@@ -190,7 +192,8 @@ body {
   left: 10px;
 }
 
-.news-carousel-container-title, .editorials-carousel-container-title {
+.news-carousel-container-title,
+.editorials-carousel-container-title {
   right: 260px;
   z-index: 10;
 }
@@ -264,12 +267,12 @@ body {
 }
 
 .news-carousel-container {
-  border-left: solid 13px #FCC44D;
+  border-left: solid 13px #fcc44d;
 }
 
 .editorials-carousel-container, .localnews-carousel-container {
   width: 293px;
-  border-left: solid 13px #A99765;
+  border-left: solid 13px #a99765;
 }
 
 .localnews-carousel-container {
@@ -280,28 +283,28 @@ body {
 
 .news-left-button {
   position: absolute;
-  color: #FCC44D;
+  color: #fcc44d;
   left: 530px;
   bottom: 285px;
 }
 
 .news-right-button {
   position: absolute;
-  color: #FCC44D;
+  color: #fcc44d;
   left: 570px;
   bottom: 285px;
 }
 
 .editorials-left-button {
   position: absolute;
-  color: #A99765;
+  color: #a99765;
   left: 225px;
   bottom: 280px;
 }
 
 .editorials-right-button {
   position: absolute;
-  color: #A99765;
+  color: #a99765;
   left: 255px;
   bottom: 280px;
 }
@@ -441,7 +444,8 @@ body {
   top: 100px;
 }
 
-.business-date-left-bottom, .business-date-right-bottom {
+.business-date-left-bottom,
+.business-date-right-bottom {
   position: relative;
   bottom: 90px;
   left: 135px;
@@ -452,7 +456,8 @@ body {
   line-height: 14.45px;
 }
 
-.business-content-left-bottom, .business-content-right-bottom {
+.business-content-left-bottom,
+.business-content-right-bottom {
   position: relative;
   left: 135px;
   bottom: 90px;

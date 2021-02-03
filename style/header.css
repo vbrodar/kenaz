@@ -24,7 +24,7 @@ h1 {
 }
 
 .sub-nav {
-  background: #4D4382;
+  background: #4d4382;
   height: 53px;
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
@@ -48,7 +48,7 @@ a {
   width: 165px;
   align-items: center;
   vertical-align: middle;
-  padding-left: 35px;
+  padding-left: 7.5%;
 }
 
 .logo {
@@ -147,35 +147,35 @@ a {
   border-bottom: solid 5px #EE6151;
   width: 160%;
   padding-bottom: 10px;
-  bottom: 10px;
+  bottom: 9px;
 }
 
 #sport {
   border-bottom: solid 5px #84C14F;
   width: 200%;
   padding-bottom: 10px;
-  bottom: 10px;
+  bottom: 9px;
 }
 
 #life {
   border-bottom: solid 5px #5DCFF3;
   width: 230%;
   padding-bottom: 10px;
-  bottom: 10px;
+  bottom: 9px;
 }
 
 #tech {
-  border-bottom: solid 5px #FCC44D;
+  border-bottom: solid 5px #fcc44d;
   width: 200%;
   padding-bottom: 10px;
-  bottom: 10px;
+  bottom: 9px;
 }
 
 #travel {
   border-bottom: solid 5px #A99765;
   width: 150%;
   padding-bottom: 10px;
-  bottom: 10px;
+  bottom: 9px;
 }
 
 .news-sub-span {
