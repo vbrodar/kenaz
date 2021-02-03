@@ -34,12 +34,13 @@ body {
 }
 
 .smaller-banner, .category-smaller-banner {
+  position: relative;
   width: 620px;
   height: 120px;
   text-align: center;
   vertical-align: middle;
   line-height: 124px;
-  margin-left: 170px;
+  left: 19.2%;
   margin-top: 40px;
   background: white;
   border: 1px solid #d7d7d7;
@@ -186,10 +187,11 @@ body {
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
+  left: 4%;
 }
 
 .business-container-title {
-  left: 10px;
+  left: 4.5%;
 }
 
 .news-carousel-container-title,
@@ -223,11 +225,11 @@ body {
       -ms-grid-row-align: center;
       align-self: center;
   text-decoration: underline;
-  right: 125px;
+  right: 185px;
 }
 
 .business-see-all {
-  right: 135px;
+  right: 195px;
 }
 
 .general-container, .news-container, .sport-container, .business-container, .news-carousel-container, .editorials-carousel-container, .localnews-carousel-container {
@@ -244,7 +246,7 @@ body {
   height: 325px;
   display: flex;
   background: white;
-  margin-left: 172px;
+  margin-left: 19.2%;
   padding: 50px 10px 0px 40px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -540,7 +542,7 @@ body {
   height: 667px;
   position: absolute;
   z-index: 10;
-  right: 13%;
+  right: 19%;
   background-color: #4d4382;
   overflow-x: hidden;
   padding-top: 20px;
@@ -651,7 +653,7 @@ body {
   float: right;
   position: relative;
   z-index: 10;
-  right: 175px;
+  right: 19.5%;
   top: 90px;
 }
 
@@ -856,12 +858,13 @@ body {
 }
 
 .smaller-banner, .category-smaller-banner {
+  position: relative;
   width: 620px;
   height: 120px;
   text-align: center;
   vertical-align: middle;
   line-height: 124px;
-  margin-left: 170px;
+  left: 19.2%;
   margin-top: 40px;
   background: white;
   border: 1px solid #d7d7d7;
@@ -1008,10 +1011,11 @@ body {
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
+  left: 4%;
 }
 
 .business-container-title {
-  left: 10px;
+  left: 4.5%;
 }
 
 .news-carousel-container-title,
@@ -1045,11 +1049,11 @@ body {
       -ms-grid-row-align: center;
       align-self: center;
   text-decoration: underline;
-  right: 125px;
+  right: 185px;
 }
 
 .business-see-all {
-  right: 135px;
+  right: 195px;
 }
 
 .general-container, .news-container, .sport-container, .business-container, .news-carousel-container, .editorials-carousel-container, .localnews-carousel-container {
@@ -1066,7 +1070,7 @@ body {
   height: 325px;
   display: flex;
   background: white;
-  margin-left: 172px;
+  margin-left: 19.2%;
   padding: 50px 10px 0px 40px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
