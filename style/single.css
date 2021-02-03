@@ -2740,7 +2740,7 @@ body {
 
 .main-content-title {
   position: relative;
-  left: 17.5%;
+  left: 22.5%;
   top: 1%;
   font-family: "Bitter", serif;
   font-weight: 700;
@@ -2765,6 +2765,7 @@ body {
   position: relative;
   top: 5%;
   border-bottom: 1px solid #dddddd;
+  left: 13%;
 }
 
 .category-sidebar {
@@ -2850,7 +2851,7 @@ body {
   width: 350px;
   height: 32px;
   line-height: 32px;
-  left: 18%;
+  left: 22.5%;
   bottom: 2%;
 }
 
@@ -2886,7 +2887,7 @@ body {
 
 .category-smaller-banner {
   position: relative;
-  left: 3%;
+  left: 20.5%;
   bottom: 1%;
 }
 
@@ -2944,6 +2945,7 @@ footer {
   position: relative;
   height: 993px;
   width: 622px;
+  left: 8%;
 }
 
 .paragraph-content {
@@ -2974,7 +2976,7 @@ footer {
   position: relative;
   width: 622px;
   height: 222px;
-  left: 15%;
+  left: 22%;
   bottom: 1%;
 }
 
@@ -2984,7 +2986,7 @@ footer {
   font-weight: 700;
   font-size: 24px;
   line-height: 29px;
-  left: 15%;
+  left: 22%;
   bottom: 2%;
 }
 
@@ -3006,7 +3008,6 @@ footer {
   width: 622px;
   height: 1015px;
   left: 18.5%;
-  top: 20px;
 }
 
 .comments-title, .add-comment-title {
@@ -3016,6 +3017,7 @@ footer {
 
 .single-item {
   position: relative;
+  left: 14.5%;
 }
 
 .single-image {
@@ -3083,7 +3085,7 @@ footer {
 
 .comment-section {
   position: relative;
-  right: 5%;
+  left: 9%;
 }
 
 .comment-content {
@@ -3134,7 +3136,7 @@ footer {
 
 .single-sidebar {
   bottom: 54.4%;
-  right: 13.3%;
+  right: 19.05%;
 }
 
 .single-social-links {
@@ -3147,6 +3149,6 @@ footer {
 
 .single-dual-banner {
   top: 62%;
-  left: 64%;
+  left: 61.5%;
 }
 /*# sourceMappingURL=single.css.map */

@@ -32,7 +32,7 @@ $contentHeadlineColor: #363f48;
 
 .main-content-title {
   position: relative;
-  left: 17.5%;
+  left: 22.5%;
   top: 1%;
   font-family: $Bitter;
   font-weight: 700;
@@ -57,6 +57,7 @@ $contentHeadlineColor: #363f48;
   position: relative;
   top: 5%;
   border-bottom: 1px solid #dddddd;
+  left: 13%;
 }
 
 .category-sidebar {
@@ -141,7 +142,7 @@ $contentHeadlineColor: #363f48;
   width: 350px;
   height: 32px;
   line-height: 32px;
-  left: 18%;
+  left: 22.5%;
   bottom: 2%;
 }
 
@@ -177,7 +178,7 @@ $contentHeadlineColor: #363f48;
 .category-smaller-banner {
   @extend .smaller-banner;
   position: relative;
-  left: 3%;
+  left: 20.5%;
   bottom: 1%;
 }
 

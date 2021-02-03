@@ -1375,7 +1375,7 @@ body {
 
 .main-content-title {
   position: relative;
-  left: 17.5%;
+  left: 22.5%;
   top: 1%;
   font-family: "Bitter", serif;
   font-weight: 700;
@@ -1400,6 +1400,7 @@ body {
   position: relative;
   top: 5%;
   border-bottom: 1px solid #dddddd;
+  left: 13%;
 }
 
 .category-sidebar {
@@ -1485,7 +1486,7 @@ body {
   width: 350px;
   height: 32px;
   line-height: 32px;
-  left: 18%;
+  left: 22.5%;
   bottom: 2%;
 }
 
@@ -1521,7 +1522,7 @@ body {
 
 .category-smaller-banner {
   position: relative;
-  left: 3%;
+  left: 20.5%;
   bottom: 1%;
 }
 
