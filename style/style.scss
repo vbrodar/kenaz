@@ -188,7 +188,7 @@ body {
 .news-carousel-container-title,
 .editorials-carousel-container-title {
   @extend .general-container-title;
-  right: 260px;
+  margin-right: 43%;
   z-index: 10;
 }
 
@@ -200,7 +200,7 @@ body {
 }
 .editorials-carousel-container-title {
   @extend .general-container-title;
-  right: 290px;
+  margin-right: 47%;
   z-index: 10;
 }
 .general-see-all {

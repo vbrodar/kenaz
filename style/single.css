@@ -197,7 +197,7 @@ body {
 
 .news-carousel-container-title,
 .editorials-carousel-container-title {
-  right: 260px;
+  margin-right: 43%;
   z-index: 10;
 }
 
@@ -208,7 +208,7 @@ body {
 }
 
 .editorials-carousel-container-title {
-  right: 290px;
+  margin-right: 47%;
   z-index: 10;
 }
 
@@ -731,7 +731,7 @@ body {
   width: 303px;
   height: 324px;
   top: 1740px;
-  right: 12.5%;
+  right: 18.5%;
 }
 
 .kenaztv-title {
@@ -776,7 +776,7 @@ body {
           align-items: center;
   position: absolute;
   top: 2040px;
-  right: 13%;
+  right: 18.5%;
   width: 303px;
   height: 167px;
   background: #dddddd;
@@ -1022,7 +1022,7 @@ body {
 
 .news-carousel-container-title,
 .editorials-carousel-container-title {
-  right: 260px;
+  margin-right: 43%;
   z-index: 10;
 }
 
@@ -1033,7 +1033,7 @@ body {
 }
 
 .editorials-carousel-container-title {
-  right: 290px;
+  margin-right: 47%;
   z-index: 10;
 }
 
@@ -1560,7 +1560,7 @@ body {
 
 .news-carousel-container-title,
 .editorials-carousel-container-title {
-  right: 260px;
+  margin-right: 43%;
   z-index: 10;
 }
 
@@ -1571,7 +1571,7 @@ body {
 }
 
 .editorials-carousel-container-title {
-  right: 290px;
+  margin-right: 47%;
   z-index: 10;
 }
 
@@ -2094,7 +2094,7 @@ body {
   width: 303px;
   height: 324px;
   top: 1740px;
-  right: 12.5%;
+  right: 18.5%;
 }
 
 .kenaztv-title {
@@ -2139,7 +2139,7 @@ body {
           align-items: center;
   position: absolute;
   top: 2040px;
-  right: 13%;
+  right: 18.5%;
   width: 303px;
   height: 167px;
   background: #dddddd;
@@ -2385,7 +2385,7 @@ body {
 
 .news-carousel-container-title,
 .editorials-carousel-container-title {
-  right: 260px;
+  margin-right: 43%;
   z-index: 10;
 }
 
@@ -2396,7 +2396,7 @@ body {
 }
 
 .editorials-carousel-container-title {
-  right: 290px;
+  margin-right: 47%;
   z-index: 10;
 }
 
