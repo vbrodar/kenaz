@@ -1,6 +1,8 @@
 $textColor: white;
-$Varela: "Varela Round", sans-serif;
-$Bitter: "Bitter", serif;
+$Varela: "Varela Round",
+sans-serif;
+$Bitter: "Bitter",
+serif;
 $websiteWidth: 940px;
 $carouselTextColor: #eef6fa;
 $sidebarFontColor: #acb3ba;
@@ -23,6 +25,7 @@ $contentHeadlineColor: #363f48;
   position: relative;
   width: 622px;
   height: 2603px;
+  background: white; //! Added to see container 
   left: 15%;
   display: grid;
   grid-template-columns: 622px;
@@ -38,6 +41,7 @@ $contentHeadlineColor: #363f48;
   line-height: 29px;
   color: $contentHeadlineColor;
 }
+
 .main-content-title {
   @extend .content-font-color;
   left: 22.5%;
@@ -74,6 +78,7 @@ $contentHeadlineColor: #363f48;
   top: 20%;
   right: 24%;
 }
+
 .content-date {
   position: relative;
   top: 20%;
@@ -99,11 +104,13 @@ $contentHeadlineColor: #363f48;
   position: relative;
   top: 25%;
 }
+
 .content-image {
   position: relative;
   right: 4%;
   left: 5%;
 }
+
 .content-text {
   position: relative;
   left: 35%;
