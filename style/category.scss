@@ -30,26 +30,24 @@ $contentHeadlineColor: #363f48;
   top: 30px;
 }
 
-.main-content-title {
+.content-font-color {
   position: relative;
-  left: 22.5%;
-  top: 1%;
   font-family: $Bitter;
   font-weight: 700;
   font-size: 24px;
   line-height: 29px;
   color: $contentHeadlineColor;
 }
+.main-content-title {
+  @extend .content-font-color;
+  left: 22.5%;
+  top: 1%;
+}
 
 .headline-title {
-  position: relative;
+  @extend .content-font-color;
   left: 5%;
   top: 24px;
-  font-family: $Bitter;
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 29px;
-  color: $contentHeadlineColor;
 }
 
 .content-item {

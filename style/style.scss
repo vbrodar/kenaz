@@ -92,23 +92,21 @@ body {
   position: relative;
 }
 
-.prevBtn {
+.Btn {
   position: absolute;
   top: 50%;
   z-index: 10;
-  left: 5%;
   color: $mainButtonsColor;
   cursor: pointer;
   outline: none;
 }
+.prevBtn {
+  @extend .Btn;
+  left: 5%;
+}
 .nextBtn {
-  position: absolute;
-  top: 50%;
-  z-index: 10;
+  @extend .Btn;
   right: 5%;
-  color: $mainButtonsColor;
-  cursor: pointer;
-  outline: none;
 }
 .carousel-image-text {
   position: relative;
@@ -266,35 +264,38 @@ body {
   left: 330px;
   bottom: 355px;
 }
-.news-left-button {
+
+.news-buttons {
   position: absolute;
   color: $newsCarouselColor;
+  outline: none;
+}
+.news-left-button {
+  @extend .news-buttons;
   left: 530px;
   bottom: 285px;
-  outline: none;
 }
 .news-right-button {
-  position: absolute;
-  color: $newsCarouselColor;
+  @extend .news-buttons;
   left: 570px;
   bottom: 285px;
-  outline: none;
 }
 
-.editorials-left-button {
+.editorials-buttons {
   position: absolute;
   color: $editorialsColor;
+  outline: none;
+}
+.editorials-left-button {
+  @extend .editorials-buttons;
   left: 225px;
   bottom: 280px;
-  outline: none;
 }
 
 .editorials-right-button {
-  position: absolute;
-  color: $editorialsColor;
+  @extend .editorials-buttons;
   left: 255px;
   bottom: 280px;
-  outline: none;
 }
 
 .news-internal-container {
@@ -446,24 +447,22 @@ body {
   bottom: 460px;
 }
 
-.prevBtn-bottom {
+.buttons-bottom {
   position: absolute;
   top: 35%;
   z-index: 10;
-  left: 5%;
   color: $mainButtonsColor;
   cursor: pointer;
   outline: none;
 }
+.prevBtn-bottom {
+  @extend .buttons-bottom;
+  left: 5%;
+}
 
 .nextBtn-bottom {
-  position: absolute;
-  top: 35%;
-  z-index: 10;
+  @extend .buttons-bottom;
   right: 5%;
-  color: $mainButtonsColor;
-  cursor: pointer;
-  outline: none;
 }
 
 .slider-nav {

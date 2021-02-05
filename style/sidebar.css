@@ -84,24 +84,21 @@ body {
   position: relative;
 }
 
-.prevBtn {
+.Btn, .prevBtn, .nextBtn {
   position: absolute;
   top: 50%;
   z-index: 10;
-  left: 5%;
   color: #e9e9e9;
   cursor: pointer;
   outline: none;
 }
 
+.prevBtn {
+  left: 5%;
+}
+
 .nextBtn {
-  position: absolute;
-  top: 50%;
-  z-index: 10;
   right: 5%;
-  color: #e9e9e9;
-  cursor: pointer;
-  outline: none;
 }
 
 .carousel-image-text {
@@ -791,8 +788,7 @@ body {
   background: #dddddd;
 }
 
-.dual-banner-first {
-  left: 5px;
+.dual-banner-items, .dual-banner-first, .dual-banner-second {
   position: relative;
   width: 128px;
   height: 128px;
@@ -809,22 +805,12 @@ body {
           align-items: center;
 }
 
+.dual-banner-first {
+  left: 5px;
+}
+
 .dual-banner-second {
   right: 5px;
-  position: relative;
-  width: 128px;
-  height: 128px;
-  text-align: center;
-  vertical-align: middle;
-  background: white;
-  color: #999999;
-  font-family: "Varela Round", sans-serif;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 16.86px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
 }
 
 .dual-banner-text {

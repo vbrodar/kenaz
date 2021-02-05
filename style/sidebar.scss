@@ -232,8 +232,7 @@ $darkGrey: #252525;
   background: #dddddd;
 }
 
-.dual-banner-first {
-  left: 5px;
+.dual-banner-items {
   position: relative;
   width: 128px;
   height: 128px;
@@ -247,21 +246,14 @@ $darkGrey: #252525;
   line-height: 16.86px;
   align-items: center;
 }
+.dual-banner-first {
+  @extend .dual-banner-items;
+  left: 5px;
+}
 
 .dual-banner-second {
+  @extend .dual-banner-items;
   right: 5px;
-  position: relative;
-  width: 128px;
-  height: 128px;
-  text-align: center;
-  vertical-align: middle;
-  background: $textColor;
-  color: $bannerColor;
-  font-family: $Varela;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 16.86px;
-  align-items: center;
 }
 
 .dual-banner-text {

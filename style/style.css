@@ -84,24 +84,21 @@ body {
   position: relative;
 }
 
-.prevBtn {
+.Btn, .prevBtn, .nextBtn {
   position: absolute;
   top: 50%;
   z-index: 10;
-  left: 5%;
   color: #e9e9e9;
   cursor: pointer;
   outline: none;
 }
 
+.prevBtn {
+  left: 5%;
+}
+
 .nextBtn {
-  position: absolute;
-  top: 50%;
-  z-index: 10;
   right: 5%;
-  color: #e9e9e9;
-  cursor: pointer;
-  outline: none;
 }
 
 .carousel-image-text {
@@ -286,36 +283,36 @@ body {
   bottom: 355px;
 }
 
-.news-left-button {
+.news-buttons, .news-left-button, .news-right-button {
   position: absolute;
   color: #fcc44d;
-  left: 530px;
-  bottom: 285px;
   outline: none;
 }
 
+.news-left-button {
+  left: 530px;
+  bottom: 285px;
+}
+
 .news-right-button {
-  position: absolute;
-  color: #fcc44d;
   left: 570px;
   bottom: 285px;
+}
+
+.editorials-buttons, .editorials-left-button, .editorials-right-button {
+  position: absolute;
+  color: #a99765;
   outline: none;
 }
 
 .editorials-left-button {
-  position: absolute;
-  color: #a99765;
   left: 225px;
   bottom: 280px;
-  outline: none;
 }
 
 .editorials-right-button {
-  position: absolute;
-  color: #a99765;
   left: 255px;
   bottom: 280px;
-  outline: none;
 }
 
 .news-internal-container {
@@ -493,24 +490,21 @@ body {
   bottom: 460px;
 }
 
-.prevBtn-bottom {
+.buttons-bottom, .prevBtn-bottom, .nextBtn-bottom {
   position: absolute;
   top: 35%;
   z-index: 10;
-  left: 5%;
   color: #e9e9e9;
   cursor: pointer;
   outline: none;
 }
 
+.prevBtn-bottom {
+  left: 5%;
+}
+
 .nextBtn-bottom {
-  position: absolute;
-  top: 35%;
-  z-index: 10;
   right: 5%;
-  color: #e9e9e9;
-  cursor: pointer;
-  outline: none;
 }
 
 .slider-nav {
