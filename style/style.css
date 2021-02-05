@@ -1,3 +1,8 @@
+.page-container {
+  max-width: 1602px;
+  max-height: 4200px;
+}
+
 * {
   margin: 0;
   padding: 0;

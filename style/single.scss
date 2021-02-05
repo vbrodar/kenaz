@@ -1,6 +1,8 @@
 $textColor: white;
-$Varela: "Varela Round", sans-serif;
-$Bitter: "Bitter", serif;
+$Varela: "Varela Round",
+sans-serif;
+$Bitter: "Bitter",
+serif;
 $websiteWidth: 940px;
 $carouselTextColor: #eef6fa;
 $sidebarFontColor: #acb3ba;
@@ -23,6 +25,11 @@ $inputBackground: #dddddd;
 @import "style";
 @import "category";
 
+.single-page-container {
+  @extend .page-container;
+
+}
+
 .single-carousel-image-text {
   @extend .carousel-image-text;
   height: 588px;
@@ -37,6 +44,7 @@ $inputBackground: #dddddd;
   @extend .carousel-headline-text;
   color: $headlineColor;
 }
+
 .category-purple-footer {
   position: relative;
   top: 10%;
@@ -215,6 +223,7 @@ $inputBackground: #dddddd;
   position: relative;
   left: 0%;
 }
+
 .comment-section {
   position: relative;
   left: 9%;
@@ -246,6 +255,7 @@ $inputBackground: #dddddd;
   padding-left: 15px;
   top: 40px;
 }
+
 .submit-button {
   position: relative;
   width: 153px;
@@ -265,6 +275,7 @@ $inputBackground: #dddddd;
   width: 562px;
   height: 187px;
 }
+
 .single-sidebar {
   @extend .sidebar;
   bottom: 54.4%;
@@ -280,6 +291,7 @@ $inputBackground: #dddddd;
   @extend .kenaz-tv;
   top: 54%;
 }
+
 .single-dual-banner {
   @extend .dual-banner;
   top: 62%;

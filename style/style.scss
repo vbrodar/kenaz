@@ -14,6 +14,11 @@ $seeAllColor: #3677b5;
 $newsCarouselColor: #fcc44d;
 $darkGrey: #252525;
 
+.page-container {
+  max-width: 1602px;
+  max-height: 4200px;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -26,6 +31,7 @@ body {
   height: 3385px;
   background: lightgrey; //! Added this grey just to see containers
 }
+
 
 .banner {
   width: 942px;

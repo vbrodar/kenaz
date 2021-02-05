@@ -21,6 +21,11 @@ $contentHeadlineColor: #363f48;
 @import "sidebar";
 @import "style";
 
+.category-page-container {
+  max-width: 1602px;
+  max-height: 4400px;
+}
+
 .main-content {
   position: relative;
   width: 622px;
