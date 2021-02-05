@@ -91,6 +91,7 @@ body {
   left: 5%;
   color: #e9e9e9;
   cursor: pointer;
+  outline: none;
 }
 
 .nextBtn {
@@ -100,6 +101,7 @@ body {
   right: 5%;
   color: #e9e9e9;
   cursor: pointer;
+  outline: none;
 }
 
 .carousel-image-text {
@@ -107,6 +109,7 @@ body {
   width: 100%;
   width: 940px;
   height: 425px;
+  outline: none;
 }
 
 .carousel-text-1,
@@ -288,6 +291,7 @@ body {
   color: #fcc44d;
   left: 530px;
   bottom: 285px;
+  outline: none;
 }
 
 .news-right-button {
@@ -295,6 +299,7 @@ body {
   color: #fcc44d;
   left: 570px;
   bottom: 285px;
+  outline: none;
 }
 
 .editorials-left-button {
@@ -302,6 +307,7 @@ body {
   color: #a99765;
   left: 225px;
   bottom: 280px;
+  outline: none;
 }
 
 .editorials-right-button {
@@ -309,6 +315,7 @@ body {
   color: #a99765;
   left: 255px;
   bottom: 280px;
+  outline: none;
 }
 
 .news-internal-container {
@@ -328,6 +335,7 @@ body {
 .news-internal-container .news-internal-container-left {
   position: absolute;
   width: 128px;
+  outline: none;
 }
 
 .news-internal-container .news-internal-container-middle {
@@ -492,6 +500,7 @@ body {
   left: 5%;
   color: #e9e9e9;
   cursor: pointer;
+  outline: none;
 }
 
 .nextBtn-bottom {
@@ -501,6 +510,7 @@ body {
   right: 5%;
   color: #e9e9e9;
   cursor: pointer;
+  outline: none;
 }
 
 .slider-nav {
