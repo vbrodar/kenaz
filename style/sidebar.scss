@@ -21,7 +21,7 @@ $darkGrey: #252525;
   height: 667px;
   position: absolute;
   z-index: 10;
-  right: 19%;
+  right: 17.5%;
   background-color: $purpleBackground;
   overflow-x: hidden;
   padding-top: 20px;
@@ -116,8 +116,8 @@ $darkGrey: #252525;
   float: right;
   position: relative;
   z-index: 10;
-  right: 19.5%;
-  top: 90px;
+  right: 18%;
+  top: 80px;
 }
 
 .social-title {
@@ -182,9 +182,9 @@ $darkGrey: #252525;
   position: absolute;
   width: 303px;
   height: 324px;
-  top: 1740px;
+  top: 1730px;
   //left:814px; umjesto right 12.5%
-  right: 18.5%;
+  right: 17.5%;
 }
 
 .kenaztv-title {
@@ -226,7 +226,7 @@ $darkGrey: #252525;
   align-items: center;
   position: absolute;
   top: 2040px;
-  right: 18.5%;
+  right: 17.5%;
   width: 303px;
   height: 167px;
   background: #dddddd;
@@ -264,5 +264,12 @@ $darkGrey: #252525;
 .facebook-container {
   position: absolute;
   top: 66%; //! Tu negdje cca i jedno  i drugo
-  left: 57%;
+  left: 62.5%;
+}
+
+.single-facebook-container {
+  @extend .facebook-container;
+  position: absolute;
+  top: 68%;
+  left: 61.5%;
 }

@@ -1,8 +1,6 @@
 $textColor: white;
-$Varela: "Varela Round",
-sans-serif;
-$Bitter: "Bitter",
-serif;
+$Varela: "Varela Round", sans-serif;
+$Bitter: "Bitter", serif;
 $websiteWidth: 940px;
 $carouselTextColor: #eef6fa;
 $sidebarFontColor: #acb3ba;
@@ -24,11 +22,6 @@ $inputBackground: #dddddd;
 @import "sidebar";
 @import "style";
 @import "category";
-
-.single-page-container {
-  @extend .page-container;
-
-}
 
 .single-carousel-image-text {
   @extend .carousel-image-text;
@@ -108,7 +101,7 @@ $inputBackground: #dddddd;
 .single-banner {
   @extend .smaller-banner;
   position: relative;
-  bottom: 5%;
+  bottom: 50px; // Valjda valja
 }
 
 .about-author {
@@ -285,11 +278,13 @@ $inputBackground: #dddddd;
 .single-social-links {
   @extend .category-social-links;
   top: 47%;
+  right: 19.5%;
 }
 
 .single-kenaz-tv {
   @extend .kenaz-tv;
   top: 54%;
+  right: 18.5%;
 }
 
 .single-dual-banner {

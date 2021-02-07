@@ -1,8 +1,6 @@
 $textColor: white;
-$Varela: "Varela Round",
-sans-serif;
-$Bitter: "Bitter",
-serif;
+$Varela: "Varela Round", sans-serif;
+$Bitter: "Bitter", serif;
 $websiteWidth: 940px;
 $carouselTextColor: #eef6fa;
 $sidebarFontColor: #acb3ba;
@@ -13,11 +11,6 @@ $mainButtonsColor: #e9e9e9;
 $seeAllColor: #3677b5;
 $newsCarouselColor: #fcc44d;
 $darkGrey: #252525;
-
-.page-container {
-  max-width: 1602px;
-  max-height: 4200px;
-}
 
 * {
   margin: 0;
@@ -31,7 +24,6 @@ body {
   height: 3385px;
   background: lightgrey; //! Added this grey just to see containers
 }
-
 
 .banner {
   width: 942px;
@@ -53,18 +45,18 @@ body {
 .bottom-banner {
   @extend .banner;
   position: relative;
-  bottom: 370px;
+  bottom: 365px;
 }
 
 .smaller-banner {
   position: relative;
-  width: 620px;
+  width: 625px;
   height: 120px;
   text-align: center;
   vertical-align: middle;
   line-height: 124px;
   left: 19.2%;
-  margin-top: 40px;
+  margin-top: 30px;
   background: $textColor;
   border: 1px solid #d7d7d7;
   box-sizing: border-box;
@@ -282,7 +274,7 @@ body {
 
 .editorials-carousel-container {
   @extend .general-container;
-  width: 293px;
+  width: 300px;
   border-left: solid 13px $editorialsColor;
 }
 

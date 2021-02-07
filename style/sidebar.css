@@ -8,6 +8,7 @@ body {
   margin: 0;
   padding: 0;
   height: 3385px;
+  background: lightgrey;
 }
 
 .banner, .bottom-banner {
@@ -30,18 +31,18 @@ body {
 
 .bottom-banner {
   position: relative;
-  bottom: 370px;
+  bottom: 365px;
 }
 
 .smaller-banner {
   position: relative;
-  width: 620px;
+  width: 625px;
   height: 120px;
   text-align: center;
   vertical-align: middle;
   line-height: 124px;
   left: 19.2%;
-  margin-top: 40px;
+  margin-top: 30px;
   background: white;
   border: 1px solid #d7d7d7;
   -webkit-box-sizing: border-box;
@@ -273,7 +274,7 @@ body {
 }
 
 .editorials-carousel-container, .localnews-carousel-container {
-  width: 293px;
+  width: 300px;
   border-left: solid 13px #a99765;
 }
 
@@ -283,36 +284,36 @@ body {
   bottom: 355px;
 }
 
-.news-left-button {
+.news-buttons, .news-left-button, .news-right-button {
   position: absolute;
   color: #fcc44d;
-  left: 530px;
-  bottom: 285px;
   outline: none;
 }
 
+.news-left-button {
+  left: 530px;
+  bottom: 285px;
+}
+
 .news-right-button {
-  position: absolute;
-  color: #fcc44d;
   left: 570px;
   bottom: 285px;
+}
+
+.editorials-buttons, .editorials-left-button, .editorials-right-button {
+  position: absolute;
+  color: #a99765;
   outline: none;
 }
 
 .editorials-left-button {
-  position: absolute;
-  color: #a99765;
   left: 225px;
   bottom: 280px;
-  outline: none;
 }
 
 .editorials-right-button {
-  position: absolute;
-  color: #a99765;
   left: 255px;
   bottom: 280px;
-  outline: none;
 }
 
 .news-internal-container {
@@ -492,24 +493,21 @@ body {
   bottom: 460px;
 }
 
-.prevBtn-bottom {
+.buttons-bottom, .prevBtn-bottom, .nextBtn-bottom {
   position: absolute;
   top: 35%;
   z-index: 10;
-  left: 5%;
   color: #e9e9e9;
   cursor: pointer;
   outline: none;
 }
 
+.prevBtn-bottom {
+  left: 5%;
+}
+
 .nextBtn-bottom {
-  position: absolute;
-  top: 35%;
-  z-index: 10;
   right: 5%;
-  color: #e9e9e9;
-  cursor: pointer;
-  outline: none;
 }
 
 .slider-nav {
@@ -549,7 +547,7 @@ body {
   height: 667px;
   position: absolute;
   z-index: 10;
-  right: 19%;
+  right: 17.5%;
   background-color: #4d4382;
   overflow-x: hidden;
   padding-top: 20px;
@@ -660,8 +658,8 @@ body {
   float: right;
   position: relative;
   z-index: 10;
-  right: 19.5%;
-  top: 90px;
+  right: 18%;
+  top: 80px;
 }
 
 .social-title {
@@ -736,8 +734,8 @@ body {
   position: absolute;
   width: 303px;
   height: 324px;
-  top: 1740px;
-  right: 18.5%;
+  top: 1730px;
+  right: 17.5%;
 }
 
 .kenaztv-title {
@@ -782,7 +780,7 @@ body {
           align-items: center;
   position: absolute;
   top: 2040px;
-  right: 18.5%;
+  right: 17.5%;
   width: 303px;
   height: 167px;
   background: #dddddd;
@@ -818,9 +816,15 @@ body {
   top: 50px;
 }
 
-.facebook-container {
+.facebook-container, .single-facebook-container {
   position: absolute;
   top: 66%;
-  left: 57%;
+  left: 62.5%;
+}
+
+.single-facebook-container {
+  position: absolute;
+  top: 68%;
+  left: 61.5%;
 }
 /*# sourceMappingURL=sidebar.css.map */

@@ -1,8 +1,3 @@
-.page-container {
-  max-width: 1602px;
-  max-height: 4200px;
-}
-
 * {
   margin: 0;
   padding: 0;
@@ -36,18 +31,18 @@ body {
 
 .bottom-banner {
   position: relative;
-  bottom: 370px;
+  bottom: 365px;
 }
 
 .smaller-banner, .category-smaller-banner {
   position: relative;
-  width: 620px;
+  width: 625px;
   height: 120px;
   text-align: center;
   vertical-align: middle;
   line-height: 124px;
   left: 19.2%;
-  margin-top: 40px;
+  margin-top: 30px;
   background: white;
   border: 1px solid #d7d7d7;
   -webkit-box-sizing: border-box;
@@ -279,7 +274,7 @@ body {
 }
 
 .editorials-carousel-container, .localnews-carousel-container {
-  width: 293px;
+  width: 300px;
   border-left: solid 13px #a99765;
 }
 
@@ -552,7 +547,7 @@ body {
   height: 667px;
   position: absolute;
   z-index: 10;
-  right: 19%;
+  right: 17.5%;
   background-color: #4d4382;
   overflow-x: hidden;
   padding-top: 20px;
@@ -663,8 +658,8 @@ body {
   float: right;
   position: relative;
   z-index: 10;
-  right: 19.5%;
-  top: 90px;
+  right: 18%;
+  top: 80px;
 }
 
 .social-title {
@@ -739,8 +734,8 @@ body {
   position: absolute;
   width: 303px;
   height: 324px;
-  top: 1740px;
-  right: 18.5%;
+  top: 1730px;
+  right: 17.5%;
 }
 
 .kenaztv-title {
@@ -785,7 +780,7 @@ body {
           align-items: center;
   position: absolute;
   top: 2040px;
-  right: 18.5%;
+  right: 17.5%;
   width: 303px;
   height: 167px;
   background: #dddddd;
@@ -821,15 +816,16 @@ body {
   top: 50px;
 }
 
-.facebook-container {
+.facebook-container, .single-facebook-container {
   position: absolute;
   top: 66%;
-  left: 57%;
+  left: 62.5%;
 }
 
-.page-container {
-  max-width: 1602px;
-  max-height: 4200px;
+.single-facebook-container {
+  position: absolute;
+  top: 68%;
+  left: 61.5%;
 }
 
 * {
@@ -865,18 +861,18 @@ body {
 
 .bottom-banner {
   position: relative;
-  bottom: 370px;
+  bottom: 365px;
 }
 
 .smaller-banner, .category-smaller-banner {
   position: relative;
-  width: 620px;
+  width: 625px;
   height: 120px;
   text-align: center;
   vertical-align: middle;
   line-height: 124px;
   left: 19.2%;
-  margin-top: 40px;
+  margin-top: 30px;
   background: white;
   border: 1px solid #d7d7d7;
   -webkit-box-sizing: border-box;
@@ -1108,7 +1104,7 @@ body {
 }
 
 .editorials-carousel-container, .localnews-carousel-container {
-  width: 293px;
+  width: 300px;
   border-left: solid 13px #a99765;
 }
 
@@ -1384,14 +1380,14 @@ body {
   width: 622px;
   height: 2603px;
   background: white;
-  left: 15%;
+  left: 19%;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 622px;
       grid-template-columns: 622px;
   -ms-grid-rows: 404px 404px 404px 404px 404px 404px;
       grid-template-rows: 404px 404px 404px 404px 404px 404px;
-  top: 30px;
+  top: 11px;
 }
 
 .content-font-color, .main-content-title, .headline-title {
@@ -1404,8 +1400,10 @@ body {
 }
 
 .main-content-title {
-  left: 22.5%;
-  top: 1%;
+  position: relative;
+  top: 20px;
+  left: 21%;
+  top: 5px;
 }
 
 .headline-title {
@@ -1418,7 +1416,6 @@ body {
   position: relative;
   top: 5%;
   border-bottom: 1px solid #dddddd;
-  left: 13%;
 }
 
 .category-sidebar {
@@ -1505,7 +1502,7 @@ body {
   height: 32px;
   line-height: 32px;
   left: 22.5%;
-  bottom: 2%;
+  bottom: 85px;
 }
 
 .number, .selected-number {
@@ -1540,8 +1537,8 @@ body {
 
 .category-smaller-banner {
   position: relative;
-  left: 20.5%;
-  bottom: 1%;
+  left: 19%;
+  bottom: 10px;
 }
 
 footer {
