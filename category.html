@@ -25,273 +25,325 @@
     <link rel="stylesheet" href="style/footer.css">
     <link rel="stylesheet" href="style/category.css">
 
+    <!-- Javascript and jquery  -->
+
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+
+    <script src="script.js"></script>
+
 </head>
 
 <div class="category-page-container">
 
-<header>
-    <title>Category</title>
-    <nav class="main-nav">
-        <div class="logo-container">
-            <img class="logo" src="./assets/logo.svg" alt="logo">
-            <a href="./index.html"><h1 class="main-title">Kenaz</h1></a> 
-        </div>
-        <div>
-            <ul class="main-nav-ul">
-                <a href="./category.html" >
-                    <li>Media</li>
+    <header>
+        <title>Category</title>
+        <nav class="main-nav">
+            <div class="logo-container">
+                <img class="logo" src="./assets/logo.svg" alt="logo">
+                <a href="./index.html">
+                    <h1 class="main-title">Kenaz</h1>
                 </a>
-                <a href="./category.html" >
-                    <li>Marketing</li>
-                </a>
-                <a href="./category.html" >
-                    <li>Contact</li>
-                </a>
-                <li><img class="search-logo" src="./assets/search.svg" alt="search-logo"></li>
+            </div>
+            <div>
+                <ul class="main-nav-ul">
+                    <a href="./category.html">
+                        <li>Media</li>
+                    </a>
+                    <a href="./category.html">
+                        <li>Marketing</li>
+                    </a>
+                    <a href="./category.html">
+                        <li>Contact</li>
+                    </a>
+                    <li><img class="search-logo" src="./assets/search.svg" alt="search-logo"></li>
 
+                </ul>
+            </div>
+        </nav>
+
+        <nav class="sub-nav">
+            <ul class="sub-nav-ul">
+                <div class="news-colored-div">
+                    <span class="news-sub-span"><a href="./category.html">News</a></span>
+                </div>
+                <li><a class="sub-nav-links" id="business" href="./category.html">Business </a></li>
+                <li><a class="sub-nav-links" id="sport" href="./category.html">Sport</a></li>
+                <li><a class="sub-nav-links" id="life" href="./category.html">Life</a></li>
+                <li><a class="sub-nav-links" id="tech" href="./category.html">Tech</a></li>
+                <li><a class="sub-nav-links" id="travel" href="./category.html">Travel</a></li>
             </ul>
+        </nav>
+
+    </header>
+
+    <!-- Body -->
+
+    <body>
+        <div class="banner">banner 940x120</div>
+
+
+
+        <div class="carousel-container">
+
+            <input type="image" class="prevBtn" width="36" height="53" src="assets/scroll-left.svg"
+                alt="scroll left"></input>
+            <input type="image" class="nextBtn" width="36" height="53" src="assets/scroll-right.svg"
+                alt="scroll right"></input>
+
+            <div class="carousel-slide">
+
+
+                <div class="carousel-image-text">
+                    <img class="carousel-images" src="./assets/pic1.jpg" width="940" height="425" alt="" />
+                    <span class="carousel-text-2">February 15, 2003 &nbsp; &nbsp; &nbsp; &nbsp;<img
+                            src="./assets/comment-icon.svg" alt="" width="17" height="17"> 22 comments</span>
+                    <h2 class="carousel-headline-text"> 'Margot' breathlessly reimagines </br> Anne Frank's sister </h2>
+                    <a href="./single.html" target="_blank">
+                        <h3 class="read-article">Read article</h3>
+                    </a>
+                </div>
+
+                <div class="carousel-image-text">
+                    <img class="carousel-images" src="./assets/pic2.jpg" width="940" height="425" alt="" />
+                    <span class="carousel-text-1">August 26, 2013 &nbsp; &nbsp; &nbsp; &nbsp; <img
+                            src="./assets/comment-icon.svg" alt="" width="17" height="17"> 22 comments</span>
+                    <h2 class="carousel-headline-text"> 'Margot' breathlessly reimagines </br> Anne Frank's sister </h2>
+                    <a href="./single.html" target="_blank">
+                        <h3 class="read-article">Read article</h3>
+                    </a>
+                </div>
+
+                <div class="carousel-image-text">
+                    <img class="carousel-images" src="./assets/pic3.jpg" width="940" height="425" alt="" />
+                    <span class="carousel-text-2">August 26, 2013 &nbsp; &nbsp; &nbsp; &nbsp; <img
+                            src="./assets/comment-icon.svg" alt="" width="17" height="17"> 22 comments </span>
+                    <h2 class="carousel-headline-text"> 'Margot' breathlessly reimagines </br> Anne Frank's sister </h2>
+                    <a href="./single.html" target="_blank">
+                        <h3 class="read-article">Read article</h3>
+                    </a>
+                </div>
+
+                <div class="carousel-image-text">
+                    <img class="carousel-images" src="./assets/pic4.jpg" width="940" height="425" alt="" />
+                    <span class="carousel-text-1">March 15, 2006&nbsp; &nbsp; &nbsp; &nbsp; <img
+                            src="./assets/comment-icon.svg" alt="" width="17" height="17"> 22 comments</span>
+                    <h2 class="carousel-headline-text"> 'Margot' breathlessly reimagines </br> Anne Frank's sister </h2>
+                    <a href="./single.html" target="_blank">
+                        <h3 class="read-article">Read article</h3>
+                    </a>
+                </div>
+
+            </div>
         </div>
-    </nav>
-
-    <nav class="sub-nav">
-        <ul class="sub-nav-ul">
-            <div class="news-colored-div">
-                <span class="news-sub-span"><a href="./category.html" >News</a></span>
-            </div>
-            <li><a class="sub-nav-links" id="business" href="./category.html">Business </a></li>
-            <li><a class="sub-nav-links" id="sport" href="./category.html">Sport</a></li>
-            <li><a class="sub-nav-links" id="life" href="./category.html" >Life</a></li>
-            <li><a class="sub-nav-links" id="tech" href="./category.html" >Tech</a></li>
-            <li><a class="sub-nav-links" id="travel" href="./category.html">Travel</a></li>
-        </ul>
-    </nav>
-
-</header>
-
-<!-- Body -->
-
-<body>
-    <div class="banner">banner 940x120</div>
 
 
+        <span class="main-content-title" width="94" height="33">News</span>
 
-    <div class="carousel-container">
+        <div class="main-content">
+            <div class="content-item">
+                <span class="headline-title">Patriotsvv make cuts ... and Tim Tebow </br> survives (so far)</span>
+                <img class="calendar-icon" src="./assets/calendar.svg" width="16" height="16"><span
+                    class="content-date">August 26, 2013 </span><span class="content-author">Author: Matej
+                    Sudar</span><span class="content-comments">12 Comments </span>
+                <p class="content-box"><img class="content-image" src="./assets/pic1.jpg" width="170" height="128">
+                    <p class="content-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
+                        nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim
+                        veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo
+                        consequat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit
+                        lobortis nisl ut aliquip ex ea commodo. </p>
+                </p>
+                <div class="category-read-article"><a href="./single.html" target="_blank"><span>Read Article
+                        </span></a></div>
 
-        <input type="image" class="prevBtn" width="36" height="53" src="assets/scroll-left.svg"
-            alt="scroll left"></input>
-        <input type="image" class="nextBtn" width="36" height="53" src="assets/scroll-right.svg"
-            alt="scroll right"></input>
-
-        <div class="carousel-slide">
-
-
-            <div class="carousel-image-text">
-                <img class="carousel-images" src="./assets/pic1.jpg" width="940" height="425" alt="" />
-                <span class="carousel-text-2">February 15, 2003 &nbsp; &nbsp; &nbsp; &nbsp;<img
-                        src="./assets/comment-icon.svg" alt="" width="17" height="17"> 22 comments</span>
-                <h2 class="carousel-headline-text"> 'Margot' breathlessly reimagines </br> Anne Frank's sister </h2>
-                <a href="./single.html" target="_blank">
-                    <h3 class="read-article">Read article</h3>
-                </a>
             </div>
 
-            <div class="carousel-image-text">
-                <img class="carousel-images" src="./assets/pic2.jpg" width="940" height="425" alt="" />
-                <span class="carousel-text-1">August 26, 2013 &nbsp; &nbsp; &nbsp; &nbsp; <img
-                        src="./assets/comment-icon.svg" alt="" width="17" height="17"> 22 comments</span>
-                <h2 class="carousel-headline-text"> 'Margot' breathlessly reimagines </br> Anne Frank's sister </h2>
-                <a href="./single.html" target="_blank">
-                    <h3 class="read-article">Read article</h3>
-                </a>
+            <div class="content-item">
+                <span class="headline-title">Patriotsvv make cuts ... and Tim Tebow </br> survives (so far)</span>
+                <img class="calendar-icon" src="./assets/calendar.svg" width="16" height="16"><span
+                    class="content-date">August 26, 2013 </span><span class="content-author">Author: Matej
+                    Sudar</span><span class="content-comments">12 Comments </span>
+                <p class="content-box"><img class="content-image" src="./assets/pic1.jpg" width="170" height="128">
+                    <p class="content-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
+                        nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim
+                        veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo
+                        consequat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit
+                        lobortis nisl ut aliquip ex ea commodo. </p>
+                </p>
+                <div class="category-read-article"><a href="./single.html" target="_blank"><span>Read Article
+                        </span></a></div>
+
             </div>
 
-            <div class="carousel-image-text">
-                <img class="carousel-images" src="./assets/pic3.jpg" width="940" height="425" alt="" />
-                <span class="carousel-text-2">August 26, 2013 &nbsp; &nbsp; &nbsp; &nbsp; <img
-                        src="./assets/comment-icon.svg" alt="" width="17" height="17"> 22 comments </span>
-                <h2 class="carousel-headline-text"> 'Margot' breathlessly reimagines </br> Anne Frank's sister </h2>
-                <a href="./single.html" target="_blank">
-                    <h3 class="read-article">Read article</h3>
-                </a>
+            <div class="content-item">
+                <span class="headline-title">Patriotsvv make cuts ... and Tim Tebow </br> survives (so far)</span>
+                <img class="calendar-icon" src="./assets/calendar.svg" width="16" height="16"><span
+                    class="content-date">August 26, 2013 </span><span class="content-author">Author: Matej
+                    Sudar</span><span class="content-comments">12 Comments </span>
+                <p class="content-box"><img class="content-image" src="./assets/pic1.jpg" width="170" height="128">
+                    <p class="content-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
+                        nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim
+                        veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo
+                        consequat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit
+                        lobortis nisl ut aliquip ex ea commodo. </p>
+                </p>
+                <div class="category-read-article"><a href="./single.html" target="_blank"><span>Read Article
+                        </span></a></div>
+
             </div>
 
-            <div class="carousel-image-text">
-                <img class="carousel-images" src="./assets/pic4.jpg" width="940" height="425" alt="" />
-                <span class="carousel-text-1">March 15, 2006&nbsp; &nbsp; &nbsp; &nbsp; <img
-                        src="./assets/comment-icon.svg" alt="" width="17" height="17"> 22 comments</span>
-                <h2 class="carousel-headline-text"> 'Margot' breathlessly reimagines </br> Anne Frank's sister </h2>
-                <a href="./single.html" target="_blank">
-                    <h3 class="read-article">Read article</h3>
-                </a>
+            <div class="content-item">
+                <span class="headline-title">Patriotsvv make cuts ... and Tim Tebow </br> survives (so far)</span>
+                <img class="calendar-icon" src="./assets/calendar.svg" width="16" height="16"><span
+                    class="content-date">August 26, 2013 </span><span class="content-author">Author: Matej
+                    Sudar</span><span class="content-comments">12 Comments </span>
+                <p class="content-box"><img class="content-image" src="./assets/pic1.jpg" width="170" height="128">
+                    <p class="content-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
+                        nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim
+                        veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo
+                        consequat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit
+                        lobortis nisl ut aliquip ex ea commodo. </p>
+                </p>
+                <div class="category-read-article"><a href="./single.html" target="_blank"><span>Read Article
+                        </span></a></div>
+
             </div>
 
+            <div class="content-item">
+                <span class="headline-title">Patriotsvv make cuts ... and Tim Tebow </br> survives (so far)</span>
+                <img class="calendar-icon" src="./assets/calendar.svg" width="16" height="16"><span
+                    class="content-date">August 26, 2013 </span><span class="content-author">Author: Matej
+                    Sudar</span><span class="content-comments">12 Comments </span>
+                <p class="content-box"><img class="content-image" src="./assets/pic1.jpg" width="170" height="128">
+                    <p class="content-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
+                        nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim
+                        veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo
+                        consequat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit
+                        lobortis nisl ut aliquip ex ea commodo. </p>
+                </p>
+                <div class="category-read-article"><a href="./single.html" target="_blank"><span>Read Article
+                        </span></a></div>
+
+            </div>
+
+            <div class="content-item">
+                <span class="headline-title">Patriotsvv make cuts ... and Tim Tebow </br> survives (so far)</span>
+                <img class="calendar-icon" src="./assets/calendar.svg" width="16" height="16"><span
+                    class="content-date">August 26, 2013 </span><span class="content-author">Author: Matej
+                    Sudar</span><span class="content-comments">12 Comments </span>
+                <p class="content-box"><img class="content-image" src="./assets/pic1.jpg" width="170" height="128">
+                    <p class="content-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
+                        nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim
+                        veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo
+                        consequat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit
+                        lobortis nisl ut aliquip ex ea commodo. </p>
+                </p>
+                <div class="category-read-article"><a href="./single.html" target="_blank"><span>Read Article
+                        </span></a></div>
+
+            </div>
         </div>
-    </div>
 
-
-<span class="main-content-title" width="94" height="33">News</span>
-
-<div class="main-content">
-<div class="content-item">
-    <span class="headline-title">Patriotsvv make cuts ... and Tim Tebow </br> survives (so far)</span>
-    <img class="calendar-icon" src="./assets/calendar.svg" width="16" height="16"><span class="content-date">August 26, 2013 </span><span class="content-author">Author: Matej Sudar</span><span class="content-comments">12 Comments </span>
-    <p class="content-box"><img class="content-image" src="./assets/pic1.jpg"  width="170" height="128">
-    <p class="content-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo. </p>
-    </p>
-    <div class="category-read-article"><a href="./single.html" target="_blank"><span>Read Article </span></a></div>
-
-</div>
-
-<div class="content-item">
-    <span class="headline-title">Patriotsvv make cuts ... and Tim Tebow </br> survives (so far)</span>
-    <img class="calendar-icon" src="./assets/calendar.svg" width="16" height="16"><span class="content-date">August 26, 2013 </span><span class="content-author">Author: Matej Sudar</span><span class="content-comments">12 Comments </span>
-    <p class="content-box"><img class="content-image" src="./assets/pic1.jpg"  width="170" height="128">
-    <p class="content-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo. </p>
-    </p>
-    <div class="category-read-article"><a href="./single.html" target="_blank"><span>Read Article </span></a></div>
-
-</div>
-
-<div class="content-item">
-    <span class="headline-title">Patriotsvv make cuts ... and Tim Tebow </br> survives (so far)</span>
-    <img class="calendar-icon" src="./assets/calendar.svg" width="16" height="16"><span class="content-date">August 26, 2013 </span><span class="content-author">Author: Matej Sudar</span><span class="content-comments">12 Comments </span>
-    <p class="content-box"><img class="content-image" src="./assets/pic1.jpg"  width="170" height="128">
-    <p class="content-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo. </p>
-    </p>
-    <div class="category-read-article"><a href="./single.html" target="_blank"><span>Read Article </span></a></div>
-
-</div>
-
-<div class="content-item">
-    <span class="headline-title">Patriotsvv make cuts ... and Tim Tebow </br> survives (so far)</span>
-    <img class="calendar-icon" src="./assets/calendar.svg" width="16" height="16"><span class="content-date">August 26, 2013 </span><span class="content-author">Author: Matej Sudar</span><span class="content-comments">12 Comments </span>
-    <p class="content-box"><img class="content-image" src="./assets/pic1.jpg"  width="170" height="128">
-    <p class="content-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo. </p>
-    </p>
-    <div class="category-read-article"><a href="./single.html" target="_blank"><span>Read Article </span></a></div>
-
-</div>
-
-<div class="content-item">
-    <span class="headline-title">Patriotsvv make cuts ... and Tim Tebow </br> survives (so far)</span>
-    <img class="calendar-icon" src="./assets/calendar.svg" width="16" height="16"><span class="content-date">August 26, 2013 </span><span class="content-author">Author: Matej Sudar</span><span class="content-comments">12 Comments </span>
-    <p class="content-box"><img class="content-image" src="./assets/pic1.jpg"  width="170" height="128">
-    <p class="content-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo. </p>
-    </p>
-    <div class="category-read-article"><a href="./single.html" target="_blank"><span>Read Article </span></a></div>
-
-</div>
-
-<div class="content-item">
-    <span class="headline-title">Patriotsvv make cuts ... and Tim Tebow </br> survives (so far)</span>
-    <img class="calendar-icon" src="./assets/calendar.svg" width="16" height="16"><span class="content-date">August 26, 2013 </span><span class="content-author">Author: Matej Sudar</span><span class="content-comments">12 Comments </span>
-    <p class="content-box"><img class="content-image" src="./assets/pic1.jpg"  width="170" height="128">
-    <p class="content-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo. </p>
-    </p>
-    <div class="category-read-article"><a href="./single.html" target="_blank"><span>Read Article </span></a></div>
-
-</div>
-</div>
-
-<div class="page-numbers">
-    <div class="number">1</div>
-    <div class="number">2</div>
-    <div class="number">3</div>
-    <div class="selected-number">4</div>
-    <div class="number">5</div>
-    <div class="number">6</div>
-    <div class="number">7</div>
-    <div class="number">8</div>
-    <div class="number">9</div>
-    <div class="number">10</div>
-</div>
+        <div class="page-numbers">
+            <div class="number">1</div>
+            <div class="number">2</div>
+            <div class="number">3</div>
+            <div class="selected-number">4</div>
+            <div class="number">5</div>
+            <div class="number">6</div>
+            <div class="number">7</div>
+            <div class="number">8</div>
+            <div class="number">9</div>
+            <div class="number">10</div>
+        </div>
 </div>
 
 <div class="category-smaller-banner">banner 620x120</div>
 
 
-    <aside class="category-sidebar">
-        <ul class="sidebar-list">
-            <li class="sidebar-popular">Popular</li>
-            <li>Top Rated</li>
-            <li>Comments</li>
-        </ul>
-        <div class="grid-wrapper">
+<aside class="category-sidebar">
+    <ul class="sidebar-list">
+        <li class="sidebar-popular">Popular</li>
+        <li>Top Rated</li>
+        <li>Comments</li>
+    </ul>
+    <div class="grid-wrapper">
 
-            <div class="grid-item"><span class="sidebar-date">August 3, 2003 &nbsp;&nbsp;&nbsp;<img
-                        src="./assets/comment-icon.svg" alt="" width="17" height="17">&nbsp;&nbsp;&nbsp;<span> 5
-                    </span></span>
-                <h4 class="sidebar-headline">Palestinians call off </br> peace talks after clash</h4><img
-                    class="sidebar-pic" src="./assets/pic5.jpg" width="70" height="70" alt="">
-            </div>
-            <div class="grid-item"><span class="sidebar-date">August 3, 2003 &nbsp;&nbsp;&nbsp;<img
-                        src="./assets/comment-icon.svg" alt="" width="17" height="17">&nbsp;&nbsp;&nbsp;<span> 5
-                    </span></span>
-                <h4 class="sidebar-headline">Palestinians call off </br> peace talks after clash</h4><img
-                    class="sidebar-pic" src="./assets/pic5.jpg" width="70" height="70" alt="">
-            </div>
-            <div class="grid-item"><span class="sidebar-date">August 3, 2003 &nbsp;&nbsp;&nbsp;<img
-                        src="./assets/comment-icon.svg" alt="" width="17" height="17">&nbsp;&nbsp;&nbsp;<span> 5
-                    </span></span>
-                <h4 class="sidebar-headline">Palestinians call off </br> peace talks after clash</h4><img
-                    class="sidebar-pic" src="./assets/pic5.jpg" width="70" height="70" alt="">
-            </div>
-            <div class="grid-item"><span class="sidebar-date">August 3, 2003 &nbsp;&nbsp;&nbsp;<img
-                        src="./assets/comment-icon.svg" alt="" width="17" height="17">&nbsp;&nbsp;&nbsp;<span> 5
-                    </span></span>
-                <h4 class="sidebar-headline">Palestinians call off </br> peace talks after clash</h4><img
-                    class="sidebar-pic" src="./assets/pic5.jpg" width="70" height="70" alt="">
-            </div>
-            <div class="grid-item"><span class="sidebar-date">August 3, 2003 &nbsp;&nbsp;&nbsp;<img
-                        src="./assets/comment-icon.svg" alt="" width="17" height="17">&nbsp;&nbsp;&nbsp;<span> 5
-                    </span></span>
-                <h4 class="sidebar-headline">Palestinians call off </br> peace talks after clash</h4><img
-                    class="sidebar-pic" src="./assets/pic5.jpg" width="70" height="70" alt="">
-            </div>
+        <div class="grid-item"><span class="sidebar-date">August 3, 2003 &nbsp;&nbsp;&nbsp;<img
+                    src="./assets/comment-icon.svg" alt="" width="17" height="17">&nbsp;&nbsp;&nbsp;<span> 5
+                </span></span>
+            <h4 class="sidebar-headline">Palestinians call off </br> peace talks after clash</h4><img
+                class="sidebar-pic" src="./assets/pic5.jpg" width="70" height="70" alt="">
         </div>
-    </aside>
-
-
-
-  
-
-
-    </div>
-    <aside class="category-social-links">
-        <h3 class="social-title">Social</h3>
-        <div class="facebook-link"><img src="./assets/facebook.svg" width="40" height="40"><span
-                class="facebook-like">Like</span><span class="facebook-fans">25041 Fans</span></div>
-        <div class="twitter-link"><img src="./assets/twitter.svg" width="40" height="40"><span
-                class="twitter-follow">Follow</span><span class="twitter-followers">25041 Followers</span></div>
-        <div class="youtube-link"><img src="./assets/youtube.svg" width="40" height="40"><span
-                class="youtube-subscribe">Subscribe</span><span class="youtube-subscribers">941 Subscribers</span></div>
-
-
-
-    </aside>
-
-    <aside class="kenaz-tv">
-        <h3 class="kenaztv-title"> Kenaz TV</h3>
-        <div class="kenaztv-image">
-            <img src="./assets/pic3.jpg" width="300" height="149">
-            <img class="kenaztv-play" src="./assets/play-icon.svg" width="62" height="43">
+        <div class="grid-item"><span class="sidebar-date">August 3, 2003 &nbsp;&nbsp;&nbsp;<img
+                    src="./assets/comment-icon.svg" alt="" width="17" height="17">&nbsp;&nbsp;&nbsp;<span> 5
+                </span></span>
+            <h4 class="sidebar-headline">Palestinians call off </br> peace talks after clash</h4><img
+                class="sidebar-pic" src="./assets/pic5.jpg" width="70" height="70" alt="">
         </div>
-        <span class=kenaztv-date>26 August, 2013</span>
-        <h4 class="kenaztv-content">NASA releases portrait of a planet </br> waving at Saturn</h4>
-    </aside>
-
-
-
-    <aside class="dual-banner">
-        <div class="dual-banner-first"><span class="dual-banner-text">banner </br> 300x250</span></div>
-        <div class="dual-banner-second"><span class="dual-banner-text">banner </br> 300x250</span></div>
-    </aside>
+        <div class="grid-item"><span class="sidebar-date">August 3, 2003 &nbsp;&nbsp;&nbsp;<img
+                    src="./assets/comment-icon.svg" alt="" width="17" height="17">&nbsp;&nbsp;&nbsp;<span> 5
+                </span></span>
+            <h4 class="sidebar-headline">Palestinians call off </br> peace talks after clash</h4><img
+                class="sidebar-pic" src="./assets/pic5.jpg" width="70" height="70" alt="">
+        </div>
+        <div class="grid-item"><span class="sidebar-date">August 3, 2003 &nbsp;&nbsp;&nbsp;<img
+                    src="./assets/comment-icon.svg" alt="" width="17" height="17">&nbsp;&nbsp;&nbsp;<span> 5
+                </span></span>
+            <h4 class="sidebar-headline">Palestinians call off </br> peace talks after clash</h4><img
+                class="sidebar-pic" src="./assets/pic5.jpg" width="70" height="70" alt="">
+        </div>
+        <div class="grid-item"><span class="sidebar-date">August 3, 2003 &nbsp;&nbsp;&nbsp;<img
+                    src="./assets/comment-icon.svg" alt="" width="17" height="17">&nbsp;&nbsp;&nbsp;<span> 5
+                </span></span>
+            <h4 class="sidebar-headline">Palestinians call off </br> peace talks after clash</h4><img
+                class="sidebar-pic" src="./assets/pic5.jpg" width="70" height="70" alt="">
+        </div>
     </div>
+</aside>
 
-    <aside>
-        <img class="facebook-container" src="assets/facebook-container.svg" />
-    </aside>
-    
+
+
+
+
+
+</div>
+<aside class="category-social-links">
+    <h3 class="social-title">Social</h3>
+    <div class="facebook-link"><img src="./assets/facebook.svg" width="40" height="40"><span
+            class="facebook-like">Like</span><span class="facebook-fans">25041 Fans</span></div>
+    <div class="twitter-link"><img src="./assets/twitter.svg" width="40" height="40"><span
+            class="twitter-follow">Follow</span><span class="twitter-followers">25041 Followers</span></div>
+    <div class="youtube-link"><img src="./assets/youtube.svg" width="40" height="40"><span
+            class="youtube-subscribe">Subscribe</span><span class="youtube-subscribers">941 Subscribers</span></div>
+
+
+
+</aside>
+
+<aside class="kenaz-tv">
+    <h3 class="kenaztv-title"> Kenaz TV</h3>
+    <div class="kenaztv-image">
+        <img src="./assets/pic3.jpg" width="300" height="149">
+        <img class="kenaztv-play" src="./assets/play-icon.svg" width="62" height="43">
+    </div>
+    <span class=kenaztv-date>26 August, 2013</span>
+    <h4 class="kenaztv-content">NASA releases portrait of a planet </br> waving at Saturn</h4>
+</aside>
+
+
+
+<aside class="dual-banner">
+    <div class="dual-banner-first"><span class="dual-banner-text">banner </br> 300x250</span></div>
+    <div class="dual-banner-second"><span class="dual-banner-text">banner </br> 300x250</span></div>
+</aside>
+</div>
+
+<aside>
+    <img class="facebook-container" src="assets/facebook-container.svg" />
+</aside>
+
 </body>
 
 <!-- Footer-->
@@ -447,86 +499,3 @@
 </html>
 
 </div>
-
-<!-- Javascript and jquery  -->
-<script src="app.js"></script>
-
-
-<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
-<script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-<script type="text/javascript" src="slick/slick.min.js"></script>
-
-
-
-<script type="text/javascript">
-    $(document).ready(function () {
-        $('.carousel-slide').slick({
-            arrows: true,
-            infinite: true,
-            slidesToShow: 1,
-            speed: 300,
-            nextArrow: '<input type="image" class="nextBtn" width="36" height="53" src="assets/scroll-right.svg" alt="scroll right"></input>',
-            prevArrow: '<input type="image" class="prevBtn" width="36" height="53" src="assets/scroll-left.svg" alt="scroll left"></input>',
-        });
-    });
-</script>
-
-<script type="text/javascript">
-    $(document).ready(function () {
-        $('.news-carousel-container').slick({
-            arrows: true,
-            infinite: true,
-            slidesToShow: 2,
-            slidesToScroll: 2,
-            nextArrow: '<input type="image" class="news-right-button" width="16" height="22" src="assets/yellow-right.svg" alt="scroll right"></input>',
-            prevArrow: ' <input type="image" class="news-left-button" width="16" height="22" src="assets/yellow-left.svg" alt="scroll left"></input>',
-        });
-    });
-</script>
-
-<script type="text/javascript">
-    $(document).ready(function () {
-        $('.editorials-carousel-container').slick({
-            arrows: true,
-            infinite: true,
-            slidesToShow: 1,
-            nextArrow: '<input type="image" class="editorials-right-button" width="16" height="22" src="assets/brown-right.svg" alt="scroll right"></input>',
-            prevArrow: '<input type="image" class="editorials-left-button" width="16" height="22" src="assets/brown-left.svg" alt="scroll left"></input>',
-        });
-    });
-</script>
-<script type="text/javascript">
-    $(document).ready(function () {
-        $('.localnews-carousel-container').slick({
-            arrows: true,
-            infinite: true,
-            slidesToShow: 1,
-            nextArrow: '<input type="image" class="editorials-right-button" width="16" height="22" src="assets/brown-right.svg" alt="scroll right"></input>',
-            prevArrow: '<input type="image" class="editorials-left-button" width="16" height="22" src="assets/brown-left.svg" alt="scroll left"></input>',
-        });
-    });
-</script>
-
-<script type="text/javascript">
-    $(document).ready(function () {
-        $('.carousel-slide-bottom').slick({
-            arrows: true,
-            slidesToShow: 1,
-            speed: 300,
-            asNavFor: '.slider-nav',
-            nextArrow: '<input type="image" class="nextBtn-bottom" width="36" height="53" src="assets/scroll-right.svg" alt="scroll right"></input>',
-            prevArrow: '<input type="image" class="prevBtn-bottom" width="36" height="53" src="assets/scroll-left.svg" alt="scroll left"></input>',
-        });
-    });
-
-    $('.slider-nav').slick({
-        arrows: false,
-        slidesToShow: 6,
-        asNavFor: '.carousel-slide-bottom',
-        dots: false,
-        centerMode: true,
-        focusOnSelect: true,
-        centerPadding: '0',
-
-    });
-</script>
