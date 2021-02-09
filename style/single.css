@@ -593,13 +593,14 @@ body {
   display: grid;
   -ms-grid-columns: 302px;
       grid-template-columns: 302px;
-  -ms-grid-rows: 98px 98px 98px 98px 98px;
-      grid-template-rows: 98px 98px 98px 98px 98px;
+  -ms-grid-rows: 116px 116px 116px 116px 116px;
+      grid-template-rows: 116px 116px 116px 116px 116px;
   text-align: center;
-  top: 30px;
 }
 
 .grid-item {
+  position: relative;
+  bottom: 10px;
   width: 302px;
   height: 98px;
   -ms-flex-item-align: center;
@@ -616,7 +617,7 @@ body {
 .sidebar-pic {
   position: relative;
   left: 100px;
-  bottom: 35px;
+  bottom: 45px;
   border: 2px solid white;
 }
 
@@ -1967,13 +1968,14 @@ body {
   display: grid;
   -ms-grid-columns: 302px;
       grid-template-columns: 302px;
-  -ms-grid-rows: 98px 98px 98px 98px 98px;
-      grid-template-rows: 98px 98px 98px 98px 98px;
+  -ms-grid-rows: 116px 116px 116px 116px 116px;
+      grid-template-rows: 116px 116px 116px 116px 116px;
   text-align: center;
-  top: 30px;
 }
 
 .grid-item {
+  position: relative;
+  bottom: 10px;
   width: 302px;
   height: 98px;
   -ms-flex-item-align: center;
@@ -1990,7 +1992,7 @@ body {
 .sidebar-pic {
   position: relative;
   left: 100px;
-  bottom: 35px;
+  bottom: 45px;
   border: 2px solid white;
 }
 

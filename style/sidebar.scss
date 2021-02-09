@@ -1,6 +1,8 @@
 $textColor: white;
-$Varela: "Varela Round", sans-serif;
-$Bitter: "Bitter", serif;
+$Varela: "Varela Round",
+sans-serif;
+$Bitter: "Bitter",
+serif;
 $websiteWidth: 940px;
 $carouselTextColor: #eef6fa;
 $sidebarFontColor: #acb3ba;
@@ -58,12 +60,13 @@ $darkGrey: #252525;
   position: relative;
   display: grid;
   grid-template-columns: 302px;
-  grid-template-rows: 98px 98px 98px 98px 98px;
+  grid-template-rows: 116px 116px 116px 116px 116px;
   text-align: center;
-  top: 30px;
 }
 
 .grid-item {
+  position: relative;
+  bottom: 10px;
   width: 302px;
   height: 98px;
   align-self: center;
@@ -79,7 +82,7 @@ $darkGrey: #252525;
 .sidebar-pic {
   position: relative;
   left: 100px;
-  bottom: 35px;
+  bottom: 45px;
   border: 2px solid rgb(255, 255, 255);
 }
 
@@ -246,6 +249,7 @@ $darkGrey: #252525;
   line-height: 16.86px;
   align-items: center;
 }
+
 .dual-banner-first {
   @extend .dual-banner-items;
   left: 5px;
