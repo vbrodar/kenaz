@@ -1,6 +1,8 @@
 $textColor: white;
-$Varela: "Varela Round", sans-serif;
-$Bitter: "Bitter", serif;
+$Varela: "Varela Round",
+sans-serif;
+$Bitter: "Bitter",
+serif;
 $websiteWidth: 940px;
 $carouselTextColor: #eef6fa;
 $sidebarFontColor: #acb3ba;
@@ -14,6 +16,7 @@ $darkGrey: #252525;
 $footerTextColor: #666666;
 $newsletterTitleColor: #cccccc;
 $newsletterNameBackground: #333333;
+
 
 footer {
   bottom: 0;
@@ -45,6 +48,7 @@ footer {
   top: 5%;
   left: 14%;
 }
+
 .newsletter-bottom-container {
   @extend .general-container;
   left: 40%;
@@ -75,16 +79,31 @@ footer {
   left: 65%;
 }
 
+.featured-grid-wrapper {
+  position: relative;
+  display: grid;
+  grid-template-columns: 302px;
+  grid-template-rows: 98px 98px 98px 98px 98px;
+  text-align: center;
+}
+
 .grid-item {
   width: 302px;
   height: 98px;
   align-self: center;
   border-bottom: 1px solid rgba(0, 0, 0, 1);
 }
+
+.footer-pic {
+  position: relative;
+  left: 100px;
+  bottom: 40px;
+  border: 2px solid rgb(255, 255, 255);
+}
+
 .featured-grid-item {
   position: relative;
   width: 303px;
-  bottom: 30px;
   border-bottom: 1px solid rgb(102, 102, 102);
 }
 
@@ -159,6 +178,7 @@ footer {
   align-items: center;
   margin: 5px;
 }
+
 .newsletter-name {
   padding-left: 15px;
   width: 193px;
@@ -196,6 +216,7 @@ footer {
   top: 30px;
   width: 302px;
 }
+
 .flex-tag {
   justify-content: space-around;
   height: 28px;

@@ -53,6 +53,17 @@ footer {
   left: 65%;
 }
 
+.featured-grid-wrapper {
+  position: relative;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 302px;
+      grid-template-columns: 302px;
+  -ms-grid-rows: 98px 98px 98px 98px 98px;
+      grid-template-rows: 98px 98px 98px 98px 98px;
+  text-align: center;
+}
+
 .grid-item {
   width: 302px;
   height: 98px;
@@ -62,10 +73,16 @@ footer {
   border-bottom: 1px solid black;
 }
 
+.footer-pic {
+  position: relative;
+  left: 100px;
+  bottom: 40px;
+  border: 2px solid white;
+}
+
 .featured-grid-item, .featured-grid-item-borderless {
   position: relative;
   width: 303px;
-  bottom: 30px;
   border-bottom: 1px solid #666666;
 }
 
