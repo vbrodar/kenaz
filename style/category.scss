@@ -21,17 +21,13 @@ $contentHeadlineColor: #363f48;
 @import "sidebar";
 @import "style";
 
-.category-page-container {
-  max-width: 1602px;
-  max-height: 4400px;
-}
 
 .main-content {
   position: relative;
   width: 622px;
   height: 2603px;
   background: white; //! Added to see container
-  left: 21%;
+  left: 21.5%;
   display: grid;
   grid-template-columns: 622px;
   grid-template-rows: 404px 404px 404px 404px 404px 404px;
@@ -51,7 +47,7 @@ $contentHeadlineColor: #363f48;
   @extend .content-font-color;
   position: relative;
   top: 20px;
-  left: 23%;
+  left: 23.5%;
   top: 5px;
 }
 
@@ -71,29 +67,29 @@ $contentHeadlineColor: #363f48;
 .category-sidebar {
   @extend .sidebar;
   bottom: 58%;
-  right: 22%;
+  right: 21%;
 }
 
 .category-social-links {
   @extend .social-links;
   position: absolute;
   top: 44%;
-  right: 22.5%;
+  right: 21.5%;
 }
 
 .category-kenaz-tv {
   @extend .kenaz-tv;
-  right: 21.5%;
+  right: 20.5%;
 }
 
 .category-dual-banner {
   @extend .dual-banner;
-  right: 21.5%;
+  right: 20.5%;
 }
 
 .category-facebook-container {
   @extend .facebook-container;
-  left: 60.5%;
+  left: 61.5%;
 }
 
 .calendar-icon {
@@ -206,7 +202,7 @@ $contentHeadlineColor: #363f48;
 .category-smaller-banner {
   @extend .smaller-banner;
   position: relative;
-  left: 20%;
+  left: 21.5%;
   bottom: 10px;
 }
 

@@ -1381,17 +1381,12 @@ body {
   bottom: 235px;
 }
 
-.category-page-container {
-  max-width: 1602px;
-  max-height: 4400px;
-}
-
 .main-content {
   position: relative;
   width: 622px;
   height: 2603px;
   background: white;
-  left: 21%;
+  left: 21.5%;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 622px;
@@ -1413,7 +1408,7 @@ body {
 .main-content-title {
   position: relative;
   top: 20px;
-  left: 23%;
+  left: 23.5%;
   top: 5px;
 }
 
@@ -1431,25 +1426,25 @@ body {
 
 .category-sidebar {
   bottom: 58%;
-  right: 22%;
+  right: 21%;
 }
 
 .category-social-links {
   position: absolute;
   top: 44%;
-  right: 22.5%;
+  right: 21.5%;
 }
 
 .category-kenaz-tv {
-  right: 21.5%;
+  right: 20.5%;
 }
 
 .category-dual-banner {
-  right: 21.5%;
+  right: 20.5%;
 }
 
 .category-facebook-container {
-  left: 60.5%;
+  left: 61.5%;
 }
 
 .calendar-icon {
@@ -1562,7 +1557,7 @@ body {
 
 .category-smaller-banner {
   position: relative;
-  left: 20%;
+  left: 21.5%;
   bottom: 10px;
 }
 

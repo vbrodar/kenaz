@@ -823,7 +823,7 @@ body {
   top: 50px;
 }
 
-.facebook-container, .single-facebook-container {
+.facebook-container, .single-facebook-container, .category-facebook-container {
   position: absolute;
   top: 66%;
   left: 61.5%;
@@ -2208,7 +2208,7 @@ body {
   top: 50px;
 }
 
-.facebook-container, .single-facebook-container {
+.facebook-container, .single-facebook-container, .category-facebook-container {
   position: absolute;
   top: 66%;
   left: 61.5%;
@@ -2768,17 +2768,12 @@ body {
   bottom: 235px;
 }
 
-.category-page-container {
-  max-width: 1602px;
-  max-height: 4400px;
-}
-
 .main-content {
   position: relative;
   width: 622px;
   height: 2603px;
   background: white;
-  left: 21%;
+  left: 21.5%;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 622px;
@@ -2800,7 +2795,7 @@ body {
 .main-content-title {
   position: relative;
   top: 20px;
-  left: 23%;
+  left: 23.5%;
   top: 5px;
 }
 
@@ -2818,7 +2813,7 @@ body {
 
 .category-sidebar {
   bottom: 58%;
-  right: 22%;
+  right: 21%;
 }
 
 .category-social-links, .single-social-links {
@@ -2833,6 +2828,10 @@ body {
 
 .category-dual-banner {
   right: 21.5%;
+}
+
+.category-facebook-container {
+  left: 60.5%;
 }
 
 .calendar-icon {
