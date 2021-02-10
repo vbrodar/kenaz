@@ -737,7 +737,7 @@ body {
       align-self: center;
 }
 
-.kenaz-tv, .single-kenaz-tv {
+.kenaz-tv, .category-kenaz-tv, .single-kenaz-tv {
   position: absolute;
   width: 303px;
   height: 324px;
@@ -776,7 +776,7 @@ body {
   bottom: 100px;
 }
 
-.dual-banner, .single-dual-banner {
+.dual-banner, .category-dual-banner, .single-dual-banner {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2122,7 +2122,7 @@ body {
       align-self: center;
 }
 
-.kenaz-tv, .single-kenaz-tv {
+.kenaz-tv, .category-kenaz-tv, .single-kenaz-tv {
   position: absolute;
   width: 303px;
   height: 324px;
@@ -2161,7 +2161,7 @@ body {
   bottom: 100px;
 }
 
-.dual-banner, .single-dual-banner {
+.dual-banner, .category-dual-banner, .single-dual-banner {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2778,7 +2778,7 @@ body {
   width: 622px;
   height: 2603px;
   background: white;
-  left: 19%;
+  left: 21%;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 622px;
@@ -2800,7 +2800,7 @@ body {
 .main-content-title {
   position: relative;
   top: 20px;
-  left: 21%;
+  left: 23%;
   top: 5px;
 }
 
@@ -2818,11 +2818,21 @@ body {
 
 .category-sidebar {
   bottom: 58%;
+  right: 22%;
 }
 
 .category-social-links, .single-social-links {
   position: absolute;
   top: 44%;
+  right: 22.5%;
+}
+
+.category-kenaz-tv {
+  right: 21.5%;
+}
+
+.category-dual-banner {
+  right: 21.5%;
 }
 
 .calendar-icon {
@@ -2935,7 +2945,7 @@ body {
 
 .category-smaller-banner {
   position: relative;
-  left: 19%;
+  left: 20%;
   bottom: 10px;
 }
 
