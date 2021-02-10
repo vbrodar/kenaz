@@ -19,12 +19,19 @@ $darkGrey: #252525;
   padding: 0;
 }
 
+
+
 body {
   position: relative;
   margin: 0;
   padding: 0;
   height: 3385px;
   background: lightgrey; //! Added this grey just to see containers
+}
+
+.page-container {
+  margin: 0 auto;
+  max-width: 1920px;
 }
 
 .banner {
@@ -57,8 +64,8 @@ body {
   text-align: center;
   vertical-align: middle;
   line-height: 124px;
-  left: 19.2%;
-  margin-top: 30px;
+  left: 22.2%;
+  margin-top: 40px;
   background: $textColor;
   border: 1px solid #d7d7d7;
   box-sizing: border-box;
@@ -192,12 +199,12 @@ body {
   line-height: 29px;
   letter-spacing: 0px;
   align-self: center;
-  left: 4%;
+  left: 5.5%;
 }
 
 .business-container-title {
   @extend .general-container-title;
-  left: 4.5%;
+  left: 6%;
 }
 
 .news-carousel-container-title,
@@ -232,12 +239,12 @@ body {
   color: $seeAllColor;
   align-self: center;
   text-decoration: underline;
-  right: 185px;
+  right: 245px;
 }
 
 .business-see-all {
   @extend .general-see-all;
-  right: 195px;
+  right: 255px;
 }
 
 .general-container {
@@ -248,7 +255,7 @@ body {
   height: 325px;
   display: flex;
   background: $textColor;
-  margin-left: 19.2%;
+  margin-left: 21.7%;
   padding: 50px 10px 0px 40px;
   box-sizing: border-box;
   flex-direction: row;
@@ -509,7 +516,7 @@ body {
   z-index: 1;
   bottom: 575px;
   border: 1px black;
-  left: 20.5%;
+  left: 23.25%;
 }
 
 .slider-nav-img {

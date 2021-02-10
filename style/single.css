@@ -11,6 +11,11 @@ body {
   background: lightgrey;
 }
 
+.page-container {
+  margin: 0 auto;
+  max-width: 1920px;
+}
+
 .banner, .bottom-banner {
   width: 942px;
   height: 124px;
@@ -41,8 +46,8 @@ body {
   text-align: center;
   vertical-align: middle;
   line-height: 124px;
-  left: 19.2%;
-  margin-top: 30px;
+  left: 22.2%;
+  margin-top: 40px;
   background: white;
   border: 1px solid #d7d7d7;
   -webkit-box-sizing: border-box;
@@ -189,11 +194,11 @@ body {
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
-  left: 4%;
+  left: 5.5%;
 }
 
 .business-container-title {
-  left: 4.5%;
+  left: 6%;
 }
 
 .news-carousel-container-title,
@@ -227,11 +232,11 @@ body {
       -ms-grid-row-align: center;
       align-self: center;
   text-decoration: underline;
-  right: 185px;
+  right: 245px;
 }
 
 .business-see-all {
-  right: 195px;
+  right: 255px;
 }
 
 .general-container, .news-container, .sport-container, .business-container, .news-carousel-container, .editorials-carousel-container, .localnews-carousel-container {
@@ -248,7 +253,7 @@ body {
   height: 325px;
   display: flex;
   background: white;
-  margin-left: 19.2%;
+  margin-left: 21.7%;
   padding: 50px 10px 0px 40px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -517,7 +522,7 @@ body {
   z-index: 1;
   bottom: 575px;
   border: 1px black;
-  left: 20.5%;
+  left: 23.25%;
 }
 
 .slider-nav-img {
@@ -548,7 +553,7 @@ body {
   height: 667px;
   position: absolute;
   z-index: 10;
-  right: 17.5%;
+  right: 20.5%;
   background-color: #4d4382;
   overflow-x: hidden;
   padding-top: 20px;
@@ -660,7 +665,7 @@ body {
   float: right;
   position: relative;
   z-index: 10;
-  right: 18%;
+  right: 20.5%;
   top: 80px;
 }
 
@@ -737,7 +742,7 @@ body {
   width: 303px;
   height: 324px;
   top: 1730px;
-  right: 17.5%;
+  right: 20%;
 }
 
 .kenaztv-title {
@@ -782,7 +787,7 @@ body {
           align-items: center;
   position: absolute;
   top: 2040px;
-  right: 17.5%;
+  right: 20%;
   width: 303px;
   height: 167px;
   background: #dddddd;
@@ -821,7 +826,7 @@ body {
 .facebook-container, .single-facebook-container {
   position: absolute;
   top: 66%;
-  left: 62.5%;
+  left: 61.5%;
 }
 
 .single-facebook-container {
@@ -841,6 +846,11 @@ body {
   padding: 0;
   height: 3385px;
   background: lightgrey;
+}
+
+.page-container {
+  margin: 0 auto;
+  max-width: 1920px;
 }
 
 .banner, .bottom-banner {
@@ -873,8 +883,8 @@ body {
   text-align: center;
   vertical-align: middle;
   line-height: 124px;
-  left: 19.2%;
-  margin-top: 30px;
+  left: 22.2%;
+  margin-top: 40px;
   background: white;
   border: 1px solid #d7d7d7;
   -webkit-box-sizing: border-box;
@@ -1021,11 +1031,11 @@ body {
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
-  left: 4%;
+  left: 5.5%;
 }
 
 .business-container-title {
-  left: 4.5%;
+  left: 6%;
 }
 
 .news-carousel-container-title,
@@ -1059,11 +1069,11 @@ body {
       -ms-grid-row-align: center;
       align-self: center;
   text-decoration: underline;
-  right: 185px;
+  right: 245px;
 }
 
 .business-see-all {
-  right: 195px;
+  right: 255px;
 }
 
 .general-container, .news-container, .sport-container, .business-container, .news-carousel-container, .editorials-carousel-container, .localnews-carousel-container {
@@ -1080,7 +1090,7 @@ body {
   height: 325px;
   display: flex;
   background: white;
-  margin-left: 19.2%;
+  margin-left: 21.7%;
   padding: 50px 10px 0px 40px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -1349,7 +1359,7 @@ body {
   z-index: 1;
   bottom: 575px;
   border: 1px black;
-  left: 20.5%;
+  left: 23.25%;
 }
 
 .slider-nav-img {
@@ -1386,6 +1396,11 @@ body {
   background: lightgrey;
 }
 
+.page-container {
+  margin: 0 auto;
+  max-width: 1920px;
+}
+
 .banner, .bottom-banner {
   width: 942px;
   height: 124px;
@@ -1416,8 +1431,8 @@ body {
   text-align: center;
   vertical-align: middle;
   line-height: 124px;
-  left: 19.2%;
-  margin-top: 30px;
+  left: 22.2%;
+  margin-top: 40px;
   background: white;
   border: 1px solid #d7d7d7;
   -webkit-box-sizing: border-box;
@@ -1564,11 +1579,11 @@ body {
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
-  left: 4%;
+  left: 5.5%;
 }
 
 .business-container-title {
-  left: 4.5%;
+  left: 6%;
 }
 
 .news-carousel-container-title,
@@ -1602,11 +1617,11 @@ body {
       -ms-grid-row-align: center;
       align-self: center;
   text-decoration: underline;
-  right: 185px;
+  right: 245px;
 }
 
 .business-see-all {
-  right: 195px;
+  right: 255px;
 }
 
 .general-container, .news-container, .sport-container, .business-container, .news-carousel-container, .editorials-carousel-container, .localnews-carousel-container {
@@ -1623,7 +1638,7 @@ body {
   height: 325px;
   display: flex;
   background: white;
-  margin-left: 19.2%;
+  margin-left: 21.7%;
   padding: 50px 10px 0px 40px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -1892,7 +1907,7 @@ body {
   z-index: 1;
   bottom: 575px;
   border: 1px black;
-  left: 20.5%;
+  left: 23.25%;
 }
 
 .slider-nav-img {
@@ -1923,7 +1938,7 @@ body {
   height: 667px;
   position: absolute;
   z-index: 10;
-  right: 17.5%;
+  right: 20.5%;
   background-color: #4d4382;
   overflow-x: hidden;
   padding-top: 20px;
@@ -2035,7 +2050,7 @@ body {
   float: right;
   position: relative;
   z-index: 10;
-  right: 18%;
+  right: 20.5%;
   top: 80px;
 }
 
@@ -2112,7 +2127,7 @@ body {
   width: 303px;
   height: 324px;
   top: 1730px;
-  right: 17.5%;
+  right: 20%;
 }
 
 .kenaztv-title {
@@ -2157,7 +2172,7 @@ body {
           align-items: center;
   position: absolute;
   top: 2040px;
-  right: 17.5%;
+  right: 20%;
   width: 303px;
   height: 167px;
   background: #dddddd;
@@ -2196,7 +2211,7 @@ body {
 .facebook-container, .single-facebook-container {
   position: absolute;
   top: 66%;
-  left: 62.5%;
+  left: 61.5%;
 }
 
 .single-facebook-container {
@@ -2216,6 +2231,11 @@ body {
   padding: 0;
   height: 3385px;
   background: lightgrey;
+}
+
+.page-container {
+  margin: 0 auto;
+  max-width: 1920px;
 }
 
 .banner, .bottom-banner {
@@ -2248,8 +2268,8 @@ body {
   text-align: center;
   vertical-align: middle;
   line-height: 124px;
-  left: 19.2%;
-  margin-top: 30px;
+  left: 22.2%;
+  margin-top: 40px;
   background: white;
   border: 1px solid #d7d7d7;
   -webkit-box-sizing: border-box;
@@ -2396,11 +2416,11 @@ body {
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
-  left: 4%;
+  left: 5.5%;
 }
 
 .business-container-title {
-  left: 4.5%;
+  left: 6%;
 }
 
 .news-carousel-container-title,
@@ -2434,11 +2454,11 @@ body {
       -ms-grid-row-align: center;
       align-self: center;
   text-decoration: underline;
-  right: 185px;
+  right: 245px;
 }
 
 .business-see-all {
-  right: 195px;
+  right: 255px;
 }
 
 .general-container, .news-container, .sport-container, .business-container, .news-carousel-container, .editorials-carousel-container, .localnews-carousel-container {
@@ -2455,7 +2475,7 @@ body {
   height: 325px;
   display: flex;
   background: white;
-  margin-left: 19.2%;
+  margin-left: 21.7%;
   padding: 50px 10px 0px 40px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -2724,7 +2744,7 @@ body {
   z-index: 1;
   bottom: 575px;
   border: 1px black;
-  left: 20.5%;
+  left: 23.25%;
 }
 
 .slider-nav-img {
