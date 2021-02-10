@@ -78,7 +78,7 @@ $inputBackground: #dddddd;
   position: relative;
   height: 993px;
   width: 622px;
-  left: 8%;
+  left: 11%;
 }
 
 .paragraph-content {
@@ -121,7 +121,7 @@ $inputBackground: #dddddd;
   font-size: 24px;
   line-height: 29px;
   left: 22%;
-  bottom: 2%;
+  bottom: 10px;
 }
 
 .author-paragraph {
@@ -274,19 +274,19 @@ $inputBackground: #dddddd;
 .single-sidebar {
   @extend .sidebar;
   bottom: 54.4%;
-  right: 19.05%;
+  right: 21.7%;
 }
 
 .single-social-links {
   @extend .category-social-links;
   top: 47%;
-  right: 19.5%;
+  right: 21.5%;
 }
 
 .single-kenaz-tv {
   @extend .kenaz-tv;
   top: 54%;
-  right: 18.5%;
+  right: 20.5%;
 }
 
 .single-dual-banner {
